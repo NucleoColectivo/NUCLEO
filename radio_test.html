@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Stream Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .station { margin: 20px 0; padding: 15px; border: 1px solid #ccc; border-radius: 8px; }
+        audio { width: 100%; margin: 10px 0; }
+        button { padding: 10px 20px; margin: 5px; }
+        .status { color: green; font-weight: bold; }
+        .error { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Radio Stream Test - Núcleo Colectivo</h1>
+    
+    <div class="station">
+        <h3>Radio Paradise - AAC 320kbps</h3>
+        <audio id="radio1" controls preload="none" crossorigin="anonymous">
+            <source src="https://stream.radioparadise.com/aac-320" type="audio/aac">
+            Your browser does not support the audio element.
+        </audio>
+        <button onclick="testStream('radio1', 'https://stream.radioparadise.com/aac-320')">Test Stream</button>
+        <div id="status1"></div>
+    </div>
+
+    <div class="station">
+        <h3>SomaFM Groove Salad</h3>
+        <audio id="radio2" controls preload="none" crossorigin="anonymous">
+            <source src="https://ice1.somafm.com/groovesalad-128-mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <button onclick="testStream('radio2', 'https://ice1.somafm.com/groovesalad-128-mp3')">Test Stream</button>
+        <div id="status2"></div>
+    </div>
+
+    <div class="station">
+        <h3>NTS Radio</h3>
+        <audio id="radio3" controls preload="none" crossorigin="anonymous">
+            <source src="https://stream-relay-geo.ntslive.net/stream" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <button onclick="testStream('radio3', 'https://stream-relay-geo.ntslive.net/stream')">Test Stream</button>
+        <div id="status3"></div>
+    </div>
+
+    <script>
+        function testStream(audioId, streamUrl) {
+            const audio = document.getElementById(audioId);
+            const status = document.getElementById('status' + audioId.slice(-1));
+            
+            status.innerHTML = '<span class="status">Testing stream...</span>';
+            
+            audio.addEventListener('loadstart', () => {
+                console.log('Load started for', streamUrl);
+                status.innerHTML = '<span class="status">Loading stream...</span>';
+            });
+            
+            audio.addEventListener('canplay', () => {
+                console.log('Can play', streamUrl);
+                status.innerHTML = '<span class="status">Stream ready! ✓</span>';
+            });
+            
+            audio.addEventListener('error', (e) => {
+                console.error('Error loading', streamUrl, e);
+                status.innerHTML = '<span class="error">Error loading stream ✗</span>';
+            });
+            
+            audio.addEventListener('playing', () => {
+                console.log('Playing', streamUrl);
+                status.innerHTML = '<span class="status">Playing! ♪</span>';
+            });
+            
+            // Set source and load
+            audio.src = streamUrl;
+            audio.load();
+            
+            // Attempt to play after a short delay
+            setTimeout(() => {
+                audio.play().catch(e => {
+                    console.error('Play failed:', e);
+                    status.innerHTML = '<span class="error">Play failed: ' + e.message + '</span>';
+                });
+            }, 1000);
+        }
+    </script>
+</body>
+</html>

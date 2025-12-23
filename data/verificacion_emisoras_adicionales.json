@@ -1,0 +1,222 @@
+[
+  {
+    "station_name": "SuperStereo 7",
+    "url": "http://198.204.228.202:8030/flac7",
+    "status": "ERROR",
+    "error_message": "<urlopen error [Errno 111] Connection refused>",
+    "reliability_score": 0
+  },
+  {
+    "station_name": "Europa Jazz",
+    "url": "http://onair.europaradiojazz.org/radio/8000/hd",
+    "status": "ERROR",
+    "error_message": "<urlopen error [Errno -2] Name or service not known>",
+    "reliability_score": 0
+  },
+  {
+    "station_name": "SuperStereo 5",
+    "url": "http://198.204.228.202:8643/flac5",
+    "status": "ERROR",
+    "error_message": "<urlopen error [Errno 111] Connection refused>",
+    "reliability_score": 0
+  },
+  {
+    "station_name": "Rondo Klassu Pro",
+    "url": "http://rondo.iradio.fi:8000/klasupro.flac",
+    "status": "ERROR",
+    "error_message": "<urlopen error [Errno -2] Name or service not known>",
+    "reliability_score": 0
+  },
+  {
+    "station_name": "MotherEarth Klassik",
+    "url": "http://server9.streamserver24.com:18910/motherearth.klassik",
+    "status": "CONECTADO",
+    "status_code": 200,
+    "content_type": "No especificado",
+    "server": "No especificado",
+    "bitrate": "No detectado",
+    "format": "No detectado",
+    "icy_name": "Mother Earth Klassik",
+    "icy_genre": "Classical",
+    "icy_br": "No especificado",
+    "sample_size": 1024,
+    "reliability_score": 7
+  },
+  {
+    "station_name": "Hi Online Jazz",
+    "url": "http://mediaserv38.live-streams.nl:8006/stream",
+    "status": "CONECTADO",
+    "status_code": 200,
+    "content_type": "No especificado",
+    "server": "No especificado",
+    "bitrate": "320kbps",
+    "format": "No detectado",
+    "icy_name": "Hi On Line Jazz Radio",
+    "icy_genre": "No especificado",
+    "icy_br": "320",
+    "sample_size": 1024,
+    "reliability_score": 7
+  },
+  {
+    "station_name": "WFMT Chicago",
+    "url": "https://wfmt.leanstream.co/WFMTMP3-1",
+    "status": "ERROR",
+    "error_message": "<urlopen error [Errno -2] Name or service not known>",
+    "reliability_score": 0
+  },
+  {
+    "station_name": "KUSC Los Angeles",
+    "url": "https://stream.kusc.org/kusc-hi",
+    "status": "ERROR",
+    "error_message": "<urlopen error [Errno -2] Name or service not known>",
+    "reliability_score": 0
+  },
+  {
+    "station_name": "Radio Paradise - AAC 320",
+    "url": "http://stream.radioparadise.com/aac-320",
+    "status": "CONECTADO",
+    "status_code": 200,
+    "content_type": "No especificado",
+    "server": "No especificado",
+    "bitrate": "320kbps",
+    "format": "No detectado",
+    "icy_name": "Radio Paradise (320k aac)",
+    "icy_genre": "Eclectic",
+    "icy_br": "320",
+    "sample_size": 1024,
+    "reliability_score": 8
+  },
+  {
+    "station_name": "Cro D-dur",
+    "url": "http://amp.cesnet.cz:8000/cro-d-dur-256.ogg",
+    "status": "CONECTADO",
+    "status_code": 200,
+    "content_type": "No especificado",
+    "server": "No especificado",
+    "bitrate": "No detectado",
+    "format": "No detectado",
+    "icy_name": "CRo D-dur",
+    "icy_genre": "classical",
+    "icy_br": "No especificado",
+    "sample_size": 1024,
+    "reliability_score": 7
+  },
+  {
+    "station_name": "Hi On Line Radio",
+    "url": "https://mediaserv30.live-streams.nl:2199/tunein/-stream/hionline.pls",
+    "status": "CONECTADO",
+    "status_code": 200,
+    "content_type": "No especificado",
+    "server": "No especificado",
+    "bitrate": "No detectado",
+    "format": "No detectado",
+    "icy_name": "No especificado",
+    "icy_genre": "No especificado",
+    "icy_br": "No especificado",
+    "sample_size": 119,
+    "reliability_score": 5
+  },
+  {
+    "station_name": "SomaFM Groove Salad FLAC",
+    "url": "https://hls.somafm.com/hls/groovesalad/FLAC/program.m3u8",
+    "status": "CONECTADO",
+    "status_code": 200,
+    "content_type": "No especificado",
+    "server": "No especificado",
+    "bitrate": "No detectado",
+    "format": "No detectado",
+    "icy_name": "No especificado",
+    "icy_genre": "No especificado",
+    "icy_br": "No especificado",
+    "sample_size": 474,
+    "reliability_score": 5
+  },
+  {
+    "station_name": "Radio Tunes - Jazz",
+    "url": "http://pub8.radiotunes.com:80/radiotunes_jazz",
+    "status": "ERROR",
+    "error_message": "<urlopen error [Errno -2] Name or service not known>",
+    "reliability_score": 0
+  },
+  {
+    "station_name": "Sector Classical",
+    "url": "http://89.223.45.5:8000/nota-flac",
+    "status": "CONECTADO",
+    "status_code": 200,
+    "content_type": "No especificado",
+    "server": "No especificado",
+    "bitrate": "1411kbps",
+    "format": "No detectado",
+    "icy_name": "SECTOR | Nota channel",
+    "icy_genre": "Classical, Neoclassic, Epic, Opera, Classic soundtrack",
+    "icy_br": "1411",
+    "sample_size": 1024,
+    "reliability_score": 8
+  },
+  {
+    "station_name": "Radio Caprice",
+    "url": "http://79.111.14.76:8002/instrumental",
+    "status": "ERROR",
+    "error_message": "HTTP Error 404: Not Available",
+    "reliability_score": 0
+  },
+  {
+    "station_name": "WQXR",
+    "url": "http://njpr.wnyc.org/wqxr.aac",
+    "status": "CONECTADO",
+    "status_code": 200,
+    "content_type": "No especificado",
+    "server": "No especificado",
+    "bitrate": "48kbps",
+    "format": "No detectado",
+    "icy_name": "WQXR",
+    "icy_genre": "Classical",
+    "icy_br": "48",
+    "sample_size": 1024,
+    "reliability_score": 8
+  },
+  {
+    "station_name": "Radio Swiss Pop",
+    "url": "https://stream.srg-ssr.ch/m/rsp/aacp_96",
+    "status": "CONECTADO",
+    "status_code": 200,
+    "content_type": "No especificado",
+    "server": "No especificado",
+    "bitrate": "128kbps",
+    "format": "No detectado",
+    "icy_name": "Swiss Pop",
+    "icy_genre": "",
+    "icy_br": "128",
+    "sample_size": 1024,
+    "reliability_score": 7
+  },
+  {
+    "station_name": "Flux FM",
+    "url": "https://streams.fluxfm.de/live/mp3-320/streams.fluxfm.de/",
+    "status": "CONECTADO",
+    "status_code": 200,
+    "content_type": "No especificado",
+    "server": "No especificado",
+    "bitrate": "No detectado",
+    "format": "No detectado",
+    "icy_name": "No especificado",
+    "icy_genre": "No especificado",
+    "icy_br": "No especificado",
+    "sample_size": 1024,
+    "reliability_score": 5
+  },
+  {
+    "station_name": "Linn Radio",
+    "url": "http://216.235.252.8:8020/high.mp3",
+    "status": "ERROR",
+    "error_message": "<urlopen error timed out>",
+    "reliability_score": 0
+  },
+  {
+    "station_name": "Venice Classic Radio",
+    "url": "http://174.36.206.197:8000/listen.pls",
+    "status": "ERROR",
+    "error_message": "<urlopen error timed out>",
+    "reliability_score": 0
+  }
+]

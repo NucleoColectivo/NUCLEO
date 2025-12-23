@@ -1,0 +1,209 @@
+Archive:  WEB.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  2025-06-06 07:16   WEB/
+      396  2025-06-06 07:16   __MACOSX/._WEB
+     2853  2025-06-04 03:20   WEB/equipo.html
+      370  2025-06-04 03:20   __MACOSX/WEB/._equipo.html
+   280945  2025-06-06 07:15   WEB/Biblioteca - Núcleo Colectivo_compressed.pdf
+      523  2025-06-06 07:15   __MACOSX/WEB/._Biblioteca - Núcleo Colectivo_compressed.pdf
+    39983  2025-05-29 07:14   WEB/index.html
+      370  2025-05-29 07:14   __MACOSX/WEB/._index.html
+     9028  2025-05-29 07:49   WEB/biblioteca.html
+      370  2025-05-29 07:49   __MACOSX/WEB/._biblioteca.html
+     8196  2025-06-06 07:15   WEB/.DS_Store
+      120  2025-06-06 07:15   __MACOSX/WEB/._.DS_Store
+   289595  2025-05-28 17:19   WEB/Caja de Herramientas Creativas _ Núcleo Colectivo.pdf
+      176  2025-05-28 17:19   __MACOSX/WEB/._Caja de Herramientas Creativas _ Núcleo Colectivo.pdf
+     1093  2025-05-28 17:10   WEB/styles.css
+      314  2025-05-28 17:10   __MACOSX/WEB/._styles.css
+        0  2025-05-29 05:22   WEB/documentos/
+      176  2025-05-29 05:22   __MACOSX/WEB/._documentos
+    19388  2025-06-04 02:37   WEB/12225881.png
+      356  2025-06-04 02:37   __MACOSX/WEB/._12225881.png
+   479159  2025-05-29 08:09   WEB/URL_DE_IMAGEN_NOSOTROS.png
+      276  2025-05-29 08:09   __MACOSX/WEB/._URL_DE_IMAGEN_NOSOTROS.png
+      162  2025-05-29 07:11   WEB/.phcode.json
+      314  2025-05-29 07:11   __MACOSX/WEB/._.phcode.json
+        0  2025-05-29 08:08   WEB/IMG/
+      176  2025-05-29 08:08   __MACOSX/WEB/._IMG
+        0  2025-05-28 16:57   WEB/script.js
+      314  2025-05-28 16:57   __MACOSX/WEB/._script.js
+   357172  2025-06-04 02:54   WEB/12225881 2.png
+      456  2025-06-04 02:54   __MACOSX/WEB/._12225881 2.png
+    47598  2025-05-29 08:13   WEB/LOGO2.png
+      276  2025-05-29 08:13   __MACOSX/WEB/._LOGO2.png
+  6133360  2025-06-06 07:11   WEB/Núcleo Colectivo_compressed (1).pdf
+      522  2025-06-06 07:11   __MACOSX/WEB/._Núcleo Colectivo_compressed (1).pdf
+     2937  2025-05-24 17:46   WEB/biblioteca.json
+      176  2025-05-24 17:46   __MACOSX/WEB/._biblioteca.json
+     5166  2025-05-28 16:57   WEB/cajadeherramientas.html
+      370  2025-05-28 16:57   __MACOSX/WEB/._cajadeherramientas.html
+     5410  2025-05-24 11:53   WEB/PERFILES.html
+      370  2025-05-24 11:53   __MACOSX/WEB/._PERFILES.html
+     9016  2025-05-28 17:10   WEB/documentos/biblioteca.html
+      314  2025-05-28 17:10   __MACOSX/WEB/documentos/._biblioteca.html
+     6148  2025-05-29 05:23   WEB/documentos/.DS_Store
+      120  2025-05-29 05:23   __MACOSX/WEB/documentos/._.DS_Store
+    40450  2025-05-15 11:59   WEB/documentos/poster-promocional.png
+      176  2025-05-15 11:59   __MACOSX/WEB/documentos/._poster-promocional.png
+        0  2025-05-29 05:23   WEB/documentos/IMG/
+      176  2025-05-29 05:23   __MACOSX/WEB/documentos/._IMG
+   347161  2025-05-15 11:59   WEB/documentos/guia-co-creacion.pdf
+      176  2025-05-15 11:59   __MACOSX/WEB/documentos/._guia-co-creacion.pdf
+    39796  2025-05-15 11:59   WEB/documentos/logo-nucleo.png
+      176  2025-05-15 11:59   __MACOSX/WEB/documentos/._logo-nucleo.png
+    71389  2025-05-22 17:13   WEB/IMG/artbreeder.png
+      120  2025-05-22 17:13   __MACOSX/WEB/IMG/._artbreeder.png
+   141689  2025-05-22 17:01   WEB/IMG/teachable machine.png
+      120  2025-05-22 17:01   __MACOSX/WEB/IMG/._teachable machine.png
+     6148  2025-05-29 04:23   WEB/IMG/.DS_Store
+      120  2025-05-29 04:23   __MACOSX/WEB/IMG/._.DS_Store
+   101415  2025-05-15 11:15   WEB/IMG/regalo.png
+      176  2025-05-15 11:15   __MACOSX/WEB/IMG/._regalo.png
+    89139  2025-05-15 11:15   WEB/IMG/Talleres_online.png
+      176  2025-05-15 11:15   __MACOSX/WEB/IMG/._Talleres_online.png
+ 14065318  2025-05-22 12:53   WEB/IMG/Museo_de_Antioquia.png
+      120  2025-05-22 12:53   __MACOSX/WEB/IMG/._Museo_de_Antioquia.png
+  4047312  2025-05-15 05:11   WEB/IMG/14.png
+      490  2025-05-15 05:11   __MACOSX/WEB/IMG/._14.png
+  1116865  2025-05-15 05:00   WEB/IMG/01.png
+      276  2025-05-15 05:00   __MACOSX/WEB/IMG/._01.png
+    23300  2025-05-22 17:08   WEB/IMG/HuggingFace.png
+      176  2025-05-22 17:08   __MACOSX/WEB/IMG/._HuggingFace.png
+   280773  2025-05-15 09:23   WEB/IMG/QR_C.jpeg
+      232  2025-05-15 09:23   __MACOSX/WEB/IMG/._QR_C.jpeg
+  1216461  2025-05-15 05:00   WEB/IMG/03.png
+      276  2025-05-15 05:00   __MACOSX/WEB/IMG/._03.png
+  1279531  2025-05-15 04:56   WEB/IMG/nucleobot.png
+      276  2025-05-15 04:56   __MACOSX/WEB/IMG/._nucleobot.png
+    29688  2025-05-22 13:12   WEB/IMG/P5js_Logo.png
+      176  2025-05-22 13:12   __MACOSX/WEB/IMG/._P5js_Logo.png
+    52528  2025-05-28 17:03   WEB/IMG/scratch.png
+      120  2025-05-28 17:03   __MACOSX/WEB/IMG/._scratch.png
+   942805  2025-05-22 16:33   WEB/IMG/02.png
+      120  2025-05-22 16:33   __MACOSX/WEB/IMG/._02.png
+    18955  2025-05-22 13:00   WEB/IMG/logo_cinemateca.png
+      484  2025-05-22 13:00   __MACOSX/WEB/IMG/._logo_cinemateca.png
+  1148722  2025-05-15 04:59   WEB/IMG/06.png
+      276  2025-05-15 04:59   __MACOSX/WEB/IMG/._06.png
+  1212974  2025-05-15 04:59   WEB/IMG/12.png
+      276  2025-05-15 04:59   __MACOSX/WEB/IMG/._12.png
+    78089  2025-05-22 17:17   WEB/IMG/Wikimedia.png
+      120  2025-05-22 17:17   __MACOSX/WEB/IMG/._Wikimedia.png
+  1336303  2025-05-15 04:58   WEB/IMG/13.png
+      276  2025-05-15 04:58   __MACOSX/WEB/IMG/._13.png
+    44697  2025-05-28 16:25   WEB/IMG/elevenlabs.png
+      120  2025-05-28 16:25   __MACOSX/WEB/IMG/._elevenlabs.png
+  2902811  2025-05-22 07:47   WEB/IMG/Proyecto Productivo y Reto Tecnológico.png
+      291  2025-05-22 07:47   __MACOSX/WEB/IMG/._Proyecto Productivo y Reto Tecnológico.png
+  1304298  2025-05-22 16:31   WEB/IMG/05.png
+      220  2025-05-22 16:31   __MACOSX/WEB/IMG/._05.png
+   691031  2025-05-29 07:07   WEB/IMG/URL_DE_IMAGEN_NOSOTROS.png
+      276  2025-05-29 07:07   __MACOSX/WEB/IMG/._URL_DE_IMAGEN_NOSOTROS.png
+   107562  2025-05-22 17:20   WEB/IMG/UNESCO.png
+      120  2025-05-22 17:20   __MACOSX/WEB/IMG/._UNESCO.png
+  1212250  2025-05-22 16:32   WEB/IMG/04.png
+      220  2025-05-22 16:32   __MACOSX/WEB/IMG/._04.png
+  1281107  2025-05-15 04:59   WEB/IMG/08.png
+      276  2025-05-15 04:59   __MACOSX/WEB/IMG/._08.png
+  1195966  2025-05-15 04:41   WEB/IMG/URL_DE_IMAGEN_PROYECTOS.png
+      276  2025-05-15 04:41   __MACOSX/WEB/IMG/._URL_DE_IMAGEN_PROYECTOS.png
+    23132  2025-05-15 05:09   WEB/IMG/LOGO3.png
+      276  2025-05-15 05:09   __MACOSX/WEB/IMG/._LOGO3.png
+   109560  2025-05-22 13:07   WEB/IMG/Biblioteca-Banco.png
+      422  2025-05-22 13:07   __MACOSX/WEB/IMG/._Biblioteca-Banco.png
+  3245992  2025-05-11 11:52   WEB/IMG/37.png
+      853  2025-05-11 11:52   __MACOSX/WEB/IMG/._37.png
+   283722  2025-05-15 09:23   WEB/IMG/QR_A.jpeg
+      232  2025-05-15 09:23   __MACOSX/WEB/IMG/._QR_A.jpeg
+    55073  2025-05-29 07:06   WEB/IMG/LOGO2.png
+      276  2025-05-29 07:06   __MACOSX/WEB/IMG/._LOGO2.png
+  1178221  2025-05-15 04:44   WEB/IMG/URL_DE_IMAGEN_LABORATORIOS.png
+      276  2025-05-15 04:44   __MACOSX/WEB/IMG/._URL_DE_IMAGEN_LABORATORIOS.png
+    73127  2025-05-22 13:02   WEB/IMG/Infolibros.png
+      176  2025-05-22 13:02   __MACOSX/WEB/IMG/._Infolibros.png
+    85183  2025-05-28 16:03   WEB/IMG/canva.png
+      176  2025-05-28 16:03   __MACOSX/WEB/IMG/._canva.png
+    22616  2025-05-22 17:22   WEB/IMG/MAMM.png
+      120  2025-05-22 17:22   __MACOSX/WEB/IMG/._MAMM.png
+   574220  2025-05-22 12:24   WEB/IMG/Camisetas6.png
+      491  2025-05-22 12:24   __MACOSX/WEB/IMG/._Camisetas6.png
+  1323950  2025-05-29 03:51   WEB/IMG/14.gif
+      171  2025-05-29 03:51   __MACOSX/WEB/IMG/._14.gif
+  2979238  2025-05-22 07:47   WEB/IMG/Proyecto Tecnológico y Colaborativo.png
+      291  2025-05-22 07:47   __MACOSX/WEB/IMG/._Proyecto Tecnológico y Colaborativo.png
+  1266992  2025-05-15 05:09   WEB/IMG/URL_DE_IMAGEN_EVENTOS.png
+      276  2025-05-15 05:09   __MACOSX/WEB/IMG/._URL_DE_IMAGEN_EVENTOS.png
+  1486667  2025-05-15 04:56   WEB/IMG/taller1.png
+      276  2025-05-15 04:56   __MACOSX/WEB/IMG/._taller1.png
+    28049  2025-05-22 16:55   WEB/IMG/RunwayML-banner.png
+      120  2025-05-22 16:55   __MACOSX/WEB/IMG/._RunwayML-banner.png
+   581510  2025-05-22 11:26   WEB/IMG/Camisetas5.png
+      491  2025-05-22 11:26   __MACOSX/WEB/IMG/._Camisetas5.png
+   413548  2025-05-22 13:04   WEB/IMG/InfoLibros2.png
+      120  2025-05-22 13:04   __MACOSX/WEB/IMG/._InfoLibros2.png
+  1770684  2025-05-15 04:52   WEB/IMG/taller2.png
+      276  2025-05-15 04:52   __MACOSX/WEB/IMG/._taller2.png
+  1364393  2025-05-15 04:50   WEB/IMG/taller3.png
+      276  2025-05-15 04:50   __MACOSX/WEB/IMG/._taller3.png
+    52508  2025-05-28 16:28   WEB/IMG/chatgpt.png
+      120  2025-05-28 16:28   __MACOSX/WEB/IMG/._chatgpt.png
+   665235  2025-05-22 12:23   WEB/IMG/Camisetas4.png
+      491  2025-05-22 12:23   __MACOSX/WEB/IMG/._Camisetas4.png
+  1285525  2025-05-15 04:36   WEB/IMG/URL_DE_IMAGEN_TALLERES.png
+      276  2025-05-15 04:36   __MACOSX/WEB/IMG/._URL_DE_IMAGEN_TALLERES.png
+   482589  2025-05-22 12:21   WEB/IMG/Camisetas1.png
+      491  2025-05-22 12:21   __MACOSX/WEB/IMG/._Camisetas1.png
+   645033  2025-05-22 12:23   WEB/IMG/Camisetas3.png
+      491  2025-05-22 12:23   __MACOSX/WEB/IMG/._Camisetas3.png
+   179826  2025-05-15 11:15   WEB/IMG/Asesoria.png
+      176  2025-05-15 11:15   __MACOSX/WEB/IMG/._Asesoria.png
+    26321  2025-05-22 17:04   WEB/IMG/processing.png
+      120  2025-05-22 17:04   __MACOSX/WEB/IMG/._processing.png
+   447223  2025-05-22 12:22   WEB/IMG/Camisetas2.png
+      491  2025-05-22 12:22   __MACOSX/WEB/IMG/._Camisetas2.png
+    71389  2025-05-22 17:13   WEB/documentos/IMG/artbreeder.png
+      120  2025-05-22 17:13   __MACOSX/WEB/documentos/IMG/._artbreeder.png
+   141689  2025-05-22 17:01   WEB/documentos/IMG/teachable machine.png
+      120  2025-05-22 17:01   __MACOSX/WEB/documentos/IMG/._teachable machine.png
+     6148  2025-06-06 07:00   WEB/documentos/IMG/.DS_Store
+      120  2025-06-06 07:00   __MACOSX/WEB/documentos/IMG/._.DS_Store
+   101415  2025-05-15 11:15   WEB/documentos/IMG/regalo.png
+      176  2025-05-15 11:15   __MACOSX/WEB/documentos/IMG/._regalo.png
+ 14065318  2025-05-22 12:53   WEB/documentos/IMG/Museo_de_Antioquia.png
+      120  2025-05-22 12:53   __MACOSX/WEB/documentos/IMG/._Museo_de_Antioquia.png
+    23300  2025-05-22 17:08   WEB/documentos/IMG/HuggingFace.png
+      176  2025-05-22 17:08   __MACOSX/WEB/documentos/IMG/._HuggingFace.png
+    29688  2025-05-22 13:12   WEB/documentos/IMG/P5js_Logo.png
+      176  2025-05-22 13:12   __MACOSX/WEB/documentos/IMG/._P5js_Logo.png
+    52528  2025-05-28 17:03   WEB/documentos/IMG/scratch.png
+      120  2025-05-28 17:03   __MACOSX/WEB/documentos/IMG/._scratch.png
+    18955  2025-05-22 13:00   WEB/documentos/IMG/logo_cinemateca.png
+      484  2025-05-22 13:00   __MACOSX/WEB/documentos/IMG/._logo_cinemateca.png
+    78089  2025-05-22 17:17   WEB/documentos/IMG/Wikimedia.png
+      120  2025-05-22 17:17   __MACOSX/WEB/documentos/IMG/._Wikimedia.png
+    44697  2025-05-28 16:25   WEB/documentos/IMG/elevenlabs.png
+      120  2025-05-28 16:25   __MACOSX/WEB/documentos/IMG/._elevenlabs.png
+   107562  2025-05-22 17:20   WEB/documentos/IMG/UNESCO.png
+      120  2025-05-22 17:20   __MACOSX/WEB/documentos/IMG/._UNESCO.png
+    23132  2025-05-15 05:09   WEB/documentos/IMG/LOGO3.png
+      276  2025-05-15 05:09   __MACOSX/WEB/documentos/IMG/._LOGO3.png
+   109560  2025-05-22 13:07   WEB/documentos/IMG/Biblioteca-Banco.png
+      422  2025-05-22 13:07   __MACOSX/WEB/documentos/IMG/._Biblioteca-Banco.png
+    78114  2025-05-15 05:10   WEB/documentos/IMG/LOGO2.png
+      276  2025-05-15 05:10   __MACOSX/WEB/documentos/IMG/._LOGO2.png
+    73127  2025-05-22 13:02   WEB/documentos/IMG/Infolibros.png
+      176  2025-05-22 13:02   __MACOSX/WEB/documentos/IMG/._Infolibros.png
+    85183  2025-05-28 16:03   WEB/documentos/IMG/canva.png
+      176  2025-05-28 16:03   __MACOSX/WEB/documentos/IMG/._canva.png
+    22616  2025-05-22 17:22   WEB/documentos/IMG/MAMM.png
+      120  2025-05-22 17:22   __MACOSX/WEB/documentos/IMG/._MAMM.png
+    28049  2025-05-22 16:55   WEB/documentos/IMG/RunwayML-banner.png
+      120  2025-05-22 16:55   __MACOSX/WEB/documentos/IMG/._RunwayML-banner.png
+    52508  2025-05-28 16:28   WEB/documentos/IMG/chatgpt.png
+      120  2025-05-28 16:28   __MACOSX/WEB/documentos/IMG/._chatgpt.png
+    26321  2025-05-22 17:04   WEB/documentos/IMG/processing.png
+      120  2025-05-22 17:04   __MACOSX/WEB/documentos/IMG/._processing.png
+---------                     -------
+ 80039060                     204 files
