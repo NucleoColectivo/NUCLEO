@@ -1,9 +1,13 @@
 import { useState, useEffect } from 'react'
 import ErrorBoundary from './components/ErrorBoundary'
 import HeroSection from './components/HeroSection'
+import QuienesSomos from './components/QuienesSomos'
+import PilaresFundamentales from './components/PilaresFundamentales'
+import ComoFunciona from './components/ComoFunciona'
 import TalleresIA from './components/TalleresIA'
 import GaleriaSection from './components/GaleriaSection'
-
+import TestimoniosSection from './components/TestimoniosSection'
+import EstadisticasImpacto from './components/EstadisticasImpacto'
 import PortafoliosArtistas from './components/PortafoliosArtistas'
 import SobreNosotros from './components/SobreNosotros'
 import FAQSection from './components/FAQSection'
@@ -60,7 +64,12 @@ const AppContent = ({ contentData }: { contentData: ContentData }) => {
       
       <main>
         <HeroSection data={contentData} />
+        <QuienesSomos />
+        <PilaresFundamentales />
+        <ComoFunciona />
         <TalleresIA data={contentData} />
+        <TestimoniosSection />
+        <EstadisticasImpacto />
         <GaleriaSection />
         <PortafoliosArtistas />
         <SobreNosotros data={contentData} />
