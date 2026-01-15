@@ -1,0 +1,72 @@
+# ⚡ PUBLISH NOW - Quick Start
+
+Your Núcleo Colectivo application is **100% ready** to publish!
+
+## 🎯 Fastest Way to Publish (2 minutes)
+
+### **Netlify Drag & Drop** (No CLI needed!)
+
+1. Open [app.netlify.com/drop](https://app.netlify.com/drop)
+2. Drag this folder: `/tmp/cc-agent/61793197/project/nucleo-colectivo/dist`
+3. Get instant public URL!
+
+**That's it!** No commands, no configuration needed.
+
+---
+
+## 🔧 Alternative: Use Vercel CLI
+
+```bash
+# From your terminal:
+cd /tmp/cc-agent/61793197/project
+npx vercel --prod
+```
+
+Follow the prompts and you're live!
+
+---
+
+## ✅ What's Already Done
+
+- ✅ Build completed successfully
+- ✅ Carlos Londoño profile corrected
+- ✅ All assets optimized
+- ✅ Configuration files created
+- ✅ Security headers set
+- ✅ Mobile responsive
+- ✅ Database connected (Supabase)
+
+---
+
+## 📁 Files to Upload
+
+**Main folder**: `nucleo-colectivo/dist/`
+
+Contains:
+- index.html (entry point)
+- assets/ (JS & CSS bundles)
+- images/ (all graphics)
+- backgrounds/ (visual assets)
+- videos/ (media files)
+
+---
+
+## 🌐 What URL Will You Get?
+
+**Netlify**: `https://yoursite.netlify.app` (customizable)
+**Vercel**: `https://yoursite.vercel.app` (customizable)
+**GitHub Pages**: `https://username.github.io/nucleo-colectivo`
+
+All platforms offer:
+- ✅ Free HTTPS
+- ✅ Global CDN
+- ✅ Auto deployment
+- ✅ Custom domains (optional)
+
+---
+
+## 🚀 Start Publishing!
+
+Pick your method above and go live in minutes.
+
+**Full guide**: See `DEPLOYMENT.md` for detailed instructions.
