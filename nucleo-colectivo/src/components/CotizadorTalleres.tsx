@@ -124,9 +124,9 @@ const CotizadorTalleres = () => {
   };
 
   return (
-    <section id="cotizador" className="relative py-32 overflow-hidden">
+    <section id="cotizador" className="relative py-32 overflow-hidden bg-[#0a0e27]">
       <div
-        className="absolute inset-0 opacity-20"
+        className="absolute inset-0 opacity-5"
         style={{
           backgroundImage: `url('/backgrounds/bg-cosmic-digital.png')`,
           backgroundSize: 'cover',
@@ -134,7 +134,7 @@ const CotizadorTalleres = () => {
         }}
       />
 
-      <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/50" />
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
@@ -151,7 +151,7 @@ const CotizadorTalleres = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          <div className="bg-gradient-to-br from-gray-900/95 to-black/95 backdrop-blur-md border-2 border-yellow-500/40 rounded-2xl p-8 shadow-2xl hover:shadow-yellow-500/30 hover:border-yellow-500/60 transition-all duration-500 transform hover:scale-[1.02]">
+          <div className="bg-[#0f1629] backdrop-blur-md border-2 border-[#d4a574] rounded-2xl p-8 shadow-2xl shadow-black/50">
             <div className="space-y-7">
               <div className="space-y-3">
                 <label className="flex items-center gap-2 text-lg font-bold text-yellow-400">
@@ -164,11 +164,18 @@ const CotizadorTalleres = () => {
                     setSelectedWorkshop(e.target.value);
                     setShowQuote(false);
                   }}
-                  className="w-full bg-gradient-to-r from-black/80 to-gray-900/80 border-2 border-gray-700 rounded-xl px-5 py-4 text-white text-lg font-semibold focus:border-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-500/30 transition-all duration-300 hover:border-yellow-500/50 cursor-pointer"
+                  className="w-full bg-[#4a5568] border-0 rounded-xl px-5 py-4 text-white text-base font-medium focus:outline-none focus:ring-2 focus:ring-yellow-500/50 transition-all duration-200 cursor-pointer appearance-none"
+                  style={{
+                    backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3E%3C/svg%3E")`,
+                    backgroundPosition: 'right 1rem center',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: '1.5em 1.5em',
+                    paddingRight: '3rem'
+                  }}
                 >
-                  <option value="" className="bg-gray-900">{t.workshopPlaceholder}</option>
+                  <option value="" className="bg-gray-800">{t.workshopPlaceholder}</option>
                   {workshops[language].map((workshop) => (
-                    <option key={workshop.id} value={workshop.id} className="bg-gray-900">
+                    <option key={workshop.id} value={workshop.id} className="bg-gray-800">
                       {workshop.name}
                     </option>
                   ))}
@@ -186,13 +193,20 @@ const CotizadorTalleres = () => {
                     setDuration(e.target.value);
                     setShowQuote(false);
                   }}
-                  className="w-full bg-gradient-to-r from-black/80 to-gray-900/80 border-2 border-gray-700 rounded-xl px-5 py-4 text-white text-lg font-semibold focus:border-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-500/30 transition-all duration-300 hover:border-yellow-500/50 cursor-pointer"
+                  className="w-full bg-[#4a5568] border-0 rounded-xl px-5 py-4 text-white text-base font-medium focus:outline-none focus:ring-2 focus:ring-yellow-500/50 transition-all duration-200 cursor-pointer appearance-none"
+                  style={{
+                    backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3E%3C/svg%3E")`,
+                    backgroundPosition: 'right 1rem center',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: '1.5em 1.5em',
+                    paddingRight: '3rem'
+                  }}
                 >
-                  <option value="2" className="bg-gray-900">2 {language === 'es' ? 'horas' : 'hours'}</option>
-                  <option value="4" className="bg-gray-900">4 {language === 'es' ? 'horas' : 'hours'}</option>
-                  <option value="8" className="bg-gray-900">8 {language === 'es' ? 'horas' : 'hours'} (1 {language === 'es' ? 'día' : 'day'})</option>
-                  <option value="16" className="bg-gray-900">16 {language === 'es' ? 'horas' : 'hours'} (2 {language === 'es' ? 'días' : 'days'})</option>
-                  <option value="24" className="bg-gray-900">24 {language === 'es' ? 'horas' : 'hours'} (3 {language === 'es' ? 'días' : 'days'})</option>
+                  <option value="2" className="bg-gray-800">2 {language === 'es' ? 'horas' : 'hours'}</option>
+                  <option value="4" className="bg-gray-800">4 {language === 'es' ? 'horas' : 'hours'}</option>
+                  <option value="8" className="bg-gray-800">8 {language === 'es' ? 'horas' : 'hours'} (1 {language === 'es' ? 'día' : 'day'})</option>
+                  <option value="16" className="bg-gray-800">16 {language === 'es' ? 'horas' : 'hours'} (2 {language === 'es' ? 'días' : 'days'})</option>
+                  <option value="24" className="bg-gray-800">24 {language === 'es' ? 'horas' : 'hours'} (3 {language === 'es' ? 'días' : 'days'})</option>
                 </select>
               </div>
 
@@ -207,14 +221,21 @@ const CotizadorTalleres = () => {
                     setParticipants(e.target.value);
                     setShowQuote(false);
                   }}
-                  className="w-full bg-gradient-to-r from-black/80 to-gray-900/80 border-2 border-gray-700 rounded-xl px-5 py-4 text-white text-lg font-semibold focus:border-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-500/30 transition-all duration-300 hover:border-yellow-500/50 cursor-pointer"
+                  className="w-full bg-[#4a5568] border-0 rounded-xl px-5 py-4 text-white text-base font-medium focus:outline-none focus:ring-2 focus:ring-yellow-500/50 transition-all duration-200 cursor-pointer appearance-none"
+                  style={{
+                    backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3E%3C/svg%3E")`,
+                    backgroundPosition: 'right 1rem center',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: '1.5em 1.5em',
+                    paddingRight: '3rem'
+                  }}
                 >
-                  <option value="5" className="bg-gray-900">5 {language === 'es' ? 'participantes' : 'participants'}</option>
-                  <option value="10" className="bg-gray-900">10 {language === 'es' ? 'participantes' : 'participants'}</option>
-                  <option value="15" className="bg-gray-900">15 {language === 'es' ? 'participantes' : 'participants'}</option>
-                  <option value="20" className="bg-gray-900">20 {language === 'es' ? 'participantes' : 'participants'}</option>
-                  <option value="30" className="bg-gray-900">30 {language === 'es' ? 'participantes' : 'participants'}</option>
-                  <option value="50" className="bg-gray-900">50+ {language === 'es' ? 'participantes' : 'participants'}</option>
+                  <option value="5" className="bg-gray-800">5 {language === 'es' ? 'participantes' : 'participants'}</option>
+                  <option value="10" className="bg-gray-800">10 {language === 'es' ? 'participantes' : 'participants'}</option>
+                  <option value="15" className="bg-gray-800">15 {language === 'es' ? 'participantes' : 'participants'}</option>
+                  <option value="20" className="bg-gray-800">20 {language === 'es' ? 'participantes' : 'participants'}</option>
+                  <option value="30" className="bg-gray-800">30 {language === 'es' ? 'participantes' : 'participants'}</option>
+                  <option value="50" className="bg-gray-800">50+ {language === 'es' ? 'participantes' : 'participants'}</option>
                 </select>
               </div>
 
@@ -229,10 +250,10 @@ const CotizadorTalleres = () => {
                       setModality('virtual');
                       setShowQuote(false);
                     }}
-                    className={`py-4 px-6 rounded-xl font-bold text-lg transition-all duration-300 transform ${
+                    className={`py-4 px-6 rounded-xl font-bold text-lg transition-all duration-300 ${
                       modality === 'virtual'
-                        ? 'bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 text-black shadow-2xl shadow-yellow-500/50 scale-105 border-2 border-yellow-400'
-                        : 'bg-gradient-to-r from-gray-800 to-gray-900 border-2 border-gray-700 text-gray-300 hover:border-yellow-500/50 hover:text-white hover:scale-105'
+                        ? 'bg-gradient-to-r from-orange-500 via-orange-600 to-red-600 text-black shadow-lg shadow-orange-500/30'
+                        : 'bg-[#1e293b] text-gray-300 hover:bg-[#2d3748]'
                     }`}
                   >
                     {t.virtual}
@@ -242,10 +263,10 @@ const CotizadorTalleres = () => {
                       setModality('presencial');
                       setShowQuote(false);
                     }}
-                    className={`py-4 px-6 rounded-xl font-bold text-lg transition-all duration-300 transform ${
+                    className={`py-4 px-6 rounded-xl font-bold text-lg transition-all duration-300 ${
                       modality === 'presencial'
-                        ? 'bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 text-black shadow-2xl shadow-yellow-500/50 scale-105 border-2 border-yellow-400'
-                        : 'bg-gradient-to-r from-gray-800 to-gray-900 border-2 border-gray-700 text-gray-300 hover:border-yellow-500/50 hover:text-white hover:scale-105'
+                        ? 'bg-gradient-to-r from-orange-500 via-orange-600 to-red-600 text-black shadow-lg shadow-orange-500/30'
+                        : 'bg-[#1e293b] text-gray-300 hover:bg-[#2d3748]'
                     }`}
                   >
                     {t.presencial}
@@ -256,27 +277,26 @@ const CotizadorTalleres = () => {
               <button
                 onClick={handleCalculate}
                 disabled={!selectedWorkshop}
-                className="w-full bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 text-black font-black text-xl py-5 rounded-xl hover:scale-105 active:scale-95 transition-all duration-300 shadow-2xl shadow-yellow-500/50 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 flex items-center justify-center gap-3 group relative overflow-hidden"
+                className="w-full bg-gradient-to-r from-orange-500 via-orange-600 to-red-600 text-black font-black text-lg py-5 rounded-xl hover:brightness-110 active:scale-95 transition-all duration-200 shadow-lg shadow-orange-500/30 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 flex items-center justify-center gap-3"
               >
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-700"></div>
-                <Calculator className="w-7 h-7 group-hover:rotate-12 transition-transform relative z-10" />
-                <span className="relative z-10">{t.calculate}</span>
-                <Sparkles className="w-6 h-6 group-hover:scale-110 transition-transform relative z-10" />
+                <Calculator className="w-6 h-6" />
+                <span>{t.calculate}</span>
+                <Sparkles className="w-5 h-5" />
               </button>
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-gray-900/95 to-black/95 backdrop-blur-md border-2 border-yellow-500/40 rounded-2xl p-8 shadow-2xl flex flex-col justify-center min-h-[600px]">
+          <div className="bg-[#0f1629] backdrop-blur-md border-2 border-[#d4a574] rounded-2xl p-8 shadow-2xl shadow-black/50 flex flex-col justify-center min-h-[600px]">
             {showQuote && selectedWorkshop ? (
               <div className="space-y-6 animate-fade-in">
                 <div className="text-center">
-                  <h3 className="text-3xl font-black text-yellow-400 mb-2">{t.quoteTitle}</h3>
-                  <div className="inline-block bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 rounded-2xl p-8 my-6 transform hover:scale-105 transition-all duration-500 shadow-2xl shadow-yellow-500/50 animate-pulse">
+                  <h3 className="text-3xl font-black text-yellow-400 mb-6">{t.quoteTitle}</h3>
+                  <div className="inline-block bg-gradient-to-r from-orange-500 via-orange-600 to-red-600 rounded-2xl p-8 my-4 shadow-2xl shadow-orange-500/40">
                     <p className="text-sm text-black font-bold mb-2">{t.estimatedPrice}</p>
                     <p className="text-5xl md:text-6xl font-black text-black leading-tight">
                       ${price.toLocaleString('es-CO')}
                     </p>
-                    <p className="text-lg font-black text-black/90 mt-3">COP</p>
+                    <p className="text-lg font-black text-black/90 mt-2">COP</p>
                   </div>
                 </div>
 
@@ -307,19 +327,19 @@ const CotizadorTalleres = () => {
 
                 <button
                   onClick={handleWhatsAppContact}
-                  className="w-full bg-gradient-to-r from-green-500 to-emerald-600 text-white font-black text-lg py-4 rounded-xl hover:scale-105 transition-all duration-300 shadow-lg shadow-green-500/50 flex items-center justify-center gap-3 group"
+                  className="w-full bg-gradient-to-r from-green-500 to-green-600 text-white font-black text-lg py-5 rounded-xl hover:brightness-110 transition-all duration-200 shadow-lg shadow-green-500/30 flex items-center justify-center gap-3"
                 >
-                  <MessageCircle className="w-6 h-6 group-hover:rotate-12 transition-transform" />
+                  <MessageCircle className="w-6 h-6" />
                   {t.contact}
-                  <Sparkles className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                  <Sparkles className="w-5 h-5" />
                 </button>
 
                 <p className="text-xs text-gray-500 text-center italic">{t.note}</p>
               </div>
             ) : (
-              <div className="text-center text-gray-500 space-y-4">
-                <Calculator className="w-24 h-24 mx-auto opacity-30" />
-                <p className="text-xl">
+              <div className="text-center text-gray-500 space-y-6">
+                <Calculator className="w-32 h-32 mx-auto opacity-20" />
+                <p className="text-lg text-gray-400">
                   {language === 'es'
                     ? 'Selecciona las opciones y calcula tu cotización'
                     : 'Select options and calculate your quote'}
