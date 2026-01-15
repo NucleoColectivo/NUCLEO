@@ -6,6 +6,7 @@ import NucleoSection from './components/NucleoSection';
 import ObraSection from './components/ObraSection';
 import GaleriaSection from './components/GaleriaSection';
 import EducacionSection from './components/EducacionSection';
+import CotizadorTalleres from './components/CotizadorTalleres';
 import ProyectosEspecialesSection from './components/ProyectosEspecialesSection';
 import ContenidosSection from './components/ContenidosSection';
 import FAQSection from './components/FAQSection';
@@ -25,6 +26,7 @@ function App() {
         <ObraSection />
         <GaleriaSection />
         <EducacionSection />
+        <CotizadorTalleres />
         <ProyectosEspecialesSection />
         <ContenidosSection />
         <FAQSection />
