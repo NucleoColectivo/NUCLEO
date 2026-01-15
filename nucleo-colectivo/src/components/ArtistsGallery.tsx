@@ -153,32 +153,47 @@ export default function ArtistsGallery() {
     <>
       <section
         id="portafolios"
-        className="relative py-24 bg-black overflow-hidden"
+        className="relative py-32 bg-black overflow-hidden"
       >
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(234,179,8,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,rgba(234,179,8,0.15),transparent_50%)]"></div>
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_50%,rgba(168,85,247,0.15),transparent_50%)]"></div>
+        </div>
+
         <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-5"></div>
 
+        <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-yellow-500/50 to-transparent"></div>
+
         <div className="container mx-auto px-4 relative z-10">
-          <div className="text-center mb-16 space-y-6">
-            <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-yellow-500/10 to-purple-500/10 rounded-full border border-yellow-500/20">
-              <Users className="w-6 h-6 text-yellow-400" />
-              <span className="text-yellow-400 font-semibold">
+          <div className="text-center mb-20 space-y-8">
+            <div className="inline-flex items-center gap-4 px-8 py-4 bg-gradient-to-r from-yellow-500/10 via-purple-500/10 to-pink-500/10 backdrop-blur-xl rounded-full border border-yellow-500/30 shadow-2xl shadow-yellow-500/20">
+              <Users className="w-7 h-7 text-yellow-400 drop-shadow-lg" />
+              <span className="text-yellow-400 font-bold tracking-wider text-lg uppercase">
                 {t('artistas.nuestrosArtistas')}
               </span>
             </div>
 
-            <h2 className="text-5xl md:text-6xl font-bold">
-              <span className="text-white">
+            <h2 className="text-6xl md:text-7xl lg:text-8xl font-black leading-tight">
+              <span className="text-white drop-shadow-2xl">
                 {t('artistas.vitrinaDe')}{' '}
               </span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500">
+              <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-purple-400 to-pink-400 drop-shadow-2xl animate-gradient">
                 {t('artistas.creadores')}
               </span>
             </h2>
 
-            <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed drop-shadow-lg">
               {t('artistas.conoceArtistas')}
             </p>
+
+            <div className="flex items-center justify-center gap-3 pt-4">
+              <div className="h-px w-16 bg-gradient-to-r from-transparent to-yellow-500"></div>
+              <div className="w-2 h-2 rounded-full bg-yellow-500 shadow-lg shadow-yellow-500/50"></div>
+              <div className="h-px w-32 bg-gradient-to-r from-yellow-500 via-purple-500 to-pink-500"></div>
+              <div className="w-2 h-2 rounded-full bg-purple-500 shadow-lg shadow-purple-500/50"></div>
+              <div className="h-px w-16 bg-gradient-to-l from-transparent to-pink-500"></div>
+            </div>
           </div>
 
           {artists.length === 0 ? (

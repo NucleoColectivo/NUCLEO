@@ -1,11 +1,78 @@
+import { useState, useEffect } from 'react';
+
+const artBackgrounds = [
+  '/backgrounds/bg-1.png',
+  '/backgrounds/bg-2.png',
+  '/backgrounds/bg-3.png',
+  '/backgrounds/bg-4.png',
+  '/backgrounds/bg-5.png',
+  '/backgrounds/bg-6.png',
+  '/backgrounds/bg-7.png',
+  '/backgrounds/bg-8.png',
+  '/backgrounds/bg-9.png',
+  '/backgrounds/bg-10.png',
+  '/backgrounds/bg-ar-reality.png',
+  '/backgrounds/bg-biology-science.png',
+  '/backgrounds/bg-cinema-film.png',
+  '/backgrounds/bg-cosmic-digital.png',
+  '/backgrounds/bg-cubism-paint.png',
+  '/backgrounds/bg-dance-flow.png',
+  '/backgrounds/bg-digital-symphony.png',
+  '/backgrounds/bg-impressionism-paint.png',
+  '/backgrounds/bg-lab-creative.png',
+  '/backgrounds/bg-literature-words.png',
+  '/backgrounds/bg-modernism-paint.png',
+  '/backgrounds/bg-music-symphony.png',
+  '/backgrounds/bg-neural-art.png',
+  '/backgrounds/bg-pencil-paint.png',
+  '/backgrounds/bg-photography-lens.png',
+  '/backgrounds/bg-popart-paint.png',
+  '/backgrounds/bg-sculpture-digital.png',
+  '/backgrounds/bg-synesthesia-senses.png',
+  '/backgrounds/bg-textile-weaving.png',
+  '/backgrounds/bg-theater-drama.png',
+  '/backgrounds/bg-watercolor-paint.png'
+];
+
 export default function HomeManifiesto() {
+  const [currentBgIndex, setCurrentBgIndex] = useState(0);
+  const [nextBgIndex, setNextBgIndex] = useState(1);
+  const [isTransitioning, setIsTransitioning] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsTransitioning(true);
+
+      setTimeout(() => {
+        setCurrentBgIndex((prev) => (prev + 1) % artBackgrounds.length);
+        setNextBgIndex((prev) => (prev + 1) % artBackgrounds.length);
+        setIsTransitioning(false);
+      }, 1500);
+    }, 18000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section id="home" className="min-h-screen relative overflow-hidden flex items-center justify-center">
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-black to-yellow-900" />
+      <div className="absolute inset-0 bg-gradient-to-br from-purple-900/40 via-black to-yellow-900/40" />
 
-      <div className="absolute inset-0 opacity-20">
-        <div className="absolute top-0 left-0 w-full h-full bg-[url('/backgrounds/bg-neural-art.png')] bg-cover bg-center neural-flow" />
+      <div className="absolute inset-0">
+        <div
+          className={`absolute inset-0 bg-cover bg-center transition-opacity duration-[1500ms] ${
+            isTransitioning ? 'opacity-0' : 'opacity-30'
+          }`}
+          style={{ backgroundImage: `url(${artBackgrounds[currentBgIndex]})` }}
+        />
+        <div
+          className={`absolute inset-0 bg-cover bg-center transition-opacity duration-[1500ms] ${
+            isTransitioning ? 'opacity-30' : 'opacity-0'
+          }`}
+          style={{ backgroundImage: `url(${artBackgrounds[nextBgIndex]})` }}
+        />
       </div>
+
+      <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-60" />
 
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="inline-block mb-8 px-6 py-2 bg-yellow-500/20 border border-yellow-500 rounded-full">
