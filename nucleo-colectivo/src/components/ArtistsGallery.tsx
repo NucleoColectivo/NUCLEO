@@ -18,6 +18,9 @@ interface Artist {
   bio: string;
   disciplines: string[];
   profile_image?: string;
+  instagram_url?: string;
+  youtube_url?: string;
+  website_url?: string;
   featured: boolean;
   order_index: number;
 }
@@ -109,7 +112,11 @@ export default function ArtistsGallery() {
     statement: artist.bio,
     tags: artist.disciplines || [],
     avatar_url: artist.profile_image,
-    links: {}
+    links: {
+      instagram: artist.instagram_url,
+      youtube: artist.youtube_url,
+      web: artist.website_url
+    }
   });
 
   if (loading) {
