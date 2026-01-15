@@ -20,29 +20,45 @@ module.exports = {
 				'montserrat': ['Montserrat', 'sans-serif'],
 			},
 			colors: {
-				// Núcleo Colectivo brand colors
-				'nuclear-yellow': '#FEE440',
-				'nuclear-black': '#000000',
-				'nuclear-white': '#FFFFFF',
-				'nuclear-purple': '#9D4EDD',
-				'nuclear-violet': '#7B2CBF',
-				
-				// Tailwind system colors
+				yellow: {
+					50: '#FFFBEB',
+					100: '#FFF3C7',
+					200: '#FFE899',
+					300: '#FFD95F',
+					400: '#FFC933',
+					500: '#FFB800',
+					600: '#E09F00',
+					700: '#B37F00',
+					800: '#8C6300',
+					900: '#6B4D00',
+				},
+				purple: {
+					50: '#FAF5FF',
+					100: '#F3E8FF',
+					200: '#E9D5FF',
+					300: '#D8B4FE',
+					400: '#C084FC',
+					500: '#A855F7',
+					600: '#9333EA',
+					700: '#7E22CE',
+					800: '#6B21A8',
+					900: '#581C87',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#9D4EDD',
+					DEFAULT: '#9333EA',
 					foreground: '#FFFFFF',
 				},
 				secondary: {
-					DEFAULT: '#7B2CBF',
-					foreground: '#FFFFFF',
+					DEFAULT: '#FFB800',
+					foreground: '#000000',
 				},
 				accent: {
-					DEFAULT: '#FEE440',
+					DEFAULT: '#FFD95F',
 					foreground: '#000000',
 				},
 				destructive: {
