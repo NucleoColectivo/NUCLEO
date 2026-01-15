@@ -148,7 +148,7 @@ export default function ContactoAlianzasSection() {
                 <span className="text-white font-bold text-xl">Núcleo Colectivo</span>
               </div>
               <p className="text-gray-500 text-sm">
-                Arte · Educación · Cultura · Tecnología · Humor
+                Arte · Educación · Cultura · Tecnología
               </p>
             </div>
 

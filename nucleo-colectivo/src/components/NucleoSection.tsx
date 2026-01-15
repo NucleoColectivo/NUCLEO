@@ -35,7 +35,7 @@ export default function NucleoSection() {
               <p className="text-gray-300 leading-relaxed text-lg mb-4">
                 Núcleo Colectivo no es un simple sitio informativo. Es una{' '}
                 <span className="text-white font-semibold">plataforma viva</span>, pensada como
-                vitrina, archivo, laboratorio y punto de contacto.
+                vitrina, archivo, laboratorio y punto de encuentro.
               </p>
               <p className="text-gray-300 leading-relaxed text-lg">
                 Su función principal es{' '}

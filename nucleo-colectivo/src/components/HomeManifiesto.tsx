@@ -90,14 +90,14 @@ export default function HomeManifiesto() {
         </h1>
 
         <p className="text-2xl md:text-3xl text-purple-200 mb-12 font-light tracking-wide">
-          Arte · Educación · Cultura · Tecnología · Humor
+          Arte · Educación · Cultura · Tecnología
         </p>
 
         <div className="max-w-3xl mx-auto mb-12">
           <p className="text-xl text-gray-300 leading-relaxed">
             No somos un sitio informativo. Somos una{' '}
             <span className="text-yellow-400 font-semibold">plataforma viva</span>:
-            vitrina, archivo, laboratorio y punto de contacto.
+            vitrina, archivo, laboratorio y punto de encuentro.
           </p>
         </div>
 
