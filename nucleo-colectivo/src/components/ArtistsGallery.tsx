@@ -89,7 +89,12 @@ export default function ArtistsGallery() {
       }
     } catch (err) {
       console.error('Error loading artists:', err);
-      setError(err instanceof Error ? err.message : 'Error desconocido');
+      const errorMessage = err instanceof Error
+        ? err.message
+        : typeof err === 'string'
+        ? err
+        : JSON.stringify(err);
+      setError(errorMessage);
     } finally {
       setLoading(false);
     }
