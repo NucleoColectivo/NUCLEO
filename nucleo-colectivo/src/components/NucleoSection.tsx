@@ -1,7 +1,11 @@
 export default function NucleoSection() {
   return (
-    <section id="nucleo" className="min-h-screen py-20 bg-gradient-to-b from-black via-yellow-950 to-black">
-      <div className="container mx-auto px-6">
+    <section id="nucleo" className="min-h-screen py-20 relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-black via-yellow-950 to-black" />
+      <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0 bg-[url('/backgrounds/bg-cosmic-digital.png')] bg-cover bg-center" />
+      </div>
+      <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-black text-white mb-4">

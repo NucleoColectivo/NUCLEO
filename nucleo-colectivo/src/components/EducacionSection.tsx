@@ -33,8 +33,13 @@ export default function EducacionSection() {
   ];
 
   return (
-    <section id="educacion" className="min-h-screen py-20 bg-gradient-to-b from-black via-yellow-950 to-black">
-      <div className="container mx-auto px-6">
+    <section id="educacion" className="min-h-screen py-20 relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-black via-yellow-950 to-black" />
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute top-0 left-0 w-1/3 h-1/3 bg-[url('/backgrounds/bg-literature-words.png')] bg-cover bg-center" />
+        <div className="absolute bottom-0 right-0 w-1/3 h-1/3 bg-[url('/backgrounds/bg-lab-creative.png')] bg-cover bg-center" />
+      </div>
+      <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-black text-white mb-4">
             <span className="bg-gradient-to-r from-yellow-400 to-purple-500 text-transparent bg-clip-text">

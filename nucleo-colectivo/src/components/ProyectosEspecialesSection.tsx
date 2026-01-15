@@ -6,15 +6,19 @@ export default function ProyectosEspecialesSection() {
       tagline: 'Humor, cultura popular y memoria',
       description: 'Universo narrativo que explora la identidad cultural latinoamericana a través del humor gráfico, la sátira social y el rescate de la memoria colectiva. Un proyecto editorial que funciona como archivo vivo y generador de contenido.',
       category: 'Editorial / Narrativa',
-      image: '/backgrounds/bg-popart-vibrant.png',
+      image: '/backgrounds/bg-popart-paint.png',
       active: true,
       featured: true,
     },
   ];
 
   return (
-    <section id="proyectos" className="min-h-screen py-20 bg-gradient-to-b from-black via-purple-950 to-black">
-      <div className="container mx-auto px-6">
+    <section id="proyectos" className="min-h-screen py-20 relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-black via-purple-950 to-black" />
+      <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0 bg-[url('/backgrounds/bg-theater-drama.png')] bg-cover bg-center" />
+      </div>
+      <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-black text-white mb-4">
             Proyectos{' '}
