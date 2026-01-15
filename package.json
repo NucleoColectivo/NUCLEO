@@ -1,0 +1,11 @@
+{
+  "name": "nucleo-colectivo-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cd nucleo-colectivo && npm run dev",
+    "build": "cd nucleo-colectivo && npm run build",
+    "preview": "cd nucleo-colectivo && npm run preview"
+  }
+}
