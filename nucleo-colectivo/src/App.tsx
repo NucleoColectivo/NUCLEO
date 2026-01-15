@@ -2,6 +2,7 @@ import HeaderNavigation from './components/HeaderNavigation';
 import HomeManifiesto from './components/HomeManifiesto';
 import EstadisticasImpacto from './components/EstadisticasImpacto';
 import MiembrosSection from './components/MiembrosSection';
+import ArtistsGallery from './components/ArtistsGallery';
 import NucleoSection from './components/NucleoSection';
 import ObraSection from './components/ObraSection';
 import GaleriaSection from './components/GaleriaSection';
@@ -24,6 +25,7 @@ function App() {
         <HomeManifiesto />
         <EstadisticasImpacto />
         <MiembrosSection />
+        <ArtistsGallery />
         <NucleoSection />
         <ObraSection />
         <GaleriaSection />

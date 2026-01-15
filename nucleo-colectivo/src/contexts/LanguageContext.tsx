@@ -155,6 +155,23 @@ const translations = {
     'chatbot.arteTecnologia': '🤖 Arte + Tecnología',
     'chatbot.retoCreativo': '🎯 Reto creativo',
 
+    // Artists Gallery
+    'artistas.nuestrosArtistas': 'Nuestros Artistas',
+    'artistas.vitrinaDe': 'Vitrina de',
+    'artistas.creadores': 'Creadores',
+    'artistas.conoceArtistas': 'Conoce a los artistas que conforman Núcleo Colectivo. Explora sus portafolios, procesos y proyectos.',
+    'artistas.noDisponibles': 'No hay artistas disponibles',
+    'artistas.cargando': 'Cargando artistas...',
+    'artistas.errorCargar': 'Error al cargar artistas',
+    'artistas.verPortafolio': 'Ver Portafolio',
+    'artistas.mas': 'más',
+    'artistas.cerrar': 'Cerrar',
+    'artistas.portafolio': 'Portafolio',
+    'artistas.sitioWeb': 'Sitio Web',
+    'artistas.noObrasDisponibles': 'No hay obras disponibles',
+    'artistas.verObra': 'Ver obra',
+    'artistas.verProyectoCompleto': 'Ver proyecto completo',
+
     // Language Toggle
     'language.espanol': 'Español',
     'language.english': 'English',
@@ -316,6 +333,23 @@ const translations = {
     'chatbot.unirseComunidad': '🤝 Join community',
     'chatbot.arteTecnologia': '🤖 Art + Technology',
     'chatbot.retoCreativo': '🎯 Creative challenge',
+
+    // Artists Gallery
+    'artistas.nuestrosArtistas': 'Our Artists',
+    'artistas.vitrinaDe': 'Showcase of',
+    'artistas.creadores': 'Creators',
+    'artistas.conoceArtistas': 'Meet the artists who make up Núcleo Colectivo. Explore their portfolios, processes and projects.',
+    'artistas.noDisponibles': 'No artists available',
+    'artistas.cargando': 'Loading artists...',
+    'artistas.errorCargar': 'Error loading artists',
+    'artistas.verPortafolio': 'View Portfolio',
+    'artistas.mas': 'more',
+    'artistas.cerrar': 'Close',
+    'artistas.portafolio': 'Portfolio',
+    'artistas.sitioWeb': 'Website',
+    'artistas.noObrasDisponibles': 'No artworks available',
+    'artistas.verObra': 'View work',
+    'artistas.verProyectoCompleto': 'View full project',
 
     // Language Toggle
     'language.espanol': 'Español',
