@@ -1,11 +1,9 @@
 import { useLanguage } from './contexts/LanguageContext';
 import HeaderNavigation from './components/HeaderNavigation';
 import HomeManifiesto from './components/HomeManifiesto';
-import EstadisticasImpacto from './components/EstadisticasImpacto';
 import MiembrosSection from './components/MiembrosSection';
 import NucleoSection from './components/NucleoSection';
 import ObraSection from './components/ObraSection';
-import GaleriaSection from './components/GaleriaSection';
 import EducacionSection from './components/EducacionSection';
 import CotizadorTalleres from './components/CotizadorTalleres';
 import ProyectosEspecialesSection from './components/ProyectosEspecialesSection';
@@ -24,7 +22,6 @@ function App() {
       <main>
         <section id="inicio">
           <HomeManifiesto />
-          <EstadisticasImpacto />
         </section>
 
         <section id="miembros">
@@ -37,7 +34,6 @@ function App() {
 
         <section id="obra">
           <ObraSection />
-          <GaleriaSection />
         </section>
 
         <section id="educacion">
