@@ -189,7 +189,30 @@ const translations = {
     'proyecto.tiemposLuz': 'Tiempos de Luz',
     'proyecto.maquetasEscenarios': 'Maquetas y escenarios',
     'proyecto.fluirMicro': 'Fluir de lo micro',
-    'proyecto.fluirMicroLive': 'Fluir de lo micro - Live act'
+    'proyecto.fluirMicroLive': 'Fluir de lo micro - Live act',
+
+    // Navigation Sections
+    'nav_inicio': 'Inicio',
+    'nav_miembros': 'Miembros',
+    'nav_nucleo': 'Núcleo',
+    'nav_obra': 'Obra',
+    'nav_educacion': 'Educación',
+    'nav_proyectos': 'Proyectos',
+    'nav_contenidos': 'Contenidos',
+    'nav_contacto': 'Contacto',
+    'nav_colaborar': 'Colaborar',
+
+    // Colaborar Section
+    'colaborar_titulo': '¿Quieres Colaborar?',
+    'colaborar_descripcion': 'Únete a nuestra comunidad de creadores y transforma el futuro del arte y la tecnología.',
+    'colaborar_1': 'Participa en talleres y eventos exclusivos',
+    'colaborar_2': 'Comparte tus proyectos con la comunidad',
+    'colaborar_3': 'Accede a recursos y herramientas premium',
+    'colaborar_4': 'Forma parte de proyectos colaborativos',
+    'contactar_ahora': 'Contactar Ahora',
+
+    // Footer
+    'footer_plataforma': 'PLATAFORMA VIVA 2026—2027'
   },
   en: {
     // Navigation
@@ -368,7 +391,30 @@ const translations = {
     'proyecto.tiemposLuz': 'Times of Light',
     'proyecto.maquetasEscenarios': 'Models and scenarios',
     'proyecto.fluirMicro': 'Flow of the micro',
-    'proyecto.fluirMicroLive': 'Flow of the micro - Live act'
+    'proyecto.fluirMicroLive': 'Flow of the micro - Live act',
+
+    // Navigation Sections
+    'nav_inicio': 'Home',
+    'nav_miembros': 'Members',
+    'nav_nucleo': 'Core',
+    'nav_obra': 'Work',
+    'nav_educacion': 'Education',
+    'nav_proyectos': 'Projects',
+    'nav_contenidos': 'Content',
+    'nav_contacto': 'Contact',
+    'nav_colaborar': 'Collaborate',
+
+    // Colaborar Section
+    'colaborar_titulo': 'Want to Collaborate?',
+    'colaborar_descripcion': 'Join our community of creators and transform the future of art and technology.',
+    'colaborar_1': 'Participate in exclusive workshops and events',
+    'colaborar_2': 'Share your projects with the community',
+    'colaborar_3': 'Access premium resources and tools',
+    'colaborar_4': 'Be part of collaborative projects',
+    'contactar_ahora': 'Contact Now',
+
+    // Footer
+    'footer_plataforma': 'LIVING PLATFORM 2026—2027'
   }
 };
 
