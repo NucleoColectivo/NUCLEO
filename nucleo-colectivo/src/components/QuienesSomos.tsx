@@ -19,26 +19,7 @@ const QuienesSomos = () => {
   const supabase = createClient(supabaseUrl, supabaseKey)
 
   useEffect(() => {
-    const loadAboutData = async () => {
-      try {
-        const { data, error } = await supabase
-          .from('about_content')
-          .select('*')
-          .maybeSingle()
-
-        if (error) {
-          console.error('Error loading about data:', error)
-        } else if (data) {
-          setAboutData(data)
-        }
-      } catch (err) {
-        console.error('Error:', err)
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    loadAboutData()
+    setLoading(false)
   }, [])
 
   if (loading) {

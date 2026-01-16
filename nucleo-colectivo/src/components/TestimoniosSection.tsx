@@ -23,26 +23,7 @@ const TestimoniosSection = () => {
   const supabase = createClient(supabaseUrl, supabaseKey)
 
   useEffect(() => {
-    const loadTestimonials = async () => {
-      try {
-        const { data, error } = await supabase
-          .from('testimonials')
-          .select('*')
-          .order('created_at', { ascending: false })
-
-        if (error) {
-          console.error('Error loading testimonials:', error)
-        } else if (data) {
-          setTestimonials(data)
-        }
-      } catch (err) {
-        console.error('Error:', err)
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    loadTestimonials()
+    setLoading(false)
   }, [])
 
   useEffect(() => {

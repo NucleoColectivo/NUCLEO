@@ -1,13 +1,12 @@
-import { useState, useEffect } from 'react'
-import { createClient } from '@supabase/supabase-js'
 import { useLanguage } from '../contexts/LanguageContext'
 
 interface Pillar {
   id: string
-  title: string
-  description: string
+  title_es: string
+  title_en: string
+  description_es: string
+  description_en: string
   icon_type: string
-  order_index: number
 }
 
 const iconMap: { [key: string]: JSX.Element } = {
@@ -33,85 +32,84 @@ const iconMap: { [key: string]: JSX.Element } = {
   )
 }
 
+const staticPillars: Pillar[] = [
+  {
+    id: '1',
+    title_es: 'Comunidad Creativa',
+    title_en: 'Creative Community',
+    description_es: 'Fomentamos la colaboración entre artistas, tecnólogos y pensadores para crear juntos',
+    description_en: 'We foster collaboration between artists, technologists and thinkers to create together',
+    icon_type: 'users'
+  },
+  {
+    id: '2',
+    title_es: 'Innovación Artística',
+    title_en: 'Artistic Innovation',
+    description_es: 'Exploramos nuevas formas de expresión a través de la tecnología y la creatividad',
+    description_en: 'We explore new forms of expression through technology and creativity',
+    icon_type: 'sparkles'
+  },
+  {
+    id: '3',
+    title_es: 'Acceso Democrático',
+    title_en: 'Democratic Access',
+    description_es: 'Democratizamos el acceso a herramientas y conocimiento para todos',
+    description_en: 'We democratize access to tools and knowledge for everyone',
+    icon_type: 'heart'
+  },
+  {
+    id: '4',
+    title_es: 'Impacto Global',
+    title_en: 'Global Impact',
+    description_es: 'Creamos iniciativas que trascienden fronteras y conectan culturas',
+    description_en: 'We create initiatives that transcend borders and connect cultures',
+    icon_type: 'globe'
+  }
+]
+
 const PilaresFundamentales = () => {
   const { language } = useLanguage()
-  const [pillars, setPillars] = useState<Pillar[]>([])
-  const [loading, setLoading] = useState(true)
-
-  const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
-  const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY
-  const supabase = createClient(supabaseUrl, supabaseKey)
-
-  useEffect(() => {
-    const loadPillars = async () => {
-      try {
-        const { data, error } = await supabase
-          .from('pillars')
-          .select('*')
-          .order('order_index', { ascending: true })
-
-        if (error) {
-          console.error('Error loading pillars:', error)
-        } else if (data) {
-          setPillars(data)
-        }
-      } catch (err) {
-        console.error('Error:', err)
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    loadPillars()
-  }, [])
-
-  if (loading) {
-    return (
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center">
-            <div className="w-12 h-12 border-4 border-nuclear-purple border-t-nuclear-yellow rounded-full animate-spin mx-auto"></div>
-          </div>
-        </div>
-      </section>
-    )
-  }
 
   return (
-    <section id="pilares" className="relative py-20 md:py-32 bg-nuclear-white overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,rgba(255,215,0,0.15),transparent_60%)]"></div>
+    <section
+      id="pilares"
+      className="relative py-20 md:py-32 bg-white overflow-hidden"
+    >
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white"></div>
+      <div className="absolute top-0 right-0 w-96 h-96 bg-nuclear-yellow/10 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-nuclear-purple/10 rounded-full blur-3xl"></div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <span className="inline-block bg-nuclear-purple/20 text-nuclear-purple px-6 py-2 rounded-full text-sm font-bold border border-nuclear-purple/50 mb-4">
+          <span className="inline-block bg-nuclear-purple/20 text-nuclear-purple px-6 py-2 rounded-full text-sm font-bold border border-nuclear-purple/30 mb-4">
             {language === 'es' ? 'NUESTROS PILARES' : 'OUR PILLARS'}
           </span>
           <h2 className="text-4xl md:text-6xl font-bold text-nuclear-black mb-6 font-montserrat">
-            {language === 'es' ? 'Pilares Fundamentales' : 'Core Pillars'}
+            {language === 'es' ? 'Valores Fundamentales' : 'Core Values'}
           </h2>
-          <p className="text-xl text-nuclear-black/70 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             {language === 'es'
-              ? 'Los valores que guían cada una de nuestras acciones y proyectos'
-              : 'The values that guide each of our actions and projects'}
+              ? 'Los principios que guían nuestra misión de transformar el arte y la tecnología'
+              : 'The principles that guide our mission to transform art and technology'}
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {pillars.map((pillar, index) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {staticPillars.map((pillar, index) => (
             <div
               key={pillar.id}
               className="group"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="bg-white rounded-3xl p-8 border-2 border-nuclear-yellow/20 hover:border-nuclear-yellow hover:shadow-2xl transition-all duration-500 h-full transform hover:-translate-y-2">
-                <div className="w-20 h-20 bg-gradient-to-br from-nuclear-yellow to-nuclear-purple rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 text-white">
+              <div className="bg-white rounded-3xl p-8 border-2 border-gray-200 hover:border-nuclear-purple hover:shadow-2xl transition-all duration-500 h-full transform hover:scale-105">
+                <div className="text-nuclear-purple mb-6 group-hover:scale-110 transition-transform duration-300">
                   {iconMap[pillar.icon_type] || iconMap.sparkles}
                 </div>
-                <h3 className="text-2xl font-bold text-nuclear-black mb-4 font-montserrat">
-                  {pillar.title}
+                <h3 className="text-2xl font-bold text-nuclear-black mb-4">
+                  {language === 'es' ? pillar.title_es : pillar.title_en}
                 </h3>
-                <p className="text-nuclear-black/70 leading-relaxed">
-                  {pillar.description}
+                <p className="text-gray-600 leading-relaxed">
+                  {language === 'es' ? pillar.description_es : pillar.description_en}
                 </p>
               </div>
             </div>

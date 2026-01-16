@@ -49,55 +49,11 @@ export default function ArtistsGallery() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    loadArtists();
+    setLoading(false);
   }, []);
 
   const loadArtists = async () => {
-    try {
-      setLoading(true);
-      setError(null);
-
-      const { data: artistsData, error: artistsError } = await supabase
-        .from('members')
-        .select('*')
-        .order('order_index', { ascending: true });
-
-      if (artistsError) throw artistsError;
-
-      if (artistsData && artistsData.length > 0) {
-        setArtists(artistsData);
-
-        const artistIds = artistsData.map((a) => a.id);
-        const { data: artworksData, error: artworksError } = await supabase
-          .from('artworks')
-          .select('*')
-          .in('member_id', artistIds)
-          .order('order_index', { ascending: true });
-
-        if (artworksError) throw artworksError;
-
-        if (artworksData) {
-          const groupedArtworks: Record<string, Artwork[]> = {};
-          artworksData.forEach((artwork) => {
-            if (!groupedArtworks[artwork.member_id]) {
-              groupedArtworks[artwork.member_id] = [];
-            }
-            groupedArtworks[artwork.member_id].push(artwork);
-          });
-          setArtworks(groupedArtworks);
-        }
-      }
-    } catch (err) {
-      console.error('Error loading artists:', err);
-      const errorMessage = err instanceof Error
-        ? err.message
-        : typeof err === 'string'
-        ? err
-        : JSON.stringify(err);
-      setError(errorMessage);
-    } finally {
-      setLoading(false);
-    }
+    setLoading(false);
   };
 
   const handleViewPortfolio = (artist: Artist) => {

@@ -1,14 +1,14 @@
 import { useState, useEffect, useRef } from 'react'
-import { createClient } from '@supabase/supabase-js'
 import { useLanguage } from '../contexts/LanguageContext'
 
 interface Statistic {
   id: string
-  label: string
+  label_es: string
+  label_en: string
   value: number
   icon: string
-  description: string
-  order_index: number
+  description_es: string
+  description_en: string
 }
 
 const iconMap: { [key: string]: JSX.Element } = {
@@ -34,44 +34,57 @@ const iconMap: { [key: string]: JSX.Element } = {
   )
 }
 
+const staticStatistics: Statistic[] = [
+  {
+    id: '1',
+    label_es: 'Artistas',
+    label_en: 'Artists',
+    value: 500,
+    icon: 'Users',
+    description_es: 'Creativos impactados',
+    description_en: 'Creatives impacted'
+  },
+  {
+    id: '2',
+    label_es: 'Talleres',
+    label_en: 'Workshops',
+    value: 150,
+    icon: 'Briefcase',
+    description_es: 'Sesiones realizadas',
+    description_en: 'Sessions completed'
+  },
+  {
+    id: '3',
+    label_es: 'Horas',
+    label_en: 'Hours',
+    value: 2000,
+    icon: 'Clock',
+    description_es: 'De formación',
+    description_en: 'Of training'
+  },
+  {
+    id: '4',
+    label_es: 'Proyectos',
+    label_en: 'Projects',
+    value: 300,
+    icon: 'Sparkles',
+    description_es: 'Creados con IA',
+    description_en: 'Created with AI'
+  }
+]
+
 const EstadisticasImpacto = () => {
   const { language } = useLanguage()
-  const [statistics, setStatistics] = useState<Statistic[]>([])
-  const [loading, setLoading] = useState(true)
   const [isVisible, setIsVisible] = useState(false)
   const [animatedValues, setAnimatedValues] = useState<{ [key: string]: number }>({})
   const sectionRef = useRef<HTMLDivElement>(null)
 
-  const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
-  const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY
-  const supabase = createClient(supabaseUrl, supabaseKey)
-
   useEffect(() => {
-    const loadStatistics = async () => {
-      try {
-        const { data, error } = await supabase
-          .from('statistics')
-          .select('*')
-          .order('order_index', { ascending: true })
-
-        if (error) {
-          console.error('Error loading statistics:', error)
-        } else if (data) {
-          setStatistics(data)
-          const initialValues: { [key: string]: number } = {}
-          data.forEach((stat) => {
-            initialValues[stat.id] = 0
-          })
-          setAnimatedValues(initialValues)
-        }
-      } catch (err) {
-        console.error('Error:', err)
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    loadStatistics()
+    const initialValues: { [key: string]: number } = {}
+    staticStatistics.forEach((stat) => {
+      initialValues[stat.id] = 0
+    })
+    setAnimatedValues(initialValues)
   }, [])
 
   useEffect(() => {
@@ -96,8 +109,8 @@ const EstadisticasImpacto = () => {
   }, [isVisible])
 
   useEffect(() => {
-    if (isVisible && statistics.length > 0) {
-      statistics.forEach((stat) => {
+    if (isVisible) {
+      staticStatistics.forEach((stat) => {
         const duration = 2000
         const steps = 60
         const increment = stat.value / steps
@@ -116,19 +129,7 @@ const EstadisticasImpacto = () => {
         }, duration / steps)
       })
     }
-  }, [isVisible, statistics])
-
-  if (loading) {
-    return (
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center">
-            <div className="w-12 h-12 border-4 border-nuclear-purple border-t-nuclear-yellow rounded-full animate-spin mx-auto"></div>
-          </div>
-        </div>
-      </section>
-    )
-  }
+  }, [isVisible])
 
   return (
     <section
@@ -156,7 +157,7 @@ const EstadisticasImpacto = () => {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
-          {statistics.map((stat, index) => (
+          {staticStatistics.map((stat, index) => (
             <div
               key={stat.id}
               className="group"
@@ -170,10 +171,10 @@ const EstadisticasImpacto = () => {
                   {animatedValues[stat.id] || 0}+
                 </div>
                 <div className="text-lg font-semibold text-white mb-2">
-                  {stat.label}
+                  {language === 'es' ? stat.label_es : stat.label_en}
                 </div>
                 <p className="text-white/70 text-sm">
-                  {stat.description}
+                  {language === 'es' ? stat.description_es : stat.description_en}
                 </p>
               </div>
             </div>
