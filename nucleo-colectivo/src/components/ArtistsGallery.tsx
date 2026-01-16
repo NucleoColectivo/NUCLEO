@@ -115,8 +115,6 @@ export default function ArtistsGallery() {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_50%,rgba(168,85,247,0.15),transparent_50%)]"></div>
         </div>
 
-        <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-5"></div>
-
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-yellow-500/50 to-transparent"></div>
 
         <div className="container mx-auto px-4 relative z-10">

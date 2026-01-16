@@ -25,7 +25,7 @@ export default function MiembrosSection() {
       <div className="absolute inset-0 bg-gradient-to-b from-black via-purple-950 to-black" />
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-1/2 h-1/2 bg-[url('/backgrounds/bg-pencil-paint.png')] bg-cover bg-center" />
-        <div className="absolute bottom-0 right-0 w-1/2 h-1/2 bg-[url('/backgrounds/bg-palette.png')] bg-cover bg-center" />
+        <div className="absolute bottom-0 right-0 w-1/2 h-1/2 bg-[url('/backgrounds/bg-watercolor-paint.png')] bg-cover bg-center" />
       </div>
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
