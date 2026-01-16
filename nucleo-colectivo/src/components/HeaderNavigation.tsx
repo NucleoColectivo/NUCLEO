@@ -35,11 +35,7 @@ export default function HeaderNavigation() {
         <div className="flex items-center justify-between">
           <a href="#home" className="flex items-center gap-3 group">
             <div className="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center transform group-hover:scale-110 transition-all">
-              <img
-                src="/logo-nucleo-colectivo.png"
-                alt="Núcleo Colectivo"
-                className="w-10 h-10"
-              />
+              <span className="text-2xl font-black text-black">NC</span>
             </div>
             <div className="hidden md:block">
               <span className="text-white font-black text-xl tracking-tight">

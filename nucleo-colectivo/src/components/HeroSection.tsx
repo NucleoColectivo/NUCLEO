@@ -258,15 +258,12 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
 
       <div className="container mx-auto px-4 relative z-10 pt-16">
         <div className="max-w-5xl mx-auto text-center">
-          {/* Logo Núcleo Colectivo - Bajado con margen superior */}
+          {/* Logo Núcleo Colectivo - Simple text version */}
           <div className="mb-8 flex justify-center mt-8 md:mt-12 lg:mt-16">
             <div className="relative group">
-              <img 
-                src="/logo-nucleo-colectivo.png" 
-                alt="Núcleo Colectivo Logo" 
-                className="w-48 h-48 md:w-64 md:h-64 object-contain drop-shadow-2xl transition-transform duration-500 hover:scale-110 group-hover:drop-shadow-3xl"
-              />
-              {/* Glow effect behind logo */}
+              <div className="w-48 h-48 md:w-64 md:h-64 bg-gradient-to-br from-yellow-400 to-purple-600 rounded-full flex items-center justify-center drop-shadow-2xl transition-transform duration-500 hover:scale-110">
+                <span className="text-6xl md:text-8xl font-black text-black">NC</span>
+              </div>
               <div className="absolute inset-0 w-48 h-48 md:w-64 md:h-64 bg-gradient-to-r from-nuclear-yellow/20 to-nuclear-purple/20 rounded-full blur-3xl -z-10 animate-pulse-slow"></div>
             </div>
           </div>

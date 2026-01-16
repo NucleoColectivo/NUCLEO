@@ -144,7 +144,9 @@ export default function ContactoAlianzasSection() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
               <div className="flex items-center gap-3 mb-2">
-                <img src="/logo-nucleo-colectivo.png" alt="Núcleo Colectivo" className="h-10 w-10" />
+                <div className="h-10 w-10 bg-yellow-500 rounded-lg flex items-center justify-center">
+                  <span className="text-black font-black text-sm">NC</span>
+                </div>
                 <span className="text-white font-bold text-xl">Núcleo Colectivo</span>
               </div>
               <p className="text-gray-500 text-sm">
