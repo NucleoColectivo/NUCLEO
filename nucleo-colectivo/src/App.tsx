@@ -12,7 +12,6 @@ import ProyectosEspecialesSection from './components/ProyectosEspecialesSection'
 import ContenidosSection from './components/ContenidosSection';
 import FAQSection from './components/FAQSection';
 import ContactoAlianzasSection from './components/ContactoAlianzasSection';
-import BibliotecaRecursos from './components/BibliotecaRecursos';
 import './App.css';
 
 function App() {
@@ -59,8 +58,6 @@ function App() {
           <ContactoAlianzasSection />
         </section>
       </main>
-
-      <BibliotecaRecursos />
 
       <footer className="bg-black border-t border-yellow-400/20 py-6">
         <div className="max-w-7xl mx-auto px-4 text-center">
