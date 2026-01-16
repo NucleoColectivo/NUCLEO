@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { createClient } from '@supabase/supabase-js'
 import { useLanguage } from '../contexts/LanguageContext'
 
 interface Testimonial {
@@ -15,12 +14,8 @@ interface Testimonial {
 const TestimoniosSection = () => {
   const { language } = useLanguage()
   const [testimonials, setTestimonials] = useState<Testimonial[]>([])
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
   const [activeIndex, setActiveIndex] = useState(0)
-
-  const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
-  const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY
-  const supabase = createClient(supabaseUrl, supabaseKey)
 
   useEffect(() => {
     setLoading(false)

@@ -1,14 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
-import { createClient } from '@supabase/supabase-js';
 import { Users, Loader2, AlertCircle } from 'lucide-react';
 import ArtistCard from './ArtistCard';
 import ArtistModal from './ArtistModal';
-
-const supabase = createClient(
-  import.meta.env.VITE_SUPABASE_URL,
-  import.meta.env.VITE_SUPABASE_ANON_KEY
-);
 
 interface Artist {
   id: string;

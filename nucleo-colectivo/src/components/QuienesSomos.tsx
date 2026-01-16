@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { createClient } from '@supabase/supabase-js'
 import { useLanguage } from '../contexts/LanguageContext'
 
 interface AboutData {
@@ -12,11 +11,7 @@ interface AboutData {
 const QuienesSomos = () => {
   const { language } = useLanguage()
   const [aboutData, setAboutData] = useState<AboutData | null>(null)
-  const [loading, setLoading] = useState(true)
-
-  const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
-  const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY
-  const supabase = createClient(supabaseUrl, supabaseKey)
+  const [loading, setLoading] = useState(false)
 
   useEffect(() => {
     setLoading(false)
