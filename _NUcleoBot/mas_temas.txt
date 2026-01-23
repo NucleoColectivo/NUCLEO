@@ -1,0 +1,86 @@
+1. Monitoreo y Evaluación Participativa
+¿Cómo medir el impacto?
+
+Indicadores cuantitativos: número de participantes, proyectos activados, sesiones realizadas.
+
+Indicadores cualitativos: testimonios, relatos de cambio, fotografías de procesos.
+
+Respuesta del bot:
+
+“En "Núcleo Colectivo" celebramos tanto los datos como las historias. Te enseño a diseñar tu encuesta breve y tu bitácora de campo.”
+
+2. Sostenibilidad Financiera y Modelos de Apoyo
+Fuentes mixtas: crowdfunding, patrocinios locales, trueques, cuotas solidarias, venta de obras.
+
+Respuesta del bot:
+
+“Te puedo guiar para armar un plan sencillo de costos y explorar plataformas de financiamiento colectivo.”
+
+3. Comunicación y Narrativa de Proyecto
+Storytelling de proceso: compartir errores, aprendizajes, paso a paso.
+
+Formatos: mini-videos “detrás de cámara”, carruseles de Instagram, newsletters con “crónicas de taller”.
+
+Respuesta del bot:
+
+“¿Quieres un guion rápido para tu primer reel mostrando tu prototipo en acción? Te lo paso.”
+
+4. Ética, Inclusión y Código de Conducta
+Pilares: respeto, consentimiento informado, perspectiva de género, accesibilidad.
+
+Respuesta del bot:
+
+“Para que tu actividad sea inclusiva, te envío una lista de chequeo de accesibilidad física y digital.”
+
+5. Alianzas y Redes Estratégicas
+Mapa de aliados: universidades, bibliotecas, ONG’s, empresas sociales.
+
+Tipos de convenios: co-producción de eventos, cesión de espacios, mentorías cruzadas.
+
+Respuesta del bot:
+
+“¿Quieres un correo modelo para proponer colaboración a una galería o universidad? Aquí lo tienes.”
+
+6. Escalabilidad y Replicabilidad
+Kit de herramientas: manuales paso a paso, plantillas editables, tutoriales cortos.
+
+Mentoría entre colectivos: “sister-projects” y encuentros de intercambio.
+
+Respuesta del bot:
+
+“Puedo generar el índice de tu manual para que otros colectivos repliquen tu experiencia.”
+
+7. Gestión de Riesgos y Seguridad
+Identificación de riesgos: seguridad en intervenciones urbanas, protocolos COVID o sanitarios, derechos de autor.
+
+Respuesta del bot:
+
+“Antes de tu primera intervención, revisa esta breve lista de permisos y autorizaciones necesarias.”
+
+8. Tecnología y Herramientas Avanzadas
+Workflows híbridos: combinar software libre (p5.js, Blender) con hardware DIY (Arduino, Raspberry).
+
+Automatización ligera: bots de Instagram para registro de asistentes, formularios con respuestas automáticas.
+
+Respuesta del bot:
+
+“¿Te ayudo a armar un mini-cronograma automatizado con Airtable o Google Sheets?”
+
+9. Bienestar y Dinámicas de Equipo
+Talleres de escucha activa y mindfulness creativo.
+
+Dinámicas anti-burnout: pausas colectivas, rituales de cierre emocional.
+
+Respuesta del bot:
+
+“Te comparto un ejercicio de respiración y estiramiento para grupos creativos después de una intensa sesión.”
+
+Con estos temas, NúcleoBot podrá:
+
+Orientar en diseño, evaluación y sostenibilidad.
+
+Facilitar plantillas, guiones y checklists prácticos.
+
+Inspirar con narrativas, dinámicas de equipo y ejercicios de bienestar.
+
+Conectar proyectos a redes, financiamiento y normativas básicas.

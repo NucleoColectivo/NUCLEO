@@ -1,0 +1,471 @@
+**Título completo:** Inteligencia Artificial para la Creación Colectiva y el Arte Comunitario
+**Dirigido a:** personas creativas, artistas, educadores, colectivos, niños, jóvenes, vecin@s y curios@s de Medellín y el mundo.
+**Enfoque:** práctico, accesible, basado en la colaboración, la sostenibilidad, el arte y la tecnología.
+
+---
+
+### 🧑‍🏫 NIVEL 1: CONOCIENDO LA IA COMO UNA AMIGA CREATIVA
+
+#### 1.1 ¿Qué es la Inteligencia Artificial (IA)?
+
+La IA es una tecnología que permite que las máquinas "aprendan" a hacer tareas que normalmente hacemos los humanos: reconocer imágenes, entender textos, hacer recomendaciones o hasta crear arte.
+
+**Ejemplo simple:** cuando Spotify te recomienda canciones o cuando tu teléfono te sugiere palabras.
+
+#### 1.2 ¿Para qué sirve la IA en el arte y la comunidad?
+
+* Para crear imágenes nuevas a partir de ideas escritas (como Midjourney o DALL-E)
+* Para hacer música, diseño, poesía o código de manera creativa
+* Para contar historias de nuestras comunidades con nuevas herramientas
+
+#### 1.3 Actividad:
+
+> Escribe una descripción como "Una mariposa hecha de código sobrevolando el barrio La Floresta".
+> Luego usa una IA generativa para ver qué imagen aparece.
+
+**IA recomendadas:**
+
+* DALL-E (gratuita desde ChatGPT)
+* Canva con IA (text to image)
+* Google Imagen AI (experimental)
+
+#### 1.4 ¿La IA reemplaza a los artistas?
+
+❌ No. La IA no tiene emociones, no crece en Medellín, no siente lo que tú. Solo es una herramienta que puedes usar a tu favor para expresarte mejor o jugar con nuevas formas.
+
+---
+
+### 👨‍💻 NIVEL 2: USANDO LA IA DE MANERA CONSCIENTE
+
+#### 2.1 ¿Cómo funciona una IA por dentro (explicado fácil)?
+
+Una IA aprende de muchos datos. Le enseñamos millones de dibujos, textos o sonidos, y ella empieza a detectar patrones.
+
+**Ejemplo:** si le mostramos mil dibujos de un colibrí, la próxima vez puede generar uno parecido.
+
+#### 2.2 Tipos de IA creativa:
+
+* **Generativa (text-to-image):** crea imágenes desde texto
+* **Conversacional (chatbots):** como este bot, responde con lenguaje humano
+* **IA para sonido o música:** como Soundraw o Riffusion
+* **IA para video:** como RunwayML
+
+#### 2.3 Actividad:
+
+> Escribe una historia sobre tu barrio y pídele a la IA que la convierta en una serie de ilustraciones o escena teatral.
+
+#### 2.4 Cuidados éticos:
+
+* No todo lo que crea la IA es "neutro"
+* Hay que revisar de dónde vienen los datos que usa
+* No uses IA para suplantar a otras personas o desinformar
+* Combínala con tu propia voz, tu imaginario, tu contexto
+
+**Mantra del colectivo:** *La IA no sustituye, complementa. No domina, colabora.*
+
+---
+
+### 🌍 NIVEL 3: CO-CREANDO CON IA EN LA COMUNIDAD
+
+#### 3.1 Aplicaciones comunitarias
+
+* Hacer mapas visuales de historias locales
+* Crear cuentos o animaciones de memoria barrial
+* Construir con vecinxs un mural digital a partir de ideas colectivas
+* Diseñar afiches, logos o materiales educativos con IA accesible
+
+#### 3.2 Herramientas fáciles:
+
+* **ChatGPT:** para escribir, corregir, inventar
+* **Canva IA:** para diseñar carteles o talleres
+* **p5.js + ml5.js:** para programar arte interactivo con IA
+* **RunwayML:** para crear videos automáticos o transformar voces
+
+#### 3.3 Actividad:
+
+> Reúnanse como grupo y describan cómo sueñan su barrio en 2030. Luego conviertan ese sueño en una imagen generada con IA + collage manual.
+
+#### 3.4 Buenas prácticas:
+
+* Compartir lo aprendido con otros
+* Combinar IA con arte manual, reciclaje, naturaleza
+* Documentar el proceso para inspirar a más personas
+
+---
+
+### 🤖 NIVEL 4: HACIENDO PROYECTOS ARTÍSTICOS CON IA
+
+#### 4.1 Proyecto ejemplo: "Rostros del barrio"
+
+> Crear retratos generativos con IA combinados con relatos orales de la comunidad.
+
+#### 4.2 Proyecto ejemplo: "El Mural Invisible"
+
+> Un mural colaborativo que solo se ve con realidad aumentada (creado con IA + filtros de Instagram)
+
+#### 4.3 Formas de mostrar:
+
+* Exposiciones físicas + proyecciones
+* Galerías virtuales en redes
+* Performances multimedia
+* Podcast de proceso
+
+#### 4.4 Actividad final:
+
+> Diseña en grupo un proyecto creativo que combine:
+
+* Arte colectivo
+* Tecnología accesible
+* IA con sentido
+* Un mensaje de transformación local
+
+Presenta la idea en una ficha como:
+
+* Título
+* Descripción
+* Herramientas a usar
+* Participantes
+* Valor comunitario
+
+---
+
+### 🤸️‍♂️ NIVEL 5: REFLEXIÓN, CRÍTICA Y FUTURO
+
+#### 5.1 ¿Qué tipo de futuro queremos construir con IA?
+
+* Uno donde la tecnología amplíe voces, no las silencie
+* Donde la IA no sea una "caja negra" sino una aliada creativa
+* Donde el arte siga siendo profundamente humano
+
+#### 5.2 Ética y soberanía tecnológica
+
+* Código abierto vs. plataformas comerciales
+* Datos comunitarios vs. algoritmos extractivos
+* Tecnología para la vida, no para el control
+
+#### 5.3 Actividad de cierre:
+
+> Inventen su propio "manifiesto de IA comunitaria".
+> ¿Cómo debe ser una IA que respete la diversidad, la colaboración y el arte?
+
+---
+
+### 📆 MATERIAL COMPLEMENTARIO
+
+* [https://ml5js.org](https://ml5js.org) → IA accesible para arte con código
+* [https://huggingface.co](https://huggingface.co) → IA de código abierto
+* [https://www.runthemusic.com](https://www.runthemusic.com) → música generada con IA
+* [https://www.suno.ai](https://www.suno.ai) → canciones desde texto
+* [https://playgroundai.com](https://playgroundai.com) → generador visual libre
+
+---
+
+**Recuerda:** la inteligencia artificial no es más ni menos que otra herramienta en nuestras manos. Lo que importa es **qué hacemos con ella, para quién, y con quién la compartimos**.
+
+**¡Actívala con conciencia, arte y comunidad!**
+
+Aquí tienes un conjunto de actividades conversacionales paso a paso que puedes cargar en tu chatbot para guiar el curso de IA de Núcleo Colectivo. Están organizadas por nivel y con un tono cercano, didáctico y creativo:
+
+🤖 Módulo interactivo para chatbot: “IA para la creación colectiva”
+🔹 Introducción general
+Usuario: Quiero aprender sobre IA
+Bot responde:
+¡Qué maravilla! 💡 Estás por comenzar un recorrido creativo con la inteligencia artificial, pensada desde el arte, la comunidad y el juego.
+¿Te gustaría iniciar con el Nivel 1: ¿Qué es la IA? o quieres que te explique primero de qué va todo el curso?
+
+🧑‍🏫 Nivel 1: Conociendo la IA como una amiga creativa
+Bot inicia:
+Vamos paso a paso. Empecemos por lo esencial.
+¿Sabías que la IA es como una herramienta que aprende a imitar lo que hacemos los humanos?
+¿Quieres probarla con una imagen?
+
+Bot propone actividad:
+✍️ Escribe una frase creativa como:
+
+“Una mariposa hecha de código sobrevolando el barrio La Floresta.”
+Y yo te muestro cómo usar DALL-E u otra IA para convertirla en imagen. ¿List@?
+
+👨‍💻 Nivel 2: Usando la IA de manera consciente
+Usuario: ¿Cómo funciona la IA?
+Bot responde:
+Buena pregunta. La IA aprende viendo muchos ejemplos: textos, imágenes, sonidos…
+Así detecta patrones y genera cosas nuevas.
+¿Te gustaría que generemos una historia con IA? ¿O prefieres explorar cómo se hace una imagen desde una historia de tu barrio?
+
+Actividad sugerida:
+
+Cuéntame algo de tu barrio, y lo convertimos juntxs en una escena ilustrada.
+
+🌍 Nivel 3: Co-creando con IA en comunidad
+Usuario: ¿Cómo puedo usar IA con mi grupo o comunidad?
+Bot responde:
+¡Perfecto! Aquí van ideas:
+🎨 Hacer un mural digital colectivo
+📖 Crear cuentos con memoria local
+🧩 Diseñar afiches o logos comunitarios
+
+Propuesta:
+¿Te gustaría hacer un sueño colectivo del barrio en 2030? Escríbelo y generamos una imagen + collage virtual.
+
+🤖 Nivel 4: Haciendo proyectos con IA
+Usuario: Quiero hacer un proyecto artístico
+Bot responde:
+¡Vamos! Estas son ideas reales desde Núcleo:
+
+“Rostros del barrio” → retratos con IA y relatos locales
+
+“El mural invisible” → mural que se ve con realidad aumentada
+
+¿Quieres que te ayude a diseñar una ficha de proyecto con:
+
+Título
+
+Herramientas
+
+Participantes
+
+Valor comunitario?
+
+👉 Solo dime “Crear ficha” y comenzamos.
+
+🤸 Nivel 5: Reflexión y futuro
+Usuario: ¿La IA puede ser peligrosa?
+Bot responde:
+Sí… si no pensamos en para qué, con quién y cómo la usamos.
+Por eso en Núcleo creemos en una IA ética, comunitaria y creativa.
+¿Te gustaría escribir tu propio “manifiesto de IA para la vida”?
+
+📜 Actividad final:
+Escríbeme 3 frases que respondan a:
+
+¿Qué debe cuidar la IA?
+
+¿Cómo puede ayudarnos a convivir?
+
+¿Qué sueñas que podría hacer en tu comunidad?
+
+📦 Material adicional
+Usuario: ¿Dónde aprendo más?
+Bot responde:
+Aquí tienes tesoros digitales:
+
+https://ml5js.org → código abierto y visual
+
+https://playgroundai.com → juega con imágenes
+
+https://suno.ai → crea canciones desde ideas
+¿Quieres que te recomiende uno según tu idea artística?
+
+🧩 Actividades Lúdicas y de Aprendizaje con IA
+(pensadas para grupos, talleres o conversaciones individuales con NúcleoBot)
+
+🎲 1. IA en 3 Palabras
+Bot dice:
+¡Vamos a jugar! Dime 3 palabras (por ejemplo: "árbol", "tecnología", "alegría") y te devuelvo una idea para una imagen o una historia generada por IA.
+¿List@? Escribe tus tres palabras mágicas…
+
+🧠 2. ¿Real o Artificial?
+Bot propone:
+Voy a mostrarte (o describirte) una imagen, un poema o una melodía. Tú adivinas si fue creada por una persona o por una IA.
+¿Jugamos una ronda? 😄
+
+(Se pueden preparar ejemplos con pistas reales del colectivo)
+
+✍️ 3. Cadáver Exquisito con IA
+Bot explica:
+Hagamos un cuento entre tú, yo y una IA. Tú comienzas con una frase, yo agrego otra, y luego pedimos a la IA que complete un fragmento inesperado.
+
+Tú: “Había una vez una bicicleta que soñaba…”
+Bot: “…con volar sobre los techos de su barrio.”
+IA: “…y en su sueño encontró un mapa invisible que la llevó…”
+
+¿Te animas a comenzar uno ahora?
+
+🖼️ 4. Galería de Sueños
+Bot propone:
+Imagina una exposición de arte hecha con sueños colectivos del barrio. Puedes escribirme:
+
+“Soñé que mi calle tenía árboles que cantan”
+y generamos una imagen con IA para tu sueño. ¡Lo podemos guardar para nuestra galería digital!
+
+🧭 5. Misión: Transformar un problema con IA
+Bot guía:
+Cuéntame un problema de tu comunidad (por ejemplo: “no hay espacios para pintar”). Yo te propongo 2 ideas con IA que pueden ayudar a solucionarlo.
+
+¿List@ para una misión creativa?
+
+🎭 6. Crea tu personaje IA
+Bot indica:
+Vamos a inventar un personaje artístico que vive dentro de una IA.
+Responde estas preguntas:
+
+¿Cómo se llama?
+
+¿Qué sabe hacer?
+
+¿A quién quiere ayudar?
+
+¿Cómo se expresa?
+Luego, generamos una imagen o avatar con IA para ese personaje.
+
+💌 7. Cartas para el futuro
+Bot propone:
+Escribe un mensaje para las personas del año 2050. ¿Qué esperas que hayan hecho con la tecnología, el arte y la comunidad?
+Lo transformamos en una postal ilustrada con IA para guardar en nuestra cápsula colectiva.
+
+🪞 8. Mi reflejo IA
+Bot invita:
+Haz una foto tuya (o descríbete con palabras) y te muestro cómo se vería tu “reflejo artístico” hecho con IA.
+Puede ser en estilo collage, punk, futurista o ancestral.
+Elige un estilo y te muestro cómo.
+
+🌀 9. Remix Poético con IA
+Bot activa:
+Dame una frase poética o sentimental. Yo la remezclo con ayuda de la IA en tres versiones:
+
+Haiku digital
+
+Verso urbano
+
+Canción corta
+¿List@ para escuchar nuevas formas de tu voz?
+
+🧱 10. IA y Memoria del Territorio
+Bot explica:
+Vamos a reconstruir un recuerdo del barrio con palabras. Escríbeme algo que recuerdes de un lugar importante para ti.
+Con esa memoria, generamos una imagen artística con IA para tu archivo personal o comunitario.
+
+CURSO INTRODUCTORIO A LA INTELIGENCIA ARTIFICIAL (IA) PARA NÚCLEO COLECTIVO
+
+Título completo: Inteligencia Artificial para la Creación Colectiva y el Arte ComunitarioDirigido a: personas creativas, artistas, educadorxs, colectivos, niños, jóvenes, vecinxs y curiosxs de Medellín y el mundo.Enfoque: práctico, accesible, basado en la colaboración, la sostenibilidad, el arte y la tecnología.
+
+🧩 ACTIVIDADES LÚDICAS Y DE APRENDIZAJE CON IA
+
+Estas actividades están diseñadas para ser guiadas por un chatbot o facilitador en espacios de formación, talleres o encuentros comunitarios. Tienen un enfoque participativo, creativo, experimental y pedagógico.
+
+🎲 1. IA en 3 Palabras
+
+Objetivo: Explorar el pensamiento creativo combinando lenguaje y generación visual.
+
+Dinámica:
+
+Cada participante escribe 3 palabras (por ejemplo: "árbol", "tecnología", "alegría").
+El chatbot o la facilitación las convierte en una descripción creativa para generar una imagen con IA.
+
+Resultado: una imagen generada desde lo emocional, simbólico o cotidiano del participante.
+
+🧠 2. ¿Real o Artificial?
+
+Objetivo: Aprender a distinguir la estética humana de la generada por IA y reflexionar sobre los límites de la tecnología.
+
+Dinámica:
+
+Mostrar imágenes, fragmentos de textos o audios. Preguntar: ¿Esto lo hizo una persona o una IA?
+Luego revelar la respuesta y conversar sobre por qué se pensó eso.
+
+Resultado: mayor comprensión del alcance de la IA y pensamiento crítico.
+
+✍️ 3. Cadáver Exquisito con IA
+
+Objetivo: Estimular la imaginación y la colaboración con la IA como co-autora.
+
+Dinámica:
+
+Un participante escribe una frase inicial. Otro la continúa. Luego el chatbot o IA completa una parte inesperada.
+
+Variantes: Puede hacerse solo con texto, o terminar con una imagen generada desde el texto final.
+
+🖼️ 4. Galería de Sueños
+
+Objetivo: Visualizar sueños personales o colectivos a través de arte generado con IA.
+
+Dinámica:
+
+El participante escribe un sueño, utopía o deseo: "Mi barrio tiene árboles que cantan".
+El bot genera una imagen y la guarda en una galería colectiva.
+
+Resultado: una exposición física o digital que refleje visiones del futuro desde la comunidad.
+
+🧭 5. Misión: Transformar un problema con IA
+
+Objetivo: Aplicar el pensamiento creativo con propósito social.
+
+Dinámica:
+
+El participante describe un problema real. Ej: "No hay espacios seguros para jugar".
+El bot propone 2 ideas de solución utilizando IA, arte y tecnología.
+
+Resultado: empoderamiento para pensar en clave de solución colectiva.
+
+🎭 6. Crea tu personaje IA
+
+Objetivo: Dar forma simbólica y narrativa a la relación con la IA.
+
+Dinámica:
+
+El participante inventa un personaje IA contestando:
+
+¿Cómo se llama?
+
+¿Qué sabe hacer?
+
+¿A quién ayuda?
+
+¿Cómo se comunica?
+
+Se puede dibujar o generar una imagen con IA.
+
+Resultado: personalización de la tecnología, vínculo lúdico y simbólico.
+
+💌 7. Cartas para el futuro
+
+Objetivo: Imaginar futuros posibles con ética y arte.
+
+Dinámica:
+
+El participante escribe un mensaje o carta para las personas del año 2050: "Espero que hayan usado la IA para cuidar la vida".
+El bot transforma el texto en imagen o poster y lo guarda en una cápsula digital del colectivo.
+
+Resultado: memoria colectiva de deseos y visiones para el futuro.
+
+🪞 8. Mi reflejo IA
+
+Objetivo: Explorar la identidad desde el arte digital.
+
+Dinámica:
+
+El participante se describe con palabras (o se toma una foto si desea).
+El bot devuelve una interpretación visual de su “reflejo IA”: estilo punk, ancestral, vegetal, etc.
+
+Resultado: autoexploración estética y diálogo entre arte manual e IA.
+
+🌀 9. Remix Poético con IA
+
+Objetivo: Jugar con la poesía y expandirla con tecnología.
+
+Dinámica:
+
+El participante escribe una frase poética. El bot la remezcla en 3 formatos:
+
+Haiku digital
+
+Verso urbano
+
+Letra de canción breve
+
+Resultado: experimentación literaria y sonora.
+
+🧱 10. IA y Memoria del Territorio
+
+Objetivo: Hacer visible lo invisible del territorio desde la memoria colectiva.
+
+Dinámica:
+
+El participante narra un recuerdo ligado a un lugar de su comunidad.
+El bot genera una imagen o collage IA que lo represente.
+
+Resultado: archivo visual-poético del territorio desde sus voces vivas.
+
+Estas actividades pueden adaptarse a entornos virtuales (chatbot, redes, aulas digitales) o físicos (talleres, encuentros, residencias).
+
+¿La IA como juego, como espejo, como compañera de creación?En Núcleo Colectivo, es todo eso… y más.

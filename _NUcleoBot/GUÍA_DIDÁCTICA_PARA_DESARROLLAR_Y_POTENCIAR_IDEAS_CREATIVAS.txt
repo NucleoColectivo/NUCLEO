@@ -1,0 +1,186 @@
+**Proyecto: Núcleo Colectivo**
+*Arte, tecnología, colaboración y transformación comunitaria desde Medellín.*
+
+---
+
+### ✨ INTRODUCCIÓN
+
+Esta guía está diseñada para acompañarte paso a paso en el proceso de imaginar, desarrollar y potenciar ideas creativas dentro del marco de Núcleo Colectivo, un proyecto que promueve la co-creación, el arte interdisciplinario, el intercambio de saberes y el uso de la tecnología como herramientas para la transformación social.
+
+Dirigida a artistas, colectivos, estudiantes, docentes, organizaciones comunitarias y ciudadanía activa, esta guía propone un viaje que integra inspiración, metodología, herramientas y ejercicios prácticos. Aquí encontrarás una estructura flexible y adaptable a distintos territorios, públicos y niveles de experiencia.
+
+---
+
+## 🎯 OBJETIVOS DE LA GUÍA
+
+1. Estimular el pensamiento creativo y colectivo desde una perspectiva interdisciplinaria.
+2. Brindar herramientas metodológicas para el diseño e implementación de proyectos comunitarios.
+3. Promover el uso consciente de la tecnología y la inteligencia artificial en procesos artísticos.
+4. Fortalecer capacidades de trabajo en red, liderazgo colaborativo y sostenibilidad cultural.
+5. Impulsar la co-creación como estrategia para el bienestar comunitario y la innovación social.
+
+---
+
+## 💡 EJE METODOLÓGICO
+
+**Conceptos clave:**
+Creatividad colaborativa • Innovación social • Conexión comunitaria • Inclusión cultural • Arte y tecnología • Intercambio de saberes • Reciclaje creativo • Educación alternativa • Bienestar comunitario • Diseño sostenible • Economía solidaria
+
+**Valores guía:**
+Empoderamiento colectivo, diversidad cultural, accesibilidad, sostenibilidad, pensamiento crítico, experimentación.
+
+**Principios pedagógicos:**
+
+* Aprender haciendo (DIY y DIWO: Do It With Others)
+* Educación expandida (arte como forma de aprender)
+* Tecnología accesible y significativa
+* Interculturalidad y equidad
+
+---
+
+## ✍️ FASES DEL DESARROLLO CREATIVO COLECTIVO
+
+### ➀ Inspirar: Conectar con la motivación
+
+* Pregúntense: “¿Qué nos duele, nos mueve o nos inspira a crear?”
+* Realicen una lluvia de ideas en colectivo.
+* Compartan referentes artísticos, sociales, tecnológicos.
+
+**Actividad:**
+
+> Ficha "Mapa de Inspiraciones": cada participante dibuja o escribe elementos que lo/a inspiran: lugares, personas, materiales, preguntas. Luego se comparte en ronda abierta.
+
+### ➁ Soñar: Visualizar posibilidades
+
+* Imaginen escenarios deseables: ¿Cómo sería un barrio con más arte? ¿Una ciudad que aprende jugando? ¿Un aula sin miedo?
+* Usen herramientas como IA para generar imágenes conceptuales (DALL-E, RunwayML).
+
+**Ejercicio grupal:**
+
+> "Collage de Futuro Colectivo": recorten, dibujen o editen imágenes que representen lo que quieren ver en sus comunidades. Usen materiales reciclados + IA.
+
+### ➂ Diseñar: Traducir ideas en proyectos
+
+* Definan el "por qué", "para quién" y "con quién" de la idea.
+* Identifiquen los recursos disponibles (saberes, herramientas, redes).
+* Prototipen: hagan pruebas pequeñas, no busquen perfección, sino aprendizaje.
+
+**Herramienta:**
+
+> "Ficha de Proyecto Vivo": nombre, propósito, actores, acciones, materiales, aliados, indicadores, etapas.
+
+### ➃ Activar: Pasar a la acción
+
+* Organicen un taller, una intervención, un prototipo.
+* Usen medios digitales y espacios físicos.
+* Documenten el proceso (foto, video, bitácora).
+
+**Actividad:**
+
+> Crear una cuenta común en Instagram o blog para mostrar el proceso. Centren el contenido en la historia, el error, la transformación.
+
+### ➄ Reflexionar: Aprender de la experiencia
+
+* ¿Qué funcionó bien? ¿Qué no? ¿Qué emociones aparecieron?
+* Evalúen impacto más allá de los números: relaciones creadas, aprendizajes, cambios sutiles.
+
+**Dinámica:**
+
+> "Rueda de Cierre": cada integrante comparte una palabra que resume su experiencia. Se registran en mural colectivo o bitácora.
+
+---
+
+## 🧪 EJERCICIOS PRÁCTICOS Y FICHAS DE TRABAJO
+
+**1. Ficha de Personaje Colectivo**
+
+* Nombre simbólico del colectivo
+* ¿Cuál es su voz?
+* ¿Qué le duele?
+* ¿Qué sueña?
+* ¿Cómo actúa?
+* ¿Con quién se relaciona?
+
+**2. Mapeo de Saberes y Recursos**
+
+* Lista de conocimientos presentes en el grupo
+* Herramientas, contactos, espacios accesibles
+* ¿Qué podemos intercambiar o prestar?
+
+**3. Laboratorio de Fracasos Creativos**
+
+* ¿Qué intentamos y no salió?
+* ¿Qué nos enseñó?
+* ¿Qué podemos intentar distinto?
+
+**4. Bitácora de Co-Creación**
+
+* Registro libre y visual de cada encuentro.
+* Ideal para talleres escolares, procesos comunitarios o residencias artísticas.
+
+**5. Mapa de Conexiones Comunitarias**
+
+* ¿Qué actores ya existen en el territorio?
+* ¿Qué organizaciones podemos invitar?
+* ¿Qué alianzas pueden nutrir nuestra propuesta?
+
+**6. Reto Creativo Aleatorio**
+
+* Tomen 1 concepto, 1 acción, 1 desafío y 1 contexto del juego "Sinergia de Tejidos"
+* Inventen un proyecto que los una.
+
+---
+
+## 🧭 ESCENARIOS DE APLICACIÓN
+
+* Talleres de arte comunitario
+* Proyectos de intervención urbana
+* Aulas escolares y universidades
+* Colectivos barriales o rurales
+* Hackatones culturales
+* Museos, bibliotecas y casas de cultura
+* Procesos de mediación artística
+* Ferias de creación e innovación
+
+---
+
+## 📌 DESAFÍOS Y POSIBLES RESPUESTAS
+
+| Desafío                      | Estrategia sugerida                                      |
+| ---------------------------- | -------------------------------------------------------- |
+| Falta de recursos            | Intercambio, trueque, alianzas, prototipos low-cost      |
+| Desinterés comunitario       | Escucha activa, cocreación, arte como diálogo            |
+| Barrera tecnológica          | Tecnología libre, accesible, acompañamiento horizontal   |
+| Desigualdad económica        | Economía solidaria, redes locales, ferias compartidas    |
+| Dificultades de comunicación | Mediadores culturales, herramientas visuales             |
+| Falta de apoyo institucional | Colectivos en red, autogestión con respaldo de comunidad |
+
+---
+
+## 📚 RECURSOS DIGITALES RECOMENDADOS
+
+* [https://runwayml.com](https://runwayml.com) → IA para video y diseño
+* [https://openprocessing.org](https://openprocessing.org) → Programación creativa con p5.js
+* [https://tacticaltech.org](https://tacticaltech.org) → Tecnología crítica y ciudadanía
+* [https://ncase.me/](https://ncase.me/) → Juegos interactivos educativos
+* [https://github.com/ml5js/ml5-library](https://github.com/ml5js/ml5-library) → IA accesible para creadores
+* [https://www.fair.coop/](https://www.fair.coop/) → Economía solidaria y monedas sociales
+
+---
+
+## 🎨 MANIFIESTO DE NÚCLEO COLECTIVO
+
+* Creamos en comunidad.
+* Escuchamos más de lo que explicamos.
+* Fallar es parte del proceso.
+* Toda persona tiene algo que enseñar.
+* La tecnología es una herramienta, no un fin.
+* Cuidamos lo común.
+* Lo colectivo no solo se nombra: se vive.
+* Soñamos con una Medellín creativa, diversa y viva.
+
+---
+
+**Núcleo Colectivo es una invitación constante a crear en red, desde el corazón y con los pies en el territorio.**
+
+**¡Activa tu idea, tráela al núcleo y construyamos juntxs!**

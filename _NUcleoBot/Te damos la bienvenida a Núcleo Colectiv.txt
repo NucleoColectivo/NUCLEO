@@ -1,0 +1,66 @@
+﻿Te damos la bienvenida a Núcleo Colectivo,  
+un Proyecto Productivo y Reto Tecnológico  
+que nace con un propósito claro:  
+Crear un espacio digital para la colaboración, la transformación social y la construcción colectiva en Medellín.
+
+
+Este proyecto surge como respuesta a la necesidad de visibilizar, conectar y potenciar iniciativas ciudadanas, artísticas, sociales y tecnológicas.  
+Núcleo Colectivo es más que una página web:  
+
+
+Es un punto de encuentro entre personas, ideas y herramientas que buscan generar impacto real en sus comunidades.
+
+
+La plataforma web ha sido diseñada para ser accesible, intuitiva y atractiva.  
+En ella podrás encontrar información clara sobre los objetivos del proyecto,  
+una sección 'Nosotros' que narra su origen y visión,  
+un carrusel visual que ilustra nuestro recorrido,  
+y espacios pensados para la participación activa.
+
+
+Uno de los elementos más innovadores del proyecto es el chatbot inteligente, NúcleoBot.  
+Este asistente virtual funciona como una guía interactiva dentro del sitio web, y es mucho más que un simple bot de preguntas frecuentes.  
+NúcleoBot ha sido diseñado con inteligencia artificial para acompañar, inspirar y motivar a los usuarios a explorar su creatividad y desarrollar ideas.
+
+
+Entre sus funciones principales, NúcleoBot puede responder preguntas sobre inteligencia artificial, tecnología, diseño, emprendimiento social y herramientas digitales.  
+Pero además, propone dinámicas divertidas y educativas.  
+Por ejemplo, puede invitarte a crear un cuento a partir de tres palabras al azar que tú elijas, ayudarte a construir personajes para una historia, o incluso inventar un diálogo entre una abeja y un robot para estimular la imaginación.
+
+
+También propone retos creativos como: “Inventa una solución para mejorar tu barrio con tecnología”, o “Diseña un objeto imposible con materiales reciclados”.  
+Estas dinámicas no solo entretienen, sino que fomentan el pensamiento crítico y el trabajo colaborativo.
+
+
+Además, NúcleoBot tiene la capacidad de ayudarte a estructurar un proyecto paso a paso.  
+Puede hacerte preguntas clave como: “¿Qué problema quieres resolver?”, “¿A quién beneficia tu idea?”, “¿Qué recursos necesitas?”, y con base en tus respuestas, te orienta para que puedas organizar mejor tus ideas.  
+También puede ayudarte a definir objetivos, buscar referentes, o incluso redactar un pequeño resumen para presentar tu propuesta.
+
+
+Esto convierte al chatbot en una herramienta pedagógica poderosa, ideal para estudiantes, colectivos, emprendedores o cualquier persona con una idea en mente.
+
+
+NúcleoBot no reemplaza el pensamiento humano, pero sí lo acompaña, lo impulsa y lo enriquece.  
+Es un aliado que convierte la curiosidad en acción, y la inspiración en proceso.
+
+
+A lo largo del desarrollo del proyecto se aplicaron conocimientos de diseño web, accesibilidad, inteligencia artificial y estrategia comunicativa.  
+Todo con una intención pedagógica: aprender haciendo y compartir el proceso con otros.
+
+
+Además, Núcleo Colectivo está pensado como un laboratorio en constante evolución.  
+La plataforma no es un producto terminado, sino un espacio vivo que se irá adaptando a nuevas ideas, voces y necesidades.  
+Invitamos a creadores, colectivos, estudiantes, vecinos y soñadores a ser parte activa de este experimento social y digital.
+
+
+El impacto esperado incluye la apropiación de tecnologías abiertas, el fortalecimiento del tejido social, y el surgimiento de nuevas redes colaborativas que apuesten por el cambio desde lo local.
+
+
+
+
+Núcleo Colectivo no solo es una herramienta digital:  
+es una invitación a creer en el poder de lo colectivo,  
+a sumar fuerzas y a imaginar un futuro donde la tecnología esté al servicio de las personas.
+
+
+Gracias por hacer parte de este viaje
