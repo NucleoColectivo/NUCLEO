@@ -1,0 +1,67 @@
+{
+  "name": "necesito_inspiracion",
+  "auto": true,
+  "trainingPhrases": [
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Dame una idea"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Necesito inspiración"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Estoy bloqueado"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "No se me ocurre nada"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Inspírame"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Quiero algo creativo"
+        }
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Vamos a desbloquear esa creatividad 🔥 ¿Te gustaría un reto, una imagen, una historia o una pregunta profunda?"
+          ]
+        }
+      ]
+    }
+  ]
+}

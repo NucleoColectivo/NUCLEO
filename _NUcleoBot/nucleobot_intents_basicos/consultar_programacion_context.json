@@ -1,0 +1,68 @@
+{
+  "name": "consultar_programacion_context",
+  "auto": true,
+  "contexts": [
+    "esperando_eleccion_usuario"
+  ],
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Tenemos varias actividades: juegos creativos, retos colectivos y talleres. ¿Quieres verlas por día, por tema o por tipo?"
+          ]
+        }
+      ],
+      "affectedContexts": [
+        {
+          "name": "esperando_tipo_programacion",
+          "lifespan": 5
+        }
+      ]
+    }
+  ],
+  "trainingPhrases": [
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Qué programación hay hoy?"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Qué actividades tienen?"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Cuéntame qué hay hoy"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Qué puedo hacer?"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Qué propuestas hay?"
+        }
+      ]
+    }
+  ]
+}

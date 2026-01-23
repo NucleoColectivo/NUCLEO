@@ -1,0 +1,67 @@
+{
+  "name": "crear_una_historia",
+  "auto": true,
+  "trainingPhrases": [
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Quiero escribir un cuento"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Vamos a inventar una historia"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Hagamos un relato"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Crear un poema"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Relato colectivo"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Podemos contar algo?"
+        }
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Claro, ¿prefieres un cuento fantástico, un poema urbano o una historia real? También podemos hacerlo entre los dos 😄"
+          ]
+        }
+      ]
+    }
+  ]
+}

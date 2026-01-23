@@ -1,0 +1,71 @@
+{
+  "name": "filtrar_programacion_por_tema",
+  "auto": true,
+  "contexts": [
+    "esperando_tipo_programacion"
+  ],
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Perfecto. Estos son algunos temas: arte, tecnología, medio ambiente, comunidad. ¿Cuál te interesa?"
+          ]
+        }
+      ],
+      "affectedContexts": []
+    }
+  ],
+  "trainingPhrases": [
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Por tema"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Muéstrame por temas"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Arte y cultura"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Tecnología"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Ambiente"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Comunidad"
+        }
+      ]
+    }
+  ]
+}

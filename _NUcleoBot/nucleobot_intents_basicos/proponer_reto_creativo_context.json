@@ -1,0 +1,60 @@
+{
+  "name": "proponer_reto_creativo_context",
+  "auto": true,
+  "contexts": [
+    "esperando_eleccion_usuario"
+  ],
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "¿Prefieres un dibujo rápido, un poema loco o una historia con emojis?"
+          ]
+        }
+      ],
+      "affectedContexts": [
+        {
+          "name": "esperando_reto_creativo",
+          "lifespan": 5
+        }
+      ]
+    }
+  ],
+  "trainingPhrases": [
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Tienes un reto creativo?"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Lánzame una idea"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Proponme un juego"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Desafíame con algo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+Diccionario Paisa - Núcleobot (Versión base: 500 palabras ampliadas)
+
+============================================================
+
+1. A la orden
+
+   Tipo: Expresión
+
+   Definición: Fórmula de cortesía muy común para ofrecer ayuda o servicios.
+
+   Ejemplo: ¿Necesita algo? ¡A la orden, pues!
+
+   Nivel de uso: Muy común
+
+   Tono: Formal
+
+
+2. Bacano
+
+   Tipo: Adjetivo
+
+   Definición: Algo muy bueno, agradable o admirable.
+
+   Ejemplo: Ese parche estuvo bacano, ¿no?
+
+   Nivel de uso: Muy común
+
+   Tono: Amistoso
+
+
+3. Charro
+
+   Tipo: Adjetivo
+
+   Definición: Gracioso o chistoso, que provoca risa.
+
+   Ejemplo: Ese man es muy charro contando historias.
+
+   Nivel de uso: Muy común
+
+   Tono: Chistoso
+
+
+4. Cucha
+
+   Tipo: Sustantivo
+
+   Definición: Forma informal y afectiva de referirse a la mamá.
+
+   Ejemplo: Mi cucha hace las mejores arepas.
+
+   Nivel de uso: Muy común
+
+   Tono: Amistoso
+
+
+5. Emberracado
+
+   Tipo: Adjetivo
+
+   Definición: Estar muy enojado o furioso.
+
+   Ejemplo: Quedó emberracado por lo que le dijeron.
+
+   Nivel de uso: Muy común
+
+   Tono: Vulgar
+
+
+6. Fresquear
+
+   Tipo: Verbo
+
+   Definición: Estar relajado, sin preocupación.
+
+   Ejemplo: Fresqueate, todo va a salir bien.
+
+   Nivel de uso: Común
+
+   Tono: Amistoso
+
+
+7. Gonorrea
+
+   Tipo: Sustantivo/Adjetivo
+
+   Definición: Insulto fuerte, también se usa para impresionar (según el contexto).
+
+   Ejemplo: ¡Qué gonorrea esa historia!
+
+   Nivel de uso: Muy común
+
+   Tono: Vulgar
+
+
+8. Jincho
+
+   Tipo: Adjetivo
+
+   Definición: Borracho o tomado.
+
+   Ejemplo: Llegó jincho de la fiesta.
+
+   Nivel de uso: Común
+
+   Tono: Chistoso
+
+
+9. Lambón
+
+   Tipo: Sustantivo
+
+   Definición: Persona que adula excesivamente para obtener favores.
+
+   Ejemplo: Ese lambón siempre le lleva café al jefe.
+
+   Nivel de uso: Común
+
+   Tono: Despectivo
+
+
+10. Parcero
+
+   Tipo: Sustantivo
+
+   Definición: Amigo o compañero, usado afectuosamente.
+
+   Ejemplo: ¡Qué más, parcero! ¿Todo bien o qué?
+
+   Nivel de uso: Muy común
+
+   Tono: Amistoso
+
+
+
+Expresiones típicas por emoción
+
+============================================================
+
+Alegría:
+
+- ¡Qué chimba!
+- ¡Eso está una verraquera!
+- ¡Nos vamos de rumba, pues!
+- ¡Uy, qué nota!
+
+Rabia:
+
+- ¡Qué mamera tan hijuemadre!
+- Estoy emberracado con ese man.
+- ¡No me haga perder el año!
+- ¡Eso sí es una gonorrada!
+
+Amor:
+
+- Esa cucha me tiene loquito.
+- Te quiero más que a la bandeja paisa.
+- Usted es una chimba de persona.
+- Me tiene tragao, parce.
+
+Miedo:
+
+- ¡Ay marica, qué susto!
+- Eso está más oscuro que la conciencia de un político.
+- ¡No jodás, vámonos de aquí!
+- Tengo un yeyo que no me aguanto.

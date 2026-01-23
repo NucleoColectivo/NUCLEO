@@ -1,0 +1,68 @@
+{
+  "name": "quiero_participar_context",
+  "auto": true,
+  "contexts": [
+    "esperando_eleccion_usuario"
+  ],
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "¡Genial que quieras participar! ¿Te gustaría unirte como artista, comunicador, facilitador u otra forma? Dímelo y te oriento."
+          ]
+        }
+      ],
+      "affectedContexts": [
+        {
+          "name": "esperando_rol_usuario",
+          "lifespan": 5
+        }
+      ]
+    }
+  ],
+  "trainingPhrases": [
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Quiero participar"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Puedo unirme?"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Dónde me inscribo?"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Me interesa ser parte"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Cómo colaboro?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "consultar_programacion",
+  "auto": true,
+  "trainingPhrases": [
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Qué programación hay?"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Qué actividades tienen?"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Cuéntame qué hay hoy"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Qué puedo hacer?"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Qué eventos tienen?"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Qué propuestas hay?"
+        }
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Tenemos varias actividades disponibles: juegos creativos, retos colectivos, talleres y más. ¿Te gustaría ver la programación de esta semana o explorar por tema?"
+          ]
+        }
+      ]
+    }
+  ]
+}

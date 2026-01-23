@@ -1,0 +1,148 @@
+{
+  "name": "concepto",
+  "isOverridable": true,
+  "isEnum": true,
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "Creatividad Colaborativa",
+      "synonyms": [
+        "creatividad",
+        "colaboración creativa"
+      ]
+    },
+    {
+      "value": "Innovación Social",
+      "synonyms": [
+        "innovación",
+        "impacto social"
+      ]
+    },
+    {
+      "value": "Conexión Comunitaria",
+      "synonyms": [
+        "comunidad",
+        "redes comunitarias"
+      ]
+    },
+    {
+      "value": "Inclusión Cultural",
+      "synonyms": [
+        "diversidad",
+        "expresiones culturales"
+      ]
+    },
+    {
+      "value": "Empoderamiento Colectivo",
+      "synonyms": [
+        "empoderamiento",
+        "decisión colectiva"
+      ]
+    },
+    {
+      "value": "Sostenibilidad Artesanal",
+      "synonyms": [
+        "artesanal",
+        "sostenible"
+      ]
+    },
+    {
+      "value": "Intercambio de Saberes",
+      "synonyms": [
+        "saberes",
+        "conocimiento colectivo"
+      ]
+    },
+    {
+      "value": "Arte y Tecnología",
+      "synonyms": [
+        "arte digital",
+        "tecnología creativa"
+      ]
+    },
+    {
+      "value": "Reciclaje Creativo",
+      "synonyms": [
+        "reciclaje",
+        "reutilización creativa"
+      ]
+    },
+    {
+      "value": "Trabajo en Red",
+      "synonyms": [
+        "colaboración",
+        "alianzas"
+      ]
+    },
+    {
+      "value": "Desarrollo Local",
+      "synonyms": [
+        "comunidad local",
+        "crecimiento local"
+      ]
+    },
+    {
+      "value": "Diversidad Cultural",
+      "synonyms": [
+        "culturas",
+        "perspectivas diversas"
+      ]
+    },
+    {
+      "value": "Arte Participativo",
+      "synonyms": [
+        "participación artística",
+        "arte comunitario"
+      ]
+    },
+    {
+      "value": "Desafíos Ambientales",
+      "synonyms": [
+        "medio ambiente",
+        "problemas ecológicos"
+      ]
+    },
+    {
+      "value": "Economía Solidaria",
+      "synonyms": [
+        "economía alternativa",
+        "cooperación económica"
+      ]
+    },
+    {
+      "value": "Cultura Compartida",
+      "synonyms": [
+        "valores compartidos",
+        "tradiciones comunes"
+      ]
+    },
+    {
+      "value": "Educación Alternativa",
+      "synonyms": [
+        "pedagogía alternativa",
+        "educación diferente"
+      ]
+    },
+    {
+      "value": "Bienestar Comunitario",
+      "synonyms": [
+        "bienestar",
+        "salud colectiva"
+      ]
+    },
+    {
+      "value": "Diseño Sostenible",
+      "synonyms": [
+        "ecodiseño",
+        "diseño ecológico"
+      ]
+    },
+    {
+      "value": "Tecnología Accesible",
+      "synonyms": [
+        "tecnología inclusiva",
+        "tecnología para todos"
+      ]
+    }
+  ]
+}

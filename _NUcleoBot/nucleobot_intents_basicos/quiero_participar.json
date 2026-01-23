@@ -1,0 +1,67 @@
+{
+  "name": "quiero_participar",
+  "auto": true,
+  "trainingPhrases": [
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Quiero participar"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Puedo unirme?"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Dónde me inscribo?"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Me interesa ser parte"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Cómo colaboro?"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Sumarme al grupo"
+        }
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "¡Genial que quieras participar! ¿Te gustaría unirte como artista, comunicador, facilitador u otra forma? También puedes contarme tus intereses y te ayudo a empezar."
+          ]
+        }
+      ]
+    }
+  ]
+}

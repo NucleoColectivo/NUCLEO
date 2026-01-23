@@ -1,0 +1,60 @@
+{
+  "name": "crear_historia_juntos_context",
+  "auto": true,
+  "contexts": [
+    "esperando_eleccion_usuario"
+  ],
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "Empecemos una historia en cadena. Yo arranco: ‘Una vez en un barrio lleno de colores...’ ¡Sigue tú!"
+          ]
+        }
+      ],
+      "affectedContexts": [
+        {
+          "name": "en_historia",
+          "lifespan": 5
+        }
+      ]
+    }
+  ],
+  "trainingPhrases": [
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Contemos una historia"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Relato en grupo"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Cadáver exquisito"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Historia colaborativa"
+        }
+      ]
+    }
+  ]
+}

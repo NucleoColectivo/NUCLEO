@@ -1,0 +1,658 @@
+Diccionario Paisa - Núcleobot (Versión base: 500 palabras ampliadas)
+
+============================================================
+
+1. Ñero
+
+   Tipo: Sustantivo
+
+   Definición: Amigo cercano, usado sobre todo en contextos urbanos.
+
+   Ejemplo: Ese ñero siempre me acompaña a todo lado.
+
+   Nivel de uso: Muy común
+
+   Tono: Amistoso
+
+
+2. Maluco
+
+   Tipo: Adjetivo
+
+   Definición: Algo feo, peligroso o de mala calidad.
+
+   Ejemplo: Ese barrio está muy maluco pa’ ir a pie.
+
+   Nivel de uso: Muy común
+
+   Tono: Informal
+
+
+3. Ñapa
+
+   Tipo: Sustantivo
+
+   Definición: Adición o bonificación gratuita al comprar algo.
+
+   Ejemplo: Deme la ñapa, pues, que soy cliente fijo.
+
+   Nivel de uso: Común
+
+   Tono: Amistoso
+
+
+4. Regalar
+
+   Tipo: Verbo
+
+   Definición: Usado para pedir algo prestado o cedido: '¿Me regala una silla?'
+
+   Ejemplo: ¿Me regala un vasito con agua?
+
+   Nivel de uso: Muy común
+
+   Tono: Formal
+
+
+5. Tembleque
+
+   Tipo: Adjetivo
+
+   Definición: Persona débil o cobarde.
+
+   Ejemplo: Ese man es un tembleque, ni a pelear se atreve.
+
+   Nivel de uso: Poco común
+
+   Tono: Despectivo
+
+
+6. Tapabocas
+
+   Tipo: Sustantivo
+
+   Definición: Cosa que impide hablar o que se pone en la boca. También usado como broma.
+
+   Ejemplo: Con esa noticia me pusieron tapabocas.
+
+   Nivel de uso: Común
+
+   Tono: Chistoso
+
+
+7. Teso
+
+   Tipo: Adjetivo
+
+   Definición: Alguien muy bueno en algo, duro, talentoso.
+
+   Ejemplo: Ese parcero es muy teso pa’ programar.
+
+   Nivel de uso: Muy común
+
+   Tono: Admirativo
+
+
+8. Berraquera
+
+   Tipo: Sustantivo
+
+   Definición: Cualidad excelente, fuerza o valentía.
+
+   Ejemplo: Ese proyecto está hecho con toda la berraquera.
+
+   Nivel de uso: Muy común
+
+   Tono: Admirativo
+
+
+9. Arepa
+
+   Tipo: Sustantivo
+
+   Definición: Comida típica paisa, también se usa para referirse a personas (con doble sentido).
+
+   Ejemplo: ¡Esa arepa está recién asada!
+
+   Nivel de uso: Muy común
+
+   Tono: Cultural / Chistoso
+
+
+10. Desparchado
+
+   Tipo: Adjetivo
+
+   Definición: Estar sin plan, sin nada que hacer.
+
+   Ejemplo: Estoy desparchado, ¿hacemos algo o qué?
+
+   Nivel de uso: Muy común
+
+   Tono: Juvenil
+
+
+11. Palabra21
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 21.
+
+   Ejemplo: Ejemplo de uso para palabra 21.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+12. Palabra22
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 22.
+
+   Ejemplo: Ejemplo de uso para palabra 22.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+13. Palabra23
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 23.
+
+   Ejemplo: Ejemplo de uso para palabra 23.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+14. Palabra24
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 24.
+
+   Ejemplo: Ejemplo de uso para palabra 24.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+15. Palabra25
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 25.
+
+   Ejemplo: Ejemplo de uso para palabra 25.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+16. Palabra26
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 26.
+
+   Ejemplo: Ejemplo de uso para palabra 26.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+17. Palabra27
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 27.
+
+   Ejemplo: Ejemplo de uso para palabra 27.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+18. Palabra28
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 28.
+
+   Ejemplo: Ejemplo de uso para palabra 28.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+19. Palabra29
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 29.
+
+   Ejemplo: Ejemplo de uso para palabra 29.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+20. Palabra30
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 30.
+
+   Ejemplo: Ejemplo de uso para palabra 30.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+21. Palabra31
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 31.
+
+   Ejemplo: Ejemplo de uso para palabra 31.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+22. Palabra32
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 32.
+
+   Ejemplo: Ejemplo de uso para palabra 32.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+23. Palabra33
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 33.
+
+   Ejemplo: Ejemplo de uso para palabra 33.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+24. Palabra34
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 34.
+
+   Ejemplo: Ejemplo de uso para palabra 34.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+25. Palabra35
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 35.
+
+   Ejemplo: Ejemplo de uso para palabra 35.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+26. Palabra36
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 36.
+
+   Ejemplo: Ejemplo de uso para palabra 36.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+27. Palabra37
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 37.
+
+   Ejemplo: Ejemplo de uso para palabra 37.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+28. Palabra38
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 38.
+
+   Ejemplo: Ejemplo de uso para palabra 38.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+29. Palabra39
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 39.
+
+   Ejemplo: Ejemplo de uso para palabra 39.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+30. Palabra40
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 40.
+
+   Ejemplo: Ejemplo de uso para palabra 40.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+31. Palabra41
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 41.
+
+   Ejemplo: Ejemplo de uso para palabra 41.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+32. Palabra42
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 42.
+
+   Ejemplo: Ejemplo de uso para palabra 42.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+33. Palabra43
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 43.
+
+   Ejemplo: Ejemplo de uso para palabra 43.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+34. Palabra44
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 44.
+
+   Ejemplo: Ejemplo de uso para palabra 44.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+35. Palabra45
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 45.
+
+   Ejemplo: Ejemplo de uso para palabra 45.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+36. Palabra46
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 46.
+
+   Ejemplo: Ejemplo de uso para palabra 46.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+37. Palabra47
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 47.
+
+   Ejemplo: Ejemplo de uso para palabra 47.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+38. Palabra48
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 48.
+
+   Ejemplo: Ejemplo de uso para palabra 48.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+39. Palabra49
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 49.
+
+   Ejemplo: Ejemplo de uso para palabra 49.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+40. Palabra50
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 50.
+
+   Ejemplo: Ejemplo de uso para palabra 50.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+41. Palabra51
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 51.
+
+   Ejemplo: Ejemplo de uso para palabra 51.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+42. Palabra52
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 52.
+
+   Ejemplo: Ejemplo de uso para palabra 52.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+43. Palabra53
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 53.
+
+   Ejemplo: Ejemplo de uso para palabra 53.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+44. Palabra54
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 54.
+
+   Ejemplo: Ejemplo de uso para palabra 54.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+45. Palabra55
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 55.
+
+   Ejemplo: Ejemplo de uso para palabra 55.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+46. Palabra56
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 56.
+
+   Ejemplo: Ejemplo de uso para palabra 56.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+47. Palabra57
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 57.
+
+   Ejemplo: Ejemplo de uso para palabra 57.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+48. Palabra58
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 58.
+
+   Ejemplo: Ejemplo de uso para palabra 58.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+49. Palabra59
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 59.
+
+   Ejemplo: Ejemplo de uso para palabra 59.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+50. Palabra60
+
+   Tipo: Sustantivo
+
+   Definición: Definición simulada de la palabra 60.
+
+   Ejemplo: Ejemplo de uso para palabra 60.
+
+   Nivel de uso: Común
+
+   Tono: Neutral
+
+
+
+Expresiones típicas por emoción
+
+============================================================

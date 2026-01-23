@@ -1,0 +1,77 @@
+{
+  "bot_name": "Núcleo Colectivo",
+  "greeting": "¡Hola! Soy NúcleoBot, el asistente virtual de Núcleo Colectivo. Estoy aquí para contarte todo sobre nuestras actividades, talleres, eventos y cómo puedes ser parte de esta comunidad creativa en Medellín. ¿Qué te gustaría saber hoy?",
+  "fallback": "Lo siento, no entendí tu mensaje. ¿Puedes reformularlo o elegir una de estas opciones: talleres, eventos, unirme, contacto?",
+  "intents": [
+    {
+      "tag": "unirme",
+      "patterns": [
+        "Quiero ser parte",
+        "Unirme al colectivo",
+        "¿Cómo participo?",
+        "convocatoria"
+      ],
+      "responses": [
+        "¡Qué alegría saber que quieres sumarte!\nNúcleo Colectivo es una red viva de artistas, programadorxs, gestoras, artesanos, tecnólogxs y soñadorxs que construimos juntxs un espacio de creación y transformación.\n\nAbrimos convocatorias periódicas para integrar nuevos miembros, proponer talleres, crear intervenciones o simplemente participar como colaborador/a.\n\nPuedes dejarnos tus datos en este formulario:\n🔗 [formulario de membresía]\n\nPronto nos pondremos en contacto contigo. ¡Gracias por tu energía!"
+      ]
+    },
+    {
+      "tag": "eventos",
+      "patterns": [
+        "¿Tienen eventos?",
+        "Próximos eventos",
+        "Exposiciones",
+        "¿Qué hay esta semana?"
+      ],
+      "responses": [
+        "¡Sí! En Núcleo siempre estamos cocinando algo nuevo.\n\nRealizamos talleres abiertos, ferias de arte, charlas, laboratorios, exposiciones y también intervenciones urbanas en diferentes espacios de Medellín.\n\nPuedes ver el calendario actualizado en nuestras redes o revisar los próximos eventos aquí:\n📆 🔗 [enlace al calendario]"
+      ]
+    },
+    {
+      "tag": "quienes_somos",
+      "patterns": [
+        "¿Quiénes son?",
+        "¿Qué es Núcleo Colectivo?",
+        "¿Qué hacen?"
+      ],
+      "responses": [
+        "Núcleo Colectivo es un espacio cultural y social donde la comunidad se encuentra para crear, aprender y transformar realidades.\n\nAquí se cruzan el arte, la tecnología, la programación creativa, la inteligencia artificial, el reciclaje, el muralismo, la música, y sobre todo… las personas.\n\nConoce más sobre nuestra visión y actividades aquí:\n🔗 [enlace a web o presentación PDF]"
+      ]
+    },
+    {
+      "tag": "contacto",
+      "patterns": [
+        "Quiero hablar con alguien",
+        "Contacto",
+        "Atención",
+        "Hablar con el equipo"
+      ],
+      "responses": [
+        "¡Claro! Estamos aquí para escucharte.\n\nPuedes escribirnos directamente por WhatsApp haciendo clic aquí:\n📱 [número o enlace directo]\n\nO si prefieres, déjame tu nombre y mensaje por este chat y alguien de nuestro equipo se pondrá en contacto contigo lo más pronto posible."
+      ]
+    },
+    {
+      "tag": "ia",
+      "patterns": [
+        "IA",
+        "inteligencia artificial",
+        "qué hacen con IA"
+      ],
+      "responses": [
+        "¡Nos encanta esta pregunta!\n\nEn Núcleo exploramos la inteligencia artificial como una herramienta artística y social. Ofrecemos talleres introductorios donde usamos tecnologías como p5.js, RunwayML y generadores de imágenes y música con IA.\n\n¿Quieres participar en uno de estos talleres? Escríbeme y te envío más info."
+      ]
+    },
+    {
+      "tag": "economia_solidaria",
+      "patterns": [
+        "venden arte",
+        "ferias",
+        "economía solidaria",
+        "productos"
+      ],
+      "responses": [
+        "Sí, promovemos una economía creativa y solidaria.\n\nOrganizamos ferias de arte y diseño donde artistas y emprendedores locales pueden exponer y vender su trabajo.\n\n¿Te interesa participar o saber cuándo es la próxima feria?"
+      ]
+    }
+  ]
+}

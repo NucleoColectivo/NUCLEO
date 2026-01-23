@@ -1,0 +1,67 @@
+{
+  "name": "saludo_inicial",
+  "auto": true,
+  "trainingPhrases": [
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Hola"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Buenas"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "Hola, ¿quién eres?"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Qué es NúcleoBot?"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Me puedes ayudar?"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "parts": [
+        {
+          "text": "¿Con quién hablo?"
+        }
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": [
+            "¡Hola! Soy NúcleoBot, tu compañero digital en este viaje creativo. ¿Te gustaría jugar, aprender o crear algo juntos?"
+          ]
+        }
+      ]
+    }
+  ]
+}
