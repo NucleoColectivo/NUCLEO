@@ -1,3 +1,4 @@
+
 // --- CONFIGURACIÓN DE RUTAS GITHUB (AUDIO E IMAGEN) ---
 export const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/NucleoColectivo/NUCLEO/main/RADIO/audio/";
 export const GITHUB_IMG_BASE = "https://raw.githubusercontent.com/NucleoColectivo/NUCLEO/main/imagen/";
@@ -21,7 +22,6 @@ export const PODCAST_DATA = {
   ]
 };
 
-
 // --- CONFIGURACIÓN DJ AUTOMÁTICO & BIENVENIDA ---
 export const WELCOME_FILENAME = "t2a_¡Bienvenid_20250608_072417.mp3";
 export const WELCOME_DJ_URL = `${GITHUB_RAW_BASE}${encodeURIComponent(WELCOME_FILENAME)}`;
@@ -33,7 +33,8 @@ export const DJ_MESSAGES = [
   `${GITHUB_RAW_BASE}mensaje_comunidad.mp3`
 ];
 
-export const DJ_INTERVAL_MINUTES = 3; 
+// INTERVALO OPTIMIZADO PARA FREE TIER (Plan Spark)
+export const DJ_INTERVAL_MINUTES = 20; 
 
 // --- COLORES DE MARCA ---
 export const BRAND = {
@@ -109,13 +110,17 @@ export const ARTISTS = [
         { url: 'https://manuelpalacioart.wordpress.com/diseno-grafico/', label: 'artists.manuel.websites.graphic_design' },
         { url: 'https://artemanuelpalacio.wordpress.com/grupos-de-investigacion-y-colectivos/', label: 'artists.manuel.websites.collectives' },
         { url: 'https://artemanuelpalacio.wordpress.com/proyectos/proyecto-micro-experimentalista/', label: 'artists.manuel.websites.projects' },
+        { url: 'https://sinergiadetejidos.wixsite.com/sinergia-de-tejidos', label: 'artists.manuel.websites.sinergia_web' },
+        { url: 'https://www.instagram.com/sinergia_de_tejidos/', label: 'artists.manuel.websites.sinergia_ig' },
+        { url: 'https://alephexperimental.wordpress.com/', label: 'artists.manuel.websites.aleph_experimental' },
+        { url: 'https://siitne.wordpress.com/', label: 'artists.manuel.websites.siitne_web' },
       ],
       facebook: 'https://www.facebook.com/manuelpalacio',
-      tiktok: 'https://www.tiktok.com/@manuel.palacio63?lang=es-419',
       whatsapp: 'https://wa.me/573006101221',
       youtube: [
         { url: 'https://www.youtube.com/watch?v=fHgvh093Kfs', label: 'artists.manuel.youtube.audiovisual_performance' },
         { url: 'https://www.youtube.com/watch?v=nV3TJoi3Ax0', label: 'artists.manuel.youtube.experimental_videoart' },
+        { url: 'https://www.youtube.com/@SemilleroSIITNE', label: 'artists.manuel.youtube.siitne' },
       ],
     },
     avatar: `${GITHUB_IMG_BASE}Manuel.png`,
@@ -128,8 +133,10 @@ export const ARTISTS = [
     social: {
       instagram: [
         'https://www.instagram.com/carlos.londor/',
-        'https://www.instagram.com/medellin.distopico/',
-        'https://www.instagram.com/ensayos.sobreelcuerpo/'
+        'https://www.instagram.com/medellin.distopico/'
+      ],
+      websites: [
+        { url: 'https://drive.google.com/drive/folders/1kdogixH10kU_9GaFjWUcHNfpNwcamdIL', label: 'artists.carlos.websites.drive_ia' }
       ],
       facebook: 'https://www.facebook.com/carlos.a.londono.77',
       whatsapp: 'https://wa.me/573196242779'
@@ -142,7 +149,7 @@ export const ARTISTS = [
     slug: 'maria-cecilia-castano',
     location: "Medellín, Colombia",
     social: {
-      linkedin: 'https://www.linkedin.com/in/mar%C3%ADa-cecilia-casta%C3%B1o-95479164/?originalSubdomain=co',
+      linkedin: 'https://www.linkedin.com/in/mar%C3%ADa-cecilia-casta%C3%B1o-95479164/',
       whatsapp: 'https://wa.me/573024573122',
     },
     avatar: 'https://raw.githubusercontent.com/NucleoColectivo/NUCLEO/main/MARIA%20CECILIA/maria5.png',
@@ -331,7 +338,7 @@ export const PROJECTS = [
         `${GITHUB_IMG_BASE}KINEFONIA_1.png`,
         `${GITHUB_IMG_BASE}KINEFON%C3%8DA_2.png`
       ],
-      externalUrl: 'https://studio--studio-1950432667-4c514.us-central1.hosted.app/'
+      externalUrl: 'https://kinefonia.vercel.app/'
     },
     exhibitions: [],
     license: 'Propietaria',

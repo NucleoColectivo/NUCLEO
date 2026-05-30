@@ -1,5 +1,6 @@
 
 {
+  "lang": "es",
   "header": {
     "home": "Home",
     "manifesto": "Manifiesto",
@@ -12,1005 +13,430 @@
     "solutions": "Soluciones_",
     "contact": "Contacto"
   },
-  "footer": {
-    "title": "NÚCLEO COLECTIVO",
-    "description": "Plataforma de arte, educación y tecnología. Un archivo vivo para la creación contemporánea.",
-    "explore": "Explorar",
-    "showcase": "Vitrina",
-    "community": "Comunidad",
-    "radio_archive": "Radio / Archivo",
-    "legal": "Legal",
-    "privacy": "Privacidad",
-    "terms": "Términos",
-    "member_access": "Acceso Miembros",
-    "login": "Login",
-    "copyright": "© 2026 Núcleo Colectivo. Todos los derechos reservados.",
-    "location": "MEDELLÍN · ANTIOQUIA"
-  },
-  "home": {
-    "platform_system": "Plataforma/Sistema",
-    "est_date": "Est. 2026 — Medellín, Colombia",
-    "intro_paragraph": "Una plataforma para inventar el futuro del arte y la cultura. En Núcleo Colectivo creemos que las mejores ideas nacen en colaboración, se desarrollan con experimentación y se muestran al mundo con confianza. Aquí puedes crear, compartir, conectar y aprender con otros agentes culturales.",
-    "featured": "Proyectos Destacados",
-    "recent_projects": "Proyectos Recientes en nuestra Vitrina",
-    "showcase_intro": "Nuestra vitrina no es una galería tradicional. Es una ventana abierta al taller del creador, donde encontrarás obras en progreso, experimentos audaces y proyectos que cuentan una historia.",
-    "explore_showcase": "Explorar proyectos",
-    "tune_in_radio": "Escucha Radio Núcleo"
-  },
-  "home_v2": {
-    "hero": {
-      "title": "Un Laboratorio Para Inventar el Futuro del Arte",
-      "subtitle": "Somos una plataforma de creación, un archivo vivo y una comunidad para artistas, investigadores y tecnólogos que exploran las fronteras de la cultura digital.",
-      "description": "Un laboratorio colaborativo donde el arte, la tecnología y la inteligencia artificial se encuentran para crear impacto real.",
-      "cta_primary": "Explorar proyectos",
-      "cta_secondary": "Únete a la comunidad"
-    },
-    "what_to_do": {
-      "title": "¿Qué puedes hacer aquí?",
-      "subtitle": "Un ecosistema para la creación",
-      "item1_title": "Experimentar",
-      "item1_desc": "Usa herramientas de IA, código creativo y nuevas narrativas en nuestros laboratorios abiertos.",
-      "item2_title": "Compartir",
-      "item2_desc": "Muestra tu proceso creativo, no solo la obra final, en nuestra vitrina de proyectos.",
-      "item3_title": "Conectar",
-      "item3_desc": "Colabora con una red de creadores, investigadores y gestores de diversas disciplinas.",
-      "item4_title": "Aprender",
-      "item4_desc": "Participa en talleres y retos que desafían tu práctica artística y expanden tus habilidades."
-    },
-    "who_is_it_for": {
-        "title": "¿Para Quién Es?",
-        "subtitle": "Un punto de encuentro",
-        "p1": "Núcleo Colectivo es para mentes curiosas que ven la tecnología no como un fin, sino como un medio para preguntar, crear y transformar.",
-        "item1_title": "Creadores Híbridos",
-        "item1_desc": "Artistas, diseñadores y desarrolladores que se mueven con fluidez entre disciplinas.",
-        "item2_title": "Investigadores Curiosos",
-        "item2_desc": "Académicos y pensadores que quieren conectar su investigación con prácticas creativas.",
-        "item3_title": "Gestores Culturales",
-        "item3_desc": "Agentes que entienden la cultura como un sistema vivo y buscan construir nuevos modelos."
-    },
-    "featured_cta": "Ver todos los proyectos",
-    "community_cta": {
-      "title": "Conviértete en un Nodo",
-      "subtitle": "Únete a la conversación",
-      "desc": "Si resuenas con nuestro manifiesto y quieres colaborar, experimentar o simplemente conectar, queremos conocerte. Estamos construyendo una comunidad diversa y abierta.",
-      "cta": "Participa en Núcleo Colectivo"
-    }
-  },
   "hero_animated_text": {
     "slide1": {
       "line1": "ARTE",
       "line2": "CULTURA",
       "line3": "TECNOLOGÍA"
     },
-    "slide2": "EL MUNDO EXIGE OBRAS TERMINADAS.<br /><span class='text-primary'>NOSOTROS CELEBRAMOS EL PROCESO.</span>",
-    "slide3": "La Inteligencia Artificial<br />es tu <span class='text-accent'>nuevo pincel.</span>",
-    "slide4": "CREAR ES TOMAR <span class='text-primary'>POSICIÓN.</span>",
-    "slide5": "NO SE TRATA DE SABERLO TODO.<br /><span class='text-accent'>SE TRATA DE EMPEZAR.</span>",
-    "slide6": "EL ERROR NO ES FALLA.<br />ES <span class='text-primary'>INFORMACIÓN.</span>",
-    "slide7": "EL PROCESO<br />ES LA <span class='text-primary'>OBRA.</span>",
-    "slide8": "APRENDER ES COLECTIVO.<br /><span class='text-accent'>CREAR TAMBIÉN.</span>",
-    "slide9": "ENTRA AL LABORATORIO."
+    "slide2": "DISEÑAMOS EL <span class='text-primary'>FUTURO</span>",
+    "slide3": "CÓDIGO <span class='text-accent'>ORGÁNICO</span>",
+    "slide4": "NÚCLEO_COLECTIVO",
+    "slide5": "ESTÉTICA <span class='text-primary'>BRUTALISTA</span>",
+    "slide6": "IA <span class='text-accent'>COLABORATIVA</span>",
+    "slide7": "ARCHIVO_VIVO",
+    "slide8": "SENSIBILIDAD <span class='text-primary'>DIGITAL</span>",
+    "slide9": "CREACIÓN CONTEMPORÁNEA"
   },
-  "manifesto": {
-    "title": "MANIFIESTO",
-    "subtitle": "NÚCLEO COLECTIVO",
-    "p1": "Vivimos en una cultura de resultados. De productos pulidos y obras terminadas. El proceso creativo —con sus dudas, errores y descubrimientos— a menudo queda oculto.",
-    "p2": "Núcleo Colectivo nace para cambiar eso.",
-    "p3": "No somos una galería. Somos un laboratorio.<br/>No somos un portafolio. Somos un archivo vivo.",
-    "p4": "Somos un sistema cultural que valora el <strong class='text-foreground'>proceso</strong> tanto como el resultado, eliminando intermediarios para conectar la creación contemporánea con una comunidad curiosa y participativa.",
-    "p5": "Aquí, la cultura no se consume: se activa.",
-    "p6": "Trabajamos desde la intersección entre arte, tecnología y pensamiento crítico, no como una tendencia, sino como un conjunto de herramientas para explorar nuevas formas de creación, aprendizaje y colaboración.",
-    "p7": "Núcleo Colectivo funciona como un:",
-    "li1": "Laboratorio para experimentar sin miedo",
-    "li2": "Archivo para preservar la memoria creativa",
-    "li3": "Vitrina para compartir procesos abiertos",
-    "p8": "No buscamos homogeneizar voces ni estéticas. Buscamos cruces, fricciones y encuentros improbables que generen nuevas ideas.",
-    "p9": "La autoría no se diluye, se expande. La comunidad no reemplaza al individuo, lo potencia.",
-    "p10": "Creemos en plataformas abiertas, en conocimiento compartido y en sistemas que crecen con quienes los habitan.",
-    "p11": "Núcleo Colectivo no promete respuestas. Propone un espacio para hacer, pensar y conectar.",
-    "p12": "Esto no es un destino. Es un núcleo en constante expansión. Y estás invitado a ser parte de él.",
-    "cta": "Sumarse al núcleo"
+  "home": {
+    "est_date": "EST_2026",
+    "platform_system": "PLATAFORMA_DE_SISTEMAS_ARTÍSTICOS",
+    "featured": "OBRAS DESTACADAS",
+    "showcase_intro": "Una selección de procesos e investigaciones del archivo vivo."
   },
-  "contact": {
-    "title": "CONTACTO",
-    "subtitle": "Conecta con nosotros",
-    "intro": "¿Tienes una propuesta, proyecto o simplemente quieres saludar? Estamos siempre abiertos a nuevas conexiones y colaboraciones.",
-    "email_label": "Email",
-    "email_value": "nucleo.colectivo.art@gmail.com",
-    "location_label": "Ubicación",
-    "location_value": "Medellín, Colombia",
-    "follow_us": "Síguenos",
-    "form_name": "Nombre",
-    "form_name_placeholder": "Tu nombre",
-    "form_email": "Email",
-    "form_email_placeholder": "tucorreo@ejemplo.com",
-    "form_message": "Mensaje",
-    "form_message_placeholder": "¿En qué podemos colaborar?",
-    "form_submit": "Enviar Mensaje",
-    "cta_title": "Conviértete en un Nodo",
-    "cta_description": "Únete a nuestra red de creadores, investigadores y tecnólogos. Completa nuestro formulario de participación.",
-    "cta_button": "Participar en Núcleo Colectivo"
-  },
-  "privacy_policy": {
-    "title": "Política de Privacidad",
-    "last_updated": "Última actualización: Junio 2024",
-    "p1": "En Núcleo Colectivo, valoramos y respetamos tu privacidad. Esta política describe cómo recopilamos, usamos y protegemos tu información personal cuando interactúas con nuestra plataforma.",
-    "h1": "1. Información que Recopilamos",
-    "p2": "Podemos recopilar información personal que nos proporcionas directamente, como tu nombre, dirección de correo electrónico y cualquier otra información que elijas compartir al registrarte como miembro, contactarnos o participar en nuestros retos y laboratorios. También recopilamos datos de forma automática, como tu dirección IP y datos de uso del sitio, a través de cookies y tecnologías similares para mejorar tu experiencia.",
-    "h2": "2. Cómo Usamos tu Información",
-    "p3": "Utilizamos la información recopilada para:",
-    "li1": "Proporcionar, operar y mantener nuestra plataforma.",
-    "li2": "Mejorar, personalizar y expandir nuestros servicios.",
-    "li3": "Entender y analizar cómo utilizas nuestra plataforma.",
-    "li4": "Comunicarnos contigo, ya sea directamente o a través de uno de nuestros socios, para servicio al cliente, para proporcionarte actualizaciones y otra información relacionada con el sitio web, y para fines de marketing y promoción.",
-    "li5": "Procesar tus transacciones y gestionar tu participación en nuestras actividades.",
-    "li6": "Prevenir el fraude y garantizar la seguridad de nuestra plataforma.",
-    "h3": "3. Compartir tu Información",
-    "p4": "No vendemos, intercambiamos ni alquilamos tu información de identificación personal a terceros. Podemos compartir información demográfica agregada no vinculada a ninguna información de identificación personal con nuestros socios comerciales, afiliados de confianza y anunciantes para los fines descritos anteriormente. Podemos utilizar proveedores de servicios de terceros para que nos ayuden a operar nuestro negocio y el Sitio o administrar actividades en nuestro nombre, como el envío de boletines o encuestas.",
-    "h4": "4. Seguridad de tus Datos",
-    "p5": "La seguridad de tu información es importante para nosotros. Adoptamos prácticas de recopilación, almacenamiento y procesamiento de datos y medidas de seguridad adecuadas para proteger contra el acceso no autorizado, la alteración, la divulgación o la destrucción de tu información personal, nombre de usuario, contraseña, información de transacciones y data almacenados en nuestro Sitio.",
-    "h5": "5. Tus Derechos de Privacidad",
-    "p6": "Tienes derecho a acceder, corregir o eliminar tu información personal. También puedes oponerte al procesamiento de tus datos personales. Si deseas ejercer alguno de estos derechos, por favor contáctanos en <a href='mailto:nucleo.colectivo.art@gmail.com' class='text-primary hover:underline'>nucleo.colectivo.art@gmail.com</a>.",
-    "h6": "6. Cambios a esta Política",
-    "p7": "Nos reservamos el derecho de actualizar esta política de privacidad en cualquier momento. Cuando lo hagamos, revisaremos la fecha de actualización en la parte superior de esta página. Te recomendamos que consultes esta página con frecuencia para mantenerte informado sobre cómo estamos ayudando a proteger la información personal que recopilamos."
-  },
-  "terms_of_service": {
-    "title": "Términos de Servicio",
-    "last_updated": "Última actualización: Junio 2024",
-    "p1": "Bienvenido a Núcleo Colectivo. Al acceder y utilizar nuestra plataforma, aceptas cumplir y estar sujeto a los siguientes términos y condiciones de uso. Por favor, léelos atentamente.",
-    "h1": "1. Aceptación de los Términos",
-    "p2": "Al utilizar este sitio web ('Plataforma'), aceptas estos Términos de Servicio. Si no estás de acuerdo con alguno de estos términos, tienes prohibido usar o acceder a este sitio. Los materiales contenidos en este sitio web están protegidos por las leyes de derechos de autor y marcas registradas aplicables.",
-    "h2": "2. Uso de la Plataforma",
-    "p3": "Se te concede una licencia limitada, no exclusiva y revocable para acceder y utilizar la Plataforma para fines personales y no comerciales. No puedes:",
-    "li1": "Modificar o copiar los materiales.",
-    "li2": "Utilizar los materiales para cualquier propósito comercial o para cualquier exhibición pública (comercial o no comercial).",
-    "li3": "Intentar descompilar o aplicar ingeniería inversa a cualquier software contenido en el sitio web de Núcleo Colectivo.",
-    "li4": "Eliminar cualquier derecho de autor u otras anotaciones de propiedad de los materiales.",
-    "h3": "3. Contenido del Usuario",
-    "p4": "Al enviar contenido (como texto, imágenes o videos) a nuestra plataforma, otorgas a Núcleo Colectivo una licencia mundial, no exclusiva, libre de regalías para usar, reproducir, adaptar, publicar, traducir y distribuir tu contenido en cualquier medio existente o futuro. Garantizas que eres el propietario de los derechos de autor del contenido que envías o que tienes permiso del propietario de los derechos de autor para enviarlo.",
-    "p5": "Eres el único responsable del contenido que publicas. No debes publicar contenido que sea ilegal, ofensivo, difamatorio, obsceno o que infrinja los derechos de propiedad intelectual de terceros.",
-    "h4": "4. Propiedad Intelectual",
-    "p6": "La Plataforma y su contenido original (excluyendo el contenido proporcionado por los usuarios), características y funcionalidad son y seguirán siendo propiedad exclusiva de Núcleo Colectivo y sus licenciantes.",
-    "h5": "5. Limitación de Responsabilidad",
-    "p7": "En ningún caso Núcleo Colectivo, ni sus directores, empleados, socios, agentes, proveedores o afiliados, serán responsables por daños indirectos, incidentales, especiales, consecuentes o punitivos, incluyendo, sin limitación, pérdida de beneficios, datos, uso, buena voluntad u otras pérdidas intangibles, resultantes de (i) tu acceso o uso o incapacidad para acceder o usar la Plataforma; (ii) cualquier conducta o contenido de terceros en la Plataforma; (iii) cualquier contenido obtenido de la Plataforma; y (iv) el acceso no autorizado, uso o alteración de tus transmisiones o contenido.",
-    "h6": "6. Modificaciones",
-    "p8": "Nos reservamos el derecho, a nuestra entera discreción, de modificar o reemplazar estos Términos en cualquier momento. Al continuar accediendo o utilizando nuestra Plataforma después de que esas revisiones entren en vigencia, aceptas estar sujeto a los términos revisados."
-  },
-  "workshops": {
-    "title": "AI LEARNING ARCADE",
-    "subtitle": "Laboratorio de Aprendizaje Experimental con IA",
-    "intro": "Un espacio lúdico, crítico y experimental donde el aprendizaje sucede a través del juego, la prueba, el error y la curiosidad, inspirado en la lógica de las salas arcade.",
-    "arcade_title_1": "NÚCLEO",
-    "arcade_title_2": "CREATIVO",
-    "arcade_title_3": "v2.0",
-    "arcade_subtitle": "Sistema de aprendizaje creativo + ideación + práctica con IA",
-    "arcade_status": "MOTOR DE IA: ONLINE • RED NEURONAL: ESTABLE",
-    "arcade_cta_main": "COMIENZA TU PRIMER PROYECTO",
-    "kinefonia_title": "KINEFONÍA",
-    "kinefonia_subtitle_1": "ESTUDIO DE ARTE",
-    "kinefonia_subtitle_2": "GENERATIVO",
-    "kinefonia_description": "Un estudio para la creación de visuales abstractos y arte generativo en tiempo real.",
-    "kinefonia_status": "MOTOR GRÁFICO: P5.JS • RENDER: WEBGL",
-    "kinefonia_cta": "Abrir Estudio Kinefonía",
-    "ia_program": {
-      "title": "IA para Procesos Creativos",
-      "subtitle": "Propuesta Institucional de Formación Avanzada",
-      "structure_title": "Estructura del Laboratorio",
-      "structure_subtitle": "Un viaje en 4 sesiones inmersivas"
-    }
-  },
-  "workshops_details": {
-    "ia": {
-      "program_title": "IA para Procesos Creativos",
-      "proposal_subtitle": "Propuesta de Formación",
-      "proponent_entity_label": "Entidad proponente",
-      "proponent_entity": "Núcleo Colectivo",
-      "modality_label": "Modalidad",
-      "modality": "Híbrida",
-      "duration_label": "Duración",
-      "duration": "16 horas",
-      "character_label": "Carácter",
-      "character": "Laboratorio I–C",
-      "audience": "Estudiantes, docentes y comunidad creativa.",
-      "section_1_title": "Presentación del Laboratorio",
-      "section_1_p1": "El Programa IA para Procesos Creativos es una propuesta formativa diseñada por Núcleo Colectivo que integra la inteligencia artificial como herramienta de pensamiento, creación y producción artística, desde una perspectiva crítica, ética y contextual.",
-      "section_1_p2": "El programa no concibe la IA como un fin técnico ni como sustituto del autor, sino como un asistente creativo que amplía las capacidades cognitivas, expresivas y productivas de los creadores. A través de una metodología de investigación–creación, los participantes desarrollan proyectos reales, documentados y presentables, alineados con dinámicas académicas e institucionales.",
-      "section_1_p3": "Esta propuesta responde a la necesidad de fortalecer la formación artística contemporánea mediante herramientas tecnológicas pertinentes, accesibles y aplicables, sin perder el énfasis en la autoría humana, el pensamiento crítico y la responsabilidad cultural.",
-      "section_2_title": "Justificación",
-      "section_2_p1": "Este programa se enmarca en un enfoque pedagógico centrado en la creación, la investigación–creación y la proyección social. Sus programas integran teoría y práctica intensiva, preparando los estudiantes para contextos artísticos, culturales y productivos reales.",
-      "section_2_p2": "En este contexto, la incorporación de la inteligencia artificial en los procesos creativos se presenta como una oportunidad estratégica para:",
-      "section_2_list": [
-        "Actualizar las prácticas formativas frente a tecnologías emergentes.",
-        "Ampliar las herramientas de creación y producción artística.",
-        "Fortalecer competencias transversales en pensamiento crítico, experimentación y documentación de procesos.",
-        "Generar resultados artísticos tangibles y comunicables."
-      ],
-      "section_2_p3": "El Programa IA para Procesos Creativos se alinea con la misión institucional de formar profesionales sensibles, reflexivos e innovadores, capaces de incidir cultural y socialmente desde sus prácticas creativas.",
-      "section_3_title": "Objetivos",
-      "section_3_obj_general_title": "Misión General",
-      "section_3_obj_general_text": "Diseñar e implementar un programa formativo que permita a estudiantes y docentes integrar la inteligencia artificial en sus procesos creativos y de investigación–creación, generando proyectos artísticos documentados, críticos y contextualizados.",
-      "section_3_obj_specific_title": "Objetivos específicos",
-      "section_3_obj_specific_list": [
-        "Introducir conceptos fundamentales sobre inteligencia artificial aplicada a la creación artística.",
-        "Desarrollar habilidades prácticas para el uso consciente de herramientas de IA en imagen, sonido, texto y narrativa.",
-        "Fomentar la experimentación, la iteración y el pensamiento crítico en los procesos creativos.",
-        "Promover la autoría consciente, la ética y la reflexión sobre el uso de tecnologías emergentes.",
-        "Generar creative projects y bitácoras de proceso como evidencia de aprendizaje."
-      ],
-      "section_4_title": "Público Objetivo",
-      "section_4_list": [
-        "Estudiantes de las facultades de Prácticas Visuales y Multimediales.",
-        "Prácticas Musicales y Sonoras.",
-        "Prácticas Escénicas.",
-        "Contenidos Audiovisuales y Digitales.",
-        "Gestión Creativa y Proyectos Culturales."
-      ],
-      "section_4_p1": "También puede incluir docentes y egresados interesados en procesos de creación con tecnologías emergentes. No se requieren conocimientos previos en inteligencia artificial.",
-      "section_5_title": "Enfoque Pedagógico",
-      "section_5_list": [
-        "Aprender haciendo: la producción es condición del aprendizaje.",
-        "La IA como herramienta de apoyo al proceso creativo, no como sustituto del autor.",
-        "Valoración del proceso, la experimentación y el error como fuentes de conocimiento.",
-        "Documentación constante mediante bitácoras de proceso.",
-        "Facilitación crítica, horizontal y contextualizada."
-      ],
-      "section_6_title": "Metodología",
-      "section_6_p1": "Cada sesión del programa combina:",
-      "section_6_list": [
-        "Activación conceptual y contextual.",
-        "Demostraciones guiadas de herramientas de IA.",
-        "Ejercicios prácticos individuales y colectivos.",
-        "Trabajo autónomo acompañado.",
-        "Socialización de resultados y retroalimentación colectiva."
-      ],
-      "section_6_p2": "La metodología está diseñada para ser adaptable a distintas disciplinas artísticas, manteniendo un núcleo común y permitiendo variaciones en los entregables según la facultad o programa.",
-      "section_7_title": "Arquitectura Curricular",
-      "section_7_session_1_title": "IA como herramienta de pensamiento",
-      "section_7_session_1_contents_list": [
-        "Qué es y qué no es la inteligencia artificial en procesos creativos.",
-        "IA como extensión cognitiva.",
-        "El prompt como estructura de pensamiento y lenguaje.",
-        "Autoría, ética y sesgos algorítmicos."
-      ],
-      "section_7_session_1_exercises_list": [
-        "Mapeo del proceso creativo personal.",
-        "Identificación de bloqueos creativos.",
-        "Primer diálogo creativo con IA."
-      ],
-      "section_7_session_1_results_list": [
-        "Idea de proyecto definida.",
-        "Inicio de bitácora de proceso.",
-        "Prompt base documentado."
-      ],
-      "section_7_session_2_title": "IA, imagen y forma",
-      "section_7_session_2_contents_list": [
-        "Imagen generativa como boceto y sistema creativo.",
-        "Iteración, variación y coherencia visual.",
-        "Error, glitch y decisión estética."
-      ],
-      "section_7_session_2_exercises_list": [
-        "Generación de una serie visual (5–10 variaciones).",
-        "Ajuste de prompts para coherencia formal.",
-        "Socialización y análisis colectivo."
-      ],
-      "section_7_session_2_results_list": [
-        "Serie visual con intención conceptual.",
-        "Registro de decisiones creativas."
-      ],
-      "section_7_session_3_title": "IA, tiempo y narrativa",
-      "section_7_session_3_contents_list": [
-        "De la imagen fija al movimiento.",
-        "Narrativas breves y multimodales.",
-        "Sonido, voz y atmósfera con IA.",
-        "Integración con flujos de trabajo tradicionales."
-      ],
-      "section_7_session_3_exercises_list": [
-        "Creación de micro pieza audiovisual o sonora.",
-        "Integración de materiales generados.",
-        "Retroalimentación colectiva guiada."
-      ],
-      "section_7_session_3_results_list": [
-        "Prototipo audiovisual o sonoro.",
-        "Flujo de trabajo documentado."
-      ],
-      "section_7_session_4_title": "Proyecto, contexto y vitrina",
-      "section_7_session_4_contents_list": [
-        "Autoría consciente y ética aplicada.",
-        "Curaduría de procesos creativos.",
-        "Presentación pública y comunicación de resultados."
-      ],
-      "section_7_session_4_exercises_list": [
-        "Consolidación del proyecto final.",
-        "Redacción de texto de obra o statement.",
-        "Preparación de muestra o vitrina."
-      ],
-      "section_7_session_4_results_list": [
-        "Proyecto creativo finalizado.",
-        "Bitácora de proceso completa.",
-        "Presentación pública o muestra institucional."
-      ],
-      "section_8_title": "Entregables",
-      "section_8_list": [
-        "Proyecto creativo final (pieza, prototipo o sistema).",
-        "Bitácora de proceso documentada.",
-        "Material apto para portafolio académico y difusión institucional."
-      ],
-      "section_9_title": "Articulación Institucional",
-      "section_9_p1": "El programa puede implementarse como:",
-      "section_9_list": [
-        "Taller transversal.",
-        "Asignatura electiva.",
-        "Curso de extensión académica.",
-        "Laboratorio intensivo o extracurricular."
-      ],
-      "section_9_p2": "Los entregables pueden adaptarse a los objetivos de cada facultad, manteniendo la estructura metodológica común.",
-      "section_10_title": "Facilitadores",
-      "section_10_list": [
-        "<strong>Manuel Palacio</strong> – Dirección creativa, arte interactivo, programación creativa, IA aplicada.",
-        "<strong>Carlos Londoño</strong> – Narrativa audiovisual, imagen en movimiento, sonido e IA creativa.",
-        "<strong>María Cecilia Castaño</strong> – Bióloga, gestora cultural e investigadora social."
-      ],
-      "section_11_title": "Requerimientos Técnicos",
-      "section_11_list": [
-        "Computador portátil por participante.",
-        "Conexión a internet estable.",
-        "Cuentas en plataformas de IA (gratuitas o de prueba)."
-      ],
-      "contact_title": "¿Interesado en este programa?",
-      "contact_text": "Ofrecemos propuestas a medida para instituciones, empresas y equipos creativos. Hablemos sobre cómo podemos adaptar este programa a tus necesidades.",
-      "contact_cta": "Coordinar Propuesta"
-    }
-  },
-  "radio": {
-    "hero_title": "NÚCLEO / RADIO",
-    "hero_subtitle": "La voz viva de Núcleo Colectivo",
-    "headline": "Sintetizador global de frecuencias experimentales, comunitarias y culturales. Curaduría viva de radios independientes + producciones sonoras propias.",
-    "status_line": "En vivo · Curado · En proceso",
-    "info_banner": {
-      "system_info": "/// INFO DEL SISTEMA",
-      "title": "¿QUÉ ES NÚCLEO/RADIO?",
-      "subtitle": "Sistema de Escucha Activa v2.0",
-      "cta": "Acceder",
-      "modal_header_title": "NÚCLEO<span class=\"text-amber-500\">/</span>RADIO",
-      "modal_header_subtitle": "MANIFIESTO_SONORO_V.2.0",
-      "col1_title": "El Laboratorio",
-      "col1_subtitle": "/// Definición del Sistema",
-      "col1_p1": "Plataforma sonora digital que nace como espacio de <strong class=\"text-white\">escucha, curaduría y circulación cultural</strong>.",
-      "col1_p2": "No es solo una emisora online, sino una <em class=\"text-zinc-200 not-italic\">vitrina sonora viva</em> que conecta radios independientes y proyectos experimentales del mundo.",
-      "col1_section_title": "Enfoque Curatorial",
-      "col1_tags": ["Sur Global", "Arte Sonoro", "Palabra Viva", "Música Independiente"],
-      "col2_title": "La Parrilla",
-      "col2_subtitle": "/// Programación Semanal",
-      "col2_schedule": [
-        { "d": "LUN", "t": "Resonancia", "sub": "Arte sonoro y radio experimental" },
-        { "d": "MAR", "t": "Territorios", "sub": "Radios comunitarias y Sur Global" },
-        { "d": "MIÉ", "t": "Alternativos", "sub": "Electrónica global y DJ sets" },
-        { "d": "JUE", "t": "Palabra Viva", "sub": "Poesía, entrevistas y archivo" },
-        { "d": "VIE", "t": "Bailables", "sub": "Música para el cuerpo" }
-      ],
-      "col2_footer": "Fines de Semana: Curaduría Abierta",
-      "col3_title": "El Ecosistema",
-      "col3_subtitle": "/// Articulación",
-      "col3_community_title": "Comunidad",
-      "col3_community_p": "Artistas, gestores, estudiantes y comunidades conectadas. Un espacio para contenidos culturales no hegemónicos.",
-      "col3_functions_title": "Funciones",
-      "col3_functions_list": [
-        "Vitrina de proyectos Núcleo",
-        "Herramienta pedagógica IA/Sonido",
-        "Difusión de talleres y procesos"
-      ],
-      "col3_quote_p1": "Núcleo/Radio no es solo lo que suena.",
-      "col3_quote_p2": "Es lo que nos conecta.",
-      "modal_footer_id": "ID: NUC-RAD-01",
-      "modal_footer_status": "ESTADO: EN LÍNEA",
-      "modal_footer_location": "MEDELLÍN, COLOMBIA"
+  "home_v2": {
+    "hero": {
+      "description": "LABORATORIO DE CREACIÓN, ARCHIVO VIVO Y VITRINA DIGITAL PARA EL ARTE DEL MAÑANA.",
+      "cta_primary": "Explorar Vitrina",
+      "cta_secondary": "Conocer la Red"
     },
-    "player_microcopy": "Estás escuchando una señal curada en tiempo real",
-    "suggest_station_title_new": "¿Tienes un podcast o una radio experimental o comunitaria?",
-    "suggest_station_description_new": "Estamos construyendo un archivo vivo de frecuencias independientes de Latinoamérica y el mundo.",
-    "suggest_station_cta_new": "Sumar emisora al archivo",
-    "status_online": "EN VIVO",
-    "version_beta": "V.2.0 BETA",
-    "now_playing": "AHORA SONANDO",
-    "hide": "Ocultar",
-    "show": "Mostrar",
-    "schedule_title": "Programación Semanal",
-    "schedule_footer": "Programación sujeta a cambios y curadurías espontáneas.",
-    "schedule_days": [
-      {
-        "day": "Lunes de Resonancia",
-        "desc": "Arte sonoro y radio experimental"
-      },
-      {
-        "day": "Martes de Territorios",
-        "desc": "Radios comunitarias y del Sur Global"
-      },
-      {
-        "day": "Miércoles Alternativos",
-        "desc": "Electrónica global y DJ sets"
-      },
-      {
-        "day": "Jueves Palabra Viva",
-        "desc": "Poesía, entrevistas y archivo oral"
-      },
-      {
-        "day": "Viernes Bailables",
-        "desc": "Música para el cuerpo y la celebración"
-      },
-      {
-        "day": "Fines de Semana Libres",
-        "desc": "Curaduría abierta y colaborativa"
-      }
-    ]
-  },
-  "podcast": {
-    "original_production": "Producción original de Núcleo Radio",
-    "title": "En la Sala con Cosiaca",
-    "description": "Una producción del Laboratorio de Narrativas Transmedia de Núcleo Colectivo",
-    "longDescription": "Un viaje sonoro por la historia, mitos y realidades de Medellín y Antioquia, guiados por la figura pícara y legendaria de Cosiaca. Cada episodio es una conversación con el pasado, presente y futuro de nuestra cultura.",
-    "info": "Este podcast es un componente del universo transmedia 'Cosiaca 350', un proyecto que explora la identidad paisa a través de formatos interactivos y narrativas expandidas.",
-    "about_title": "💡 Sobre este Podcast",
-    "episodes_available": "Episodios Disponibles",
-    "now_playing_episode": "REPRODUCIENDO",
-    "categories": {
-      "intro": "Introducción",
-      "character": "Personajes",
-      "author": "Autores",
-      "soundscape": "Paisaje Sonoro",
-      "platform": "Plataforma"
+    "what_to_do": {
+      "title": "ACTIVACIONES",
+      "subtitle": "¿Qué puedes hacer en el Núcleo?",
+      "item1_title": "Laboratorios",
+      "item1_desc": "Espacios de experimentación técnica y conceptual con herramientas de vanguardia.",
+      "item2_title": "Archivo",
+      "item2_desc": "Memoria viva de procesos artísticos y tecnológicos desarrollados por el colectivo.",
+      "item3_title": "Comunidad",
+      "item3_desc": "Una red expandida de nodos creativos que habitan el cruce arte-tecnología.",
+      "item4_title": "Retos IA",
+      "item4_desc": "Máquina creativa para activar misiones de innovación y pensamiento disruptivo."
     },
-    "episodes": {
-      "saludo": {
-        "title": "Un Saludo desde el Más Allá",
-        "description": "Cosiaca se presenta y nos invita a un viaje por el tiempo."
-      },
-      "culebreo": {
-        "title": "El Arte del Culebreo",
-        "description": "Explorando la picaresca y la astucia como forma de supervivencia."
-      },
-      "trocha": {
-        "title": "El Encuentro en la Trocha",
-        "description": "Relatos de arrieros y caminos que forjaron la región."
-      },
-      "fernando-garcia": {
-        "title": "Conversando con Fernando González",
-        "description": "Un diálogo imaginario con el filósofo de Otraparte."
-      },
-      "francisco-herrera": {
-        "title": "El Testimonio de Herrera y Campuzano",
-        "description": "La visión de uno de los fundadores de la Villa de la Candelaria."
-      },
-      "cancion-valle": {
-        "title": "La Canción del Valle de Aburrá",
-        "description": "Un paisaje sonoro que reconstruye la melodía de nuestro valle."
-      },
-      "verraquera-arriera": {
-        "title": "La Verraquera Arriera",
-        "description": "El espíritu indomable de los colonizadores antioqueños."
-      },
-      "medellin-hoy": {
-        "title": "Conversando con Luz Castro",
-        "description": "La visión de una de las pioneras de la tecnología en Medellín."
-      },
-      "medellin-cafetales": {
-        "title": "Sobre la Medellín de los Cafetales",
-        "description": "Recordando la ciudad que floreció entre fincas y aroma a café."
-      },
-      "violencia-esperanza": {
-        "title": "De la Violencia a la Esperanza",
-        "description": "Una reflexión sobre la resiliencia de Medellín y su gente."
-      },
-      "spotify": {
-        "title": "Escuchar en Spotify",
-        "description": "Accede a todos los episodios y sigue el podcast en Spotify."
-      }
+    "who_is_it_for": {
+      "title": "PARA QUIÉN",
+      "subtitle": "Conectamos diversos nodos del ecosistema",
+      "p1": "Articulamos diálogos entre la academia, la industria y el territorio para generar impacto real.",
+      "item1_title": "Artistas y Creadores",
+      "item1_desc": "Que buscan expandir su práctica mediante el código, la IA y los nuevos medios.",
+      "item2_title": "Instituciones y Marcas",
+      "item2_desc": "Que requieren soluciones creativas disruptivas y experiencias inmersivas.",
+      "item3_title": "Comunidad Global",
+      "item3_desc": "Cualquier persona interesada en el futuro de la cultura y la tecnología."
     },
-    "banner": {
-      "subtitle": "Una producción del Laboratorio de Narrativas Transmedia",
-      "description": "Un viaje sonoro por la historia, mitos y realidades de <span class=\"text-zinc-200 font-medium\">Medellín and Antioquia</span>.",
-      "listen_now": "Escuchar Ahora",
-      "show_content": "Mostrar"
+    "featured_cta": "VER TODO EL ARCHIVO",
+    "community_cta": {
+      "title": "EL NÚCLEO SE EXPANDE",
+      "subtitle": "Convocatoria Abierta",
+      "desc": "ESTAMOS BUSCANDO NUEVOS NODOS PARA INVENTAR EL FUTURO.",
+      "cta": "POSTULARME AHORA"
     }
-  },
-  "members": {
-    "title": "Comunidad",
-    "subtitle": "Nodos del Núcleo",
-    "intro": "La fuerza de Núcleo Colectivo reside en su comunidad. Somos artistas, desarrolladores, investigadores y gestores que exploramos la intersección entre arte y tecnología. Estos son algunos de los nodos que componen nuestra red.",
-    "key_skills": "Habilidades Destacadas",
-    "nucleo_roles": "Roles en Núcleo Colectivo",
-    "view_more": "Ver más",
-    "hide": "Ocultar",
-    "cta": {
-      "title": "¿Quieres ser parte del núcleo?",
-      "description": "Si resuenas con nuestro manifiesto y quieres colaborar, experimentar o simplemente conectar, queremos conocerte. Estamos construyendo una comunidad diversa y abierta.",
-      "button": "Sumarse al Núcleo"
-    }
-  },
-  "artists": {
-    "manuel": {
-      "name": "Manuel Palacio",
-      "primary_roles": "Artista visual · Diseñador · Creador cultural",
-      "bio": "Artista visual y desarrollador creativo que investiga las intersecciones entre **nature, code, and perception**. Su trabajo se materializa en instalaciones interactivas, arte generativo, visualización de datos y experiencias inmersivas que exploran cómo la tecnología media nuestra relación con el entorno.<br/><br/>Integra técnicas analógicas, digitales e **inteligencia artificial** en procesos de co-creación artística, desarrollo de herramientas culturales y mediación tecnológica para comunidades creativas.",
-      "secondary_roles": "Arte generativo y programación creativa,Diseño gráfico e ilustración,Instalaciones interactivas y experiencias inmersivas,Inteligencia artificial aplicada a procesos creativos,Diseño web, landings y plataformas culturales,Chatbots, formularios y sistemas interactivos,Dirección de arte y narrativa visual",
-      "nucleo_roles": "Dirección creativa,Diseño de experiencias,Desarrollo digital",
-      "websites": {
-        "illustration": "Ilustración",
-        "graphic_design": "Diseño Gráfico",
-        "collectives": "Grupos de Investigación",
-        "projects": "Proyectos"
-      },
-      "youtube": {
-        "audiovisual_performance": "Performance Audiovisual",
-        "experimental_videoart": "Videoarte Experimental"
-      }
-    },
-    "carlos": {
-      "name": "Carlos Andrés Londoño Ruiz",
-      "primary_roles": "Artista transmedia · Realizador audiovisual · Investigador visual",
-      "bio": "Fotógrafo y realizador audiovisual con más de 15 años de experiencia. Su trabajo explora las tensiones entre **memoria, identidad y tecnología**, combinando producción audiovisual tradicional con herramientas contemporáneas de inteligencia artificial.<br/><br/>Desarrolla proyectos documentales, transmedia y experimentales que cruzan lo real y lo sintético, con una fuerte sensibilidad narrativa y estética.",
-      "secondary_roles": "Dirección y realización audiovisual,Fotografía documental y experimental,Edición y postproducción de video,Animación 2D y motion graphics,Creación de imágenes con IA,Narrativas transmedia y documentales,Investigación visual",
-      "nucleo_roles": "Producción audiovisual,Narrativas transmedia,Investigación visual"
-    },
-    "maria-cecilia": {
-      "name": "María Cecilia Castaño",
-      "primary_roles": "Bióloga · Gestora cultural · Investigadora social",
-      "bio": "Bióloga y comunicadora con amplia experiencia en gestión cultural, proyectos comunitarios y procesos pedagógicos. Su práctica articula **art, science, and social participation**, con trabajo de campo en contextos urbanos y rurales en América Latina.\n\nActúa como puente entre el laboratorio científico y el laboratorio artístico, integrando metodologías de co-creación, comunicación estratégica y enfoque territorial.",
-      "secondary_roles": "Gestión y producción de proyectos culturales,Investigación social y trabajo comunitario,Comunicación estratégica y mediación cultural,Diseño de procesos pedagógicos,Articulación arte–ciencia–comunidad,Producción y coordinación de eventos,Escritura y estrategia de contenidos",
-      "nucleo_roles": "Gestión de proyectos,Investigación social,Mediación cultural"
-    }
-  },
-  "work": {
-    "title": "VITRINA",
-    "subtitle": "Procesos Abiertos, Obras Vivas",
-    "collections_title": "Colecciones Curatoriales",
-    "collections_subtitle": "Líneas temáticas que conectan proyectos y generan nuevas lecturas.",
-    "curated_by": "Curado por",
-    "explore_collection": "Explorar colección",
-    "featured_title": "Proyectos Destacados",
-    "featured_subtitle": "Una selección de procesos y experimentos recientes de nuestra comunidad.",
-    "view_video": "Ver Video",
-    "experience_work": "Vivir la Obra",
-    "transmedia_components": "Componentes Transmedia",
-    "explore_universe": "Explorar Universo",
-    "placeholder": {
-      "title": "Tu Proyecto Aquí",
-      "description": "Buscamos procesos, y obras terminadas. Comparte tu exploración creativa con nuestra comunidad.",
-      "cta": "Postula tu proyecto"
-    },
-    "carlos_posts": [
-      {
-        "caption": "Medellín Distópico: exploraciones de una ciudad posible."
-      },
-      {
-        "caption": "Ensayos sobre el Cuerpo: procesos digitales sobre lo efímero."
-      },
-      {
-        "caption": "Archivo Urbano: fotografía de calle y memoria."
-      },
-      {
-        "caption": "Medellín Distópico: nuevas visiones arquitectónicas."
-      },
-      {
-        "caption": "Ensayos sobre el Cuerpo: retratos generativos."
-      },
-      {
-        "caption": "Archivo Urbano: texturas y muros."
-      }
-    ],
-    "read_manifesto": "Leer manifiesto curatorial",
-    "close_manifesto": "Cerrar manifiesto",
-    "filters": {
-      "all": "Todos",
-      "special": "Proyectos Especiales",
-      "interactive": "Arte Interactivo",
-      "ai": "IA Creativa",
-      "video": "Videoarte"
-    }
-  },
-  "alt": {
-    "portrait_of": "Retrato de"
   },
   "projects_data": {
-    "gravedad_sonora": {
-      "title": "Gravedad Sonora",
-      "author": "Manuel Palacio",
-      "summary": "Una experiencia web interactiva que explora la relación entre el sonido y la gravedad a través de una malla visual reactiva.",
-      "alt": "Visualización de 'Gravedad Sonora', una malla tridimensional que se deforma por el sonido."
-    },
     "criaturas-imposibles": {
       "title": "Criaturas Imposibles",
-      "author": "Carlos Londoño",
-      "summary": "Un falso documental experimental que utiliza IA para crear seres y ecosistemas que desafían nuestra percepción de la realidad.",
-      "alt": "Obra 'Criaturas Imposibles', una composición surrealista generada por IA con tonos oscuros y una figura central enigmática."
+      "summary": "Un experimento visual que utiliza la IA para crear nuevas realidades, explorando el concepto de falso documental."
+    },
+    "gravedad_sonora": {
+      "title": "Gravedad Sonora",
+      "summary": "Investigación sobre la relación entre el peso de los objetos digitales y su resonancia acústica."
     },
     "vj_system": {
-      "title": "Malla Sónica VJ System",
-      "author": "Manuel Palacio",
-      "summary": "Sistema de visualización audioreactiva para performance en tiempo real, que traduce el sonido en estructuras lumínicas tridimensionales.",
-      "alt": "Visualización de 'Malla Sónica', una malla tridimensional de neón sobre un fondo oscuro, representando sonido de manera visual."
-    },
-    "nucleo-bots-ai": {
-      "title": "Núcleo/Bots.Ai",
-      "author": "Manuel Palacio",
-      "summary": "Tu copiloto de IA personalizable.",
-      "alt": "Interfaz de Núcleo/Bots.Ai, un copiloto de IA personalizable."
+      "title": "Malla Sónica",
+      "summary": "Sistema de visualización audioreactiva basado en mallas gravitacionales dinámicas."
     },
     "instrumento_gestual": {
       "title": "Instrumento Gestual",
-      "author": "Manuel Palacio",
-      "summary": "Una interfaz web que traduce los gestos de las manos en sonido, utilizando IA para el seguimiento en tiempo real.",
-      "alt": "Visualización del Instrumento Gestual, mostrando una mano digital interactuando con partículas de sonido."
+      "summary": "Interfaz inmersiva que traduce el movimiento del cuerpo en texturas sonoras mediante visión artificial."
+    },
+    "nucleo-bots-ai": {
+      "title": "Núcleo Bots IA",
+      "summary": "Agentes conversacionales especializados en mediación cultural y pensamiento crítico."
     },
     "kinefonia": {
-      "title": "KINEFONÍA / GENERATIVE ART STUDIO",
-      "author": "Manuel Palacio",
-      "summary": "Un estudio de arte generativo para crear y explorar visuales abstractos en tiempo real.",
-      "alt": "Interfaz de KINEFONÍA, un estudio de arte generativo."
+      "title": "Kinefonia",
+      "summary": "Estudio de arte generativo que explora la sinestesia entre el movimiento y la armonía."
     },
     "fluir-micro-sesiones": {
-      "title": "Fluir de lo micro - Sesiones en confinamiento",
-      "author": "Manuel Palacio",
-      "summary": "Videoarte experimental realizado durante el confinamiento, explorando la percepción y el movimiento a micro-escala.",
-      "alt": "Una imagen abstracta de videoarte con texturas orgánicas y colores vibrantes."
+      "title": "Fluir: Micro Sesiones",
+      "summary": "Exploración audiovisual de la percepción en contextos de confinamiento."
     },
     "fluir-micro-proceso": {
-      "title": "FLUIR DE LO MICRO / Proceso",
-      "author": "Manuel Palacio",
-      "summary": "Un vistazo al proceso creativo detrás de 'Fluir de lo Micro', mostrando las sesiones de performance audiovisual en confinamiento.",
-      "alt": "Una captura del proceso de una performance audiovisual, con código y visuales en pantalla."
-    }
-  },
-  "collections_data": {
-    "ia-y-memoria": {
-      "title": "IA y Memoria",
-      "title_long": "Memorias Algorítmicas: Inteligencia artificial y narrativas del pasado",
-      "curator": "Manuel Palacio — Núcleo Colectivo",
-      "description": "Proyectos que utilizan inteligencia artificial para reinterpretar archivos históricos, generar nuevas memorias o cuestionar nuestra relación con el pasado.",
-      "intro": "La incorporación de <strong>inteligencia artificial</strong> en los procesos de construcción de memoria ha transformado profundamente nuestra relación con el pasado. Lejos de funcionar únicamente como una herramienta de automatización o archivo, la IA actúa hoy como un <strong>agente interpretativo</strong>, capaz de reorganizar, traducir y generar narrativas a partir de grandes volúmenes de datos históricos, visuales, sonoros y textuales. En este contexto, la memoria deja de entenderse como un registro fijo para asumirse como un <strong>proceso dinámico, inestable y disputado</strong>.",
-      "p1": "La colección <strong>IA y Memoria</strong> reúne proyectos que emplean sistemas algorítmicos para reinterpretar archivos históricos, activar memorias latentes y cuestionar las formas en que el pasado es preservado, narrado y transmitido. Estas prácticas no buscan reemplazar la memoria humana, sino <strong>tensionarla</strong>: exponen sus vacíos, sesgos y silencios, al mismo tiempo que proponen nuevas formas de lectura crítica del archivo.",
-      "p2": "Desde una perspectiva conceptual, la inteligencia artificial funciona aquí como una <strong>tecnología de mediación cultural</strong>. Los modelos de aprendizaje automático no recuerdan en el sentido humano del término; operan a partir de patrones, probabilidades y correlaciones. Sin embargo, al ser entrenados con materiales históricos —fotografías, documentos, testimonios, registros audiovisuales y tradición oral—, producen representaciones que nos obligan a preguntarnos <strong>quién recuerda, qué se recuerda y bajo qué criterios se construye la memoria colectiva</strong>.",
-      "p3": "Estas obras ponen en evidencia que <strong>todo archivo es político</strong>. La selección de datos, los procesos de digitalización, las decisiones curatoriales y los algoritmos mismos responden a contextos sociales y culturales específicos. En este sentido, <strong>la IA no es neutral</strong>: amplifica tanto los discursos dominantes como las ausencias estructurales. La colección asume esta tensión como un campo de trabajo crítico, proponiendo proyectos que visibilizan lo omitido, lo fragmentado y lo no dicho, y que abren espacio para memorias alternativas.",
-      "case_study": {
-        "title": "Caso de estudio",
-        "subtitle": "Cosiaca 350 / Un viaje inmersivo a la historia de Medellín",
-        "p1": "Cosiaca 350 es un proyecto emblemático dentro del eje IA y Memoria, en tanto articula <strong>investigación histórica, tradición oral y tecnologías contemporáneas</strong> para explorar la identidad paisa desde una perspectiva crítica y lúdica. El proyecto surge de una indagación sobre la figura histórica de José García, alias Cosiaca, personaje popular del siglo XIX que encarna la astucia, el humor irreverente y la oralidad como forma de resistencia cultural.",
-        "p2": "Más que una reconstrucción historiográfica tradicional, Cosiaca 350 propone la memoria como un <strong>territorio narrativo expandido</strong>, donde el pasado se reactiva mediante estrategias de ficción, interacción y participación del público. La inteligencia artificial cumple aquí un rol central como dispositivo de traducción cultural, capaz de mediar entre el archivo histórico y las formas contemporáneas de consumo narrativo.",
-        "main_axes_title": "El proyecto se despliega como un universo transmedia compuesto por tres ejes principales:",
-        "list_item_1": "<strong>Podcast narrativo:</strong> Una serie sonora que ficciona encuentros históricos, mezclando hechos documentados con imaginación especulativa. El podcast opera como una extensión de la tradición oral, trasladando el relato popular al formato digital y reforzando la memoria como experiencia auditiva y colectiva.",
-        "list_item_2": "<strong>Juego web interactivo con IA:</strong> Un entorno digital donde el usuario dialoga con una versión artificial de Cosiaca. Este personaje, construido a partir de investigación histórica y patrones lingüísticos, no busca simular una verdad absoluta, sino poner en escena las tensiones entre memoria, ficción y tecnología. La conversación se convierte en un acto performativo: cada interacción produce una versión distinta del pasado.",
-        "list_item_3": "<strong>Piezas audiovisuales para redes:</strong> Micro-historias diseñadas para circulación digital que fragmentan y redistribuyen la memoria en brief formatos. Estas piezas funcionan como cápsulas de divulgación cultural, activando el archivo en el presente y expandiendo la narrativa hacia nuevos públicos.",
-        "p4": "Desde el enfoque curatorial de IA y Memoria, Cosiaca 350 ejemplifica cómo la inteligencia artificial puede utilizarse para <strong>reactivar el archivo sin fetichizarlo</strong>, manteniendo visible la mediación tecnológica y sus límites. La IA no se presenta como garante de autenticidad, sino como una herramienta que evidencia la construcción narrativa de toda memoria histórica.",
-        "p5": "El proyecto también plantea preguntas éticas fundamentales: ¿qué implica dar voz algorítmica a un personaje histórico?, ¿cómo podemos evitar la cristalización de estereotipos culturales?, ¿dere dónde se sitúa la frontera entre homenaje, reinterpretación y simulación? En respuesta, Cosiaca 350 apuesta por la <strong>transparencia narrativa, el juego consciente y la participación crítica del usuario</strong>.",
-        "p6": "En este sentido, el proyecto encarna uno de los principios centrales de la colección: entender la memoria no como un acto de conservación pasiva, sino como una <strong>práctica viva, situada y en constante reescritura</strong>. Cosiaca 350 demuestra que la IA puede ser una aliada para explorar identidades locales, siempre que se asuma como un medio cultural y no como una autoridad histórica."
-      }
-    },
-    "arte-interactivo": {
-      "title": "Arte Interactivo y Percepción",
-      "title_long": "Arte Interactivo y Percepción: fundamentos curatoriales",
-      "curator": "Manuel Palacio",
-      "description": "Obras que invitan al público a participar, modificando la pieza con su presencia o acciones, explorando nuevas formas de experiencia sensorial y cognitiva.",
-      "intro": "El arte interactivo redefine la relación tradicional entre <strong>obra, espectador y autor</strong> al desplazar la experiencia estética desde la <strong>contemplación pasiva</strong> hacia la <strong>participación activa</strong>. En este campo, la obra no se presenta como un objeto cerrado, sino como un sistema abierto que se activa, transforma o completa a partir de la presencia, el cuerpo, las decisiones o las acciones del público. Desde esta perspectiva, la percepción deja de ser un proceso meramente visual para convertirse en una <strong>experiencia multisensorial, cognitiva y relacional</strong>. El espectador ya no “observa” la obra: la habita, la altera y la co-produce. Cada interacción introduce una variación, haciendo que la obra exista en múltiples estados posibles, siempre situados en el aquí y ahora del encuentro. El arte interactivo explora cómo los sentidos, la atención, la memoria y el movimiento influyen en la construcción del significado. Interfaces físicas, sistemas digitales, sensores, algoritmos, sonido, imagen y datos se articulan para generar entornos perceptivos dinámicos, donde la experiencia de sentir emerge del diálogo entre tecnología y cuerpo humano. En este contexto, la percepción no es fija ni universal, sino <strong>contingente, subjetiva y mutable</strong>. Estas prácticas cuestionan los límites entre lo material y lo inmaterial, lo analógico y lo digital, lo humano y lo tecnológico. La obra se convierte en un <strong>dispositivo de experiencia</strong>, más cercano a un laboratorio que a un objeto artístico tradicional. El error, la improvisación y la respuesta inesperada del sistema son parte constitutiva del proceso creativo. Desde un enfoque cognitivo, el arte interactivo pone en evidencia que percibir es también <strong>interpretar, decidir y actuar</strong>. La interacción activa procesos mentales complejos: anticipación, aprendizaje, empatía, conciencia corporal y reflexión crítica sobre el entorno tecnológico que habitamos. Así, la experiencia estética se expande hacia una experiencia de conocimiento. La colección Arte Interactivo y Percepción reúne obras y proyectos que investigan estas tensiones y posibilidades, proponiendo al público no solo una experiencia sensorial, sino una toma de conciencia sobre su propio rol dentro de los sistemas que atraviesan la vida contemporánea. Aquí, el arte funciona como un espacio de exploración perceptiva, donde la tecnología no es un fin, sino un medio para repensar cómo sentimos, entendemos y construimos el mundo.",
-      "sections": {
-        "cocreation": {
-          "title": "Participación activa y co-creación",
-          "p1": "En el arte interactivo el espectador deja de ser un observador pasivo y pasa a ser usuario, participante o incluso programador de la obra. Rodrigo Alonso destaca que, en sentido amplio, 'toda obra interactiva es participativa' porque requiere necesariamente 'la <strong>colaboración</strong> entre su autor, el dispositivo tecnológico, y un usuario.' Es decir, el público forma parte de un triángulo creativo junto al artista y la tecnología. La incorporación del usuario suele darse a través de dispositivos que reaccionan a sus acciones: como apunta Alonso, 'la forma más básica de hacer consciente al usuario de su participación es introducirlo en la obra mediante algún dispositivo que reaccione directamente a sus actos'. Por ejemplo, un sensor de movimiento, un micrófono o una cámara es suficiente para que la presencia física del visitante altere de inmediato lo proyectado: la flecha del mouse que señaliza nuestra presencia en la pantalla es un caso elemental, pero las instalaciones interactivas suelen sustituirla por medios creativos –imágenes, sonido, algoritmos– que visibilizan cada gesto del usuario.",
-          "p2": "Esta activación del público convierte a la obra en un proceso dialógico. Como señalan Ernest Edmonds y Stroud Cornock en los años 70, se configura un <strong>'sistema artístico'</strong> dinámico en el cual 'el artista, la audiencia y el objeto […] están involucrados activamente en la creación de la obra.' El significado de la pieza se construye a través de este intercambio: la interacción es el medio mismo del proceso creativo, not solo un gatillo para que algo ocurra. En la práctica, el usuario puede literalmente aparecer dentro de la obra (p. ej. su silueta capturada en tiempo real) o transformarse en códigos visuales o sonoros. Obras paradigmas como Pulse Room de Rafael Lozano-Hemmer (2006) hacen patente esta co-creación: al tomar el pulso cardíaco de cada visitante, lo proyectan como un parpadeo de luz en la sala, de modo que 'la participación del público se vuelve esencial para completar la obra.' De este modo, el visitante no solo modifica la obra por su presencia, sino que llega a conformar literalmente su contenido. En suma, la pieza interactiva invita al público a colaborar activamente en su definición, borrando la frontera entre la obra terminada y el proceso abierto de su gestación."
-        },
-        "experience": {
-          "title": "Nuevas experiencias sensoriales y cognitivas",
-          "p1": "Las obras interactivas abren formas inéditas de experiencia estética, integrando los sentidos, el cuerpo y el pensamiento del espectador. A nivel sensorial, combinan estímulos visuales, auditivos, táctiles, incluso olfativos, para sumergir al usuario en entornos multi-dimensionales. Onionlab describe que estas instalaciones 'tienen la capacidad de cambiar la forma en que la gente percebe el arte' al hacerlos partícipes del proceso creativo, generando 'una <strong>experiencia atractiva y personal</strong> que enciende la imaginación.' Al activar simultáneamente varios canales sensoriales, el arte interactivo produce un estado de inmersión donde la percepción se amplía: como comenta Rodrigo Alonso, el color, la imagen, el texto y el sonido se conjugan de modo que la participación del público se convierte 'en una <strong>experiencia a la vez sensorial y conceptual</strong>'.",
-          "p2": "La obra interactiva también puede alterar nuestra percepción del espacio y del tiempo. La convivencia del elemento físico con datos digitales en tiempo real disuelve los límites entre lo real y lo virtual: Alonso subraya que esta interrelación arquitectónica y tecnológica 'induce la reconsideración de los límites entre realidad y artificio', haciendo que los entornos sensibles sean más fluidos y abiertos a lo impredecible. In definitiva, el usuario vive una experiencia multisensorial intensificada: cada acción genera consecuencias inmediatas (cambios de color, de sonido, de forma) que se integran en un continuo de estímulos. Este giro sensorial es la base de nuevas vivencias estéticas donde el acto de percepción ya no es pasivo sino activo y creativo.",
-          "p3": "A nivel cognitivo, las obras interactivas plantean nuevos desafíos mentales. El espectador debe explorar dinámicas no determinísticas, descubrir reglas emergentes y construirse un sentido propio de la pieza. La teórica de interacción Lucy Suchman destaca que en estos sistemas <strong>'la acción es central y las metas son emergentes'</strong>: los usuarios 'alcanzan' el significado de la obra a través de sus propios encuentros con ella. En otras palabras, el valor de la instalación surge de la conducta y decisión del usuario en tiempo real. Este proceso se vincula con la idea de arte como conocimiento vivido: la interacción es 'no simplemente un medio para activar la obra, sino un vehículo para la reflexión y la producción de conocimiento'. Desde esta perspectiva, el sistema artísitico funciona como un <strong>“laboratorio viviente”</strong> (similar al proyecto Beta_space del Powerhouse Museum), donde cada visitante colabora con sus acciones en la generación de sentido. Así, más allá de un goce estético pasivo, el público asume un rol cognitivo activo: pregunta, indaga, espera o reconoce patrones, desarrollando una experiencia intelectual personalizada en cada encuentro con la obra."
-        },
-        "key_concepts": {
-          "title": "Conceptos clave"
-        },
-        "references": {
-          "title": "Artistas, teóricos y corrientes relevantes",
-          "p1": "En la curaduría de Arte Interactivo y Percepción se apoyan diversas referencias de práctica y teoría. En el ámbito artístico, destacan creadores contemporáneos que exploran la interacción y la percepción multisensorial. Por ejemplo, <strong>Rafael Lozano-Hemmer</strong> (México-Canadá) es conocido por instalaciones que combinan sensores biométricos con efectos lumínicos y sonoros. Su obra <em>Pulse Room</em> (2006) registra los latidos cardiacos de los visitantes y los traduce en un mar de bombillas parpadeantes, de modo que la pulsación vital de cada persona se convierte en elemento visual y sensorial. Grupos como <strong>teamLab</strong> (Japón) han popularizado entornos digitales inmersivos (realidad aumentada/virtual) donde los movimientos del público alteran patrones de proyección sobre las paredes. Del mismo modo, pioneros como <strong>Christa Sommerer & Laurent Mignonneau</strong> (Austria-Francia) han desarrollado desde los 90 instalaciones interactivas basadas en cámaras y sensores (por ejemplo, obras que traducen gestos corporales en formas orgánicas en pantalla). Otros referentes incluyen a <strong>Random International</strong> (UK), con obras como <em>Rain Room</em> (donde caminar bajo lluvia requiere de la presencia humana para detener el agua) y artistas generativos como <strong>Camille Utterback</strong> o <strong>Golan Levin</strong>, cuyas obras de software transforman los gestos del usuario en arte visual y sonoro en tiempo real. Aunque no se citen todas exhaustivamente, estos ejemplos ilustran la variedad de aproximaciones: desde instalaciones de gran escala hasta experiencias íntimas, siempre integrando la percepción del público como materia prima.",
-          "p2": "En el plano teórico, la colección se fundamenta en conceptos que vinculan participación, percepción y estética. En primer lugar, la fenomenología de <strong>Maurice Merleau-Ponty</strong> aporta una visión clave: él considera que la percepción es pre-reflexiva y corporal, de modo que sujeto y objeto se entrelazan «en un entretejido donde objeto y sujeto son interdependientes». Bajo esta óptica, el arte interactivo se explica como una extensión de nuestro cuerpo perceptivo: la obra no es un mero objeto representado, sino que participa de la construcción misma de la experiencia del mundo. En consonancia, <strong>Nicolas Bourriaud</strong> –teórico de la estética relacional– define el arte contemporáneo como «organización de presencia compartida entre objetos, imágenes y gente». Para Bourriaud, la obra es un espacio social: el espectador ya no es receptor pasivo, sino agente activo cuya interacción constituye el sentido. En efecto, en su perspectiva el arte actual sirve como «laboratorio de formas vivas que cualquiera puede apropiar», enfatizando el juego comunitario y la co-interpretación. Desde la teoría de los nuevos medios, figuras como <strong>Edmonds y Cornock</strong> laid academic foundations: en los 70 propusieron el concepto de la “matriz artística”, señalando que en las obras interactivas todos los componentes (artista, público, medio tecnológico) cooperan; la interactividad es entonces el propio proceso creativo. Esta idea es retomada también en estudios de interacción humano-computadora: por ejemplo, <strong>Lucy Suchman</strong> enfatiza que en estos entornos «la acción es central y las metas son emergentes», de modo que el significado se construye en cada acción del usuario. Otra investigadora, <strong>Söke Dinkla</strong>, vincula el arte interactivo actual con los experimentos participativos de los 60 (happenings, cine expandido), destacando su naturaleza «híbrida»: según ella, pese a la sofisticación técnica, el arte interactivo «no se basa en objetos cuya relevancia sea visual; […] el material artístico está constituido por el diálogo entre el programa y el usuario». Finalmente, estudios recientes (como la tesis sobre entornos sensoriales interactivos de María T. Alonso Acebes) subrayan que estas obras generan experiencias inmersivas, sensoriales e intelectuales, en las que la participación es crucial para crear significado. De este modo, convergen diversas corrientes –fenomenología, estética relacional, arte generativo, interfaz hombre-máquina– que sitúan al espectador en el centro del fenómeno artístico.",
-          "p3": "El arte interactivo se define como una forma de expresión artística que implica la colaboración activa del público en la creación de la obra. Según StudySmarter, esta modalidad «permite la participación activa del espectador en el proceso creativo, convirtiéndolo en co-creador de la obra». Por medio de tecnologías digitales, sensores e interfaces, el arte interactivo genera experiencias dinámicas y personalizadas que vinculan directamente al público con la pieza. En esta convergencia de arte y tecnología se redefinen los límites de lo tradicional, enfatizándose la importancia de lo sensorial y emocional en la apreciación artística. La colección “Arte Interactivo y Percepción” en el proyecto Núcleo Colectivo (curada por Manuel Palacio) parte de este principio: la obra ya no es un objeto estático, sino un espacio de encuentro donde el espectador juega un rol central en su significado."
-        },
-        "conclusion": {
-          "title": "Conclusiones curatoriales",
-          "p1": "El enfoque curatorial de Manuel Palacio para la colección “Arte Interactivo y Percepción” se apoya en estos ejes conceptuales: participación activa, experiencia multisensorial y visión teórica. La selección de obras apuntará a piezas donde la tecnología involucrada multiplique los sentidos (visuales, sonoros, táctiles) y fomenten la implicación consciente del público. Siguiendo las fuentes citadas, la curaduría valorará proyectos generativos que integren datos reales o IA, instalaciones inmersivas que involucren el cuerpo en el espacio y estructuras abiertas de significado. En este contexto, el curador actúa más como un facilitador de encuentros creativos que como autor único: se inspira en la idea del museo como un “laboratorio viviente” donde la interacción enriquece tanto al visitante como al arte mismo.",
-          "p2": "En suma, la base curatorial propuesta considera que el arte interactivo transforma la función del espectador, disolviendo las barreras entre lo visible y lo vivido. Al convertir la experiencia estética en un proceso participativo, se construye un vínculo emocional e intelectual con la obra, dando lugar a nuevas formas de comprensión artística. Estas perspectivas teóricas y prácticas sustentan la colección, garantizando que “Arte Interactivo y Percepción” se configure como un corpus coherente de obras que despliegan activamente la percepción del público y redefinen la experiencia estética en la era digital."
-        },
-        "references_footer": {
-          "title": "Referencias",
-          "content": "La discusión anterior integra ideas y citas de textos relevantes sobre arte interactivo y percepción, así como ejemplos de artistas contemporáneos reconocidos en este campo. Cada cita aporta sustento teórico y contextualiza el enfoque curatoral de la colección en Núcleo Colectivo."
-        }
-      },
-      "concepts": {
-        "perception": {
-          "title": "Percepción",
-          "text": "En el arte interactivo la percepción es un acto corporal y situado. Según la fenomenología de Merleau-Ponty, el cuerpo vivido es el medio de toda experiencia sensorial. En este marco, la obra interactiva extiende el cuerpo del espectador al espacio artístico, induciendo a que “sujeto y objeto se mezclen y coexistan” en un entretejido de sentido. Esto significa que el arte no se limita a representar el mundo, sino que participa activamente en su construcción perceptiva."
-        },
-        "interaction": {
-          "title": "Interacción",
-          "text": "Implica diálogo dinámico. El arte interactivo utiliza interfaces (sensores, cámaras, pantallas táctiles, dispositivos móviles, etc.) para que la pieza responda a gestos, sonidos o movimientos del público. No son obras estáticas; deben mutar en función del usuario y su entorno. Se establece un «diálogo entre la obra y el espectador», haciendo que cada visita sea irrepetible. En este sentido, la interacción redefine la experiencia estética en forma de intercambio vivo."
-        },
-        "generative": {
-          "title": "Arte generativo",
-          "text": "Se refiere a prácticas algorítmicas autónomas. El arte generativo se crea mediante sistemas computacionales que operan (semi)autónomamente, reduciendo la intervención manual del artista. En su esencia, el creador define reglas y parámetros, mientras que el sistema genera de forma impredecible formas, imágenes o sonidos. Esta simbiosis significa que el resultado final surge de la colaboración hombre-máquina. Muchas obras generativas incorporan datos en tiempo real y sensores, de modo que el público puede modificar variables mediante gestos, voz o movimiento. Así, lo generativo empuja la interactividad hacia la aleatoriedad guiada: por ejemplo, un algoritmo puede cambiar un paisaje sonoro según la posición de los visitantes, produciendo un flujo sensorial nuevo en cada iteración."
-        },
-        "installation": {
-          "title": "Instalación",
-          "text": "Forma artística de carácter espacial e inmersivo. Una instalación interactiva convoca un espacio arquitectónico completo, integrando imágenes, luces, sonido y estructuras físicas. Como explica Rodrigo Alonso, estas obras “ponen en interrelación un espacio físico –habitado por los cuerpos y las acciones de los usuarios– con un conjunto de datos, operaciones y traducciones numéricas que modifican el entorno sensible”. Es decir, combinan lo material (pavimento, muros, objetos) con lo digital (proyecciones, datos en vivo) para crear un ambiente coherente. El usuario se desplaza en él como parte de la obra, reformulando su percepción espacial y temporal."
-        },
-        "technology": {
-          "title": "Tecnología",
-          "text": "Herramienta mediadora. El uso de tecnología digital –ordenadores, sensores biométricos, cámaras de captura de movimiento, realidad virtual/aumentada, inteligencia artificial, etc.– es esencial en el arte interactivo. Gracias a estos recursos, el artista designs sistemas en que los datos del entorno o del cuerpo influyen continuamente en la obra. Por ejemplo, cámaras 3D pueden mapear la forma del público para generar imágenes volumétricas, mientras que algoritmos de IA pueden reinterpretar las entradas del usuario creando nuevos efectos sonoros o visuales. En conjunto, la tecnología actúa como mediadora entre el espectador y la obra, amplificando los estímulos sensoriales y ofreciendo múltiples niveles de interacción (local o incluso colectiva en línea)."
-        },
-        "experience": {
-          "title": "Experiencia estética",
-          "text": "Se refiere a la vivencia del público. En este contexto, la estética emerge del proceso participativo. Como apunta Onionlab, al permitir la interacción el arte deviene «una conversación animada entre la visión del artista y la interpretación del observador, disolviendo las líneas que distinguen el arte de la realidad». El resultado es una experiencia personal y memorable: cada usuario construye significados propios. La interacción «enciende la imaginación» del espectador, creando un lazo emocional y cognitivo con la obra. Así, la dimensión estética reside menos en la contemplación distante y más en el vínculo activo; el arte se vivencia como un evento único donde el sentido se co-genera entre todos los participantes."
-        }
-      }
+      "title": "Fluir: Documental de Proceso",
+      "summary": "Registro detallado de la metodología de creación del proyecto Fluir."
     }
   },
   "special_projects": {
     "cosiaca": {
       "title": "Cosiaca 350",
-      "curatorial_line": "Narrativas Transmedia",
-      "description": "Un viaje por la historia y los mitos de Antioquia de la mano de la figura pícara de Cosiaca, usando un podcast, un juego interactivo e IA.",
-      "process": {
-        "development": "Cosiaca 350 es un universo transmedia que explora la identidad paisa a través de diversos formatos. El proyecto surge de una investigación sobre la tradición oral y la figura histórica de José García, alias Cosiaca, un personaje que encarna la astucia y el humor antioqueño.",
-        "iterations": "La narrativa se expande en tres componentes principales: un podcast que ficciona encuentros históricos, un juego web interactivo donde el usuario dialoga con una versión IA de Cosiaca, y una serie de piezas audiovisuales para redes que divulgan las micro-historias del proyecto."
-      },
+      "description": "Narrativa transmedia sobre el personaje icónico de Antioquia, integrando IA y archivos históricos.",
       "social": {
         "youtube": {
           "main_channel": "Canal Principal",
-          "historical_playlist": "Playlist Archivo Histórico",
-          "shorts": "Píldoras Audiovisuales (Shorts)"
+          "historical_playlist": "Archivo Histórico",
+          "shorts": "Cosiaca Shorts"
         }
       }
     }
   },
-  "challenge": {
-    "back_to_challenges": "Volver a los Retos",
-    "back": "Atrás",
-    "previous": "Anterior",
-    "step": "Paso",
-    "next": "Siguiente",
-    "cover": {
-      "title": "RETOS CREATIVOS",
-      "subtitle": "Ejercicios para expandir la práctica artística",
-      "strategic_challenge": {
-        "title": "Reto Estratégico",
-        "description": "Un recorrido guiado para entender cómo tu práctica encaja en la visión de Núcleo Colectivo y descubrir oportunidades de colaboración.",
-        "cta": "Iniciar recorrido"
+  "manifesto": {
+    "title": "Manifiesto",
+    "subtitle": "Hacia un futuro del arte y la tecnología",
+    "p1": "Núcleo Colectivo es un laboratorio de creación, archivo vivo y vitrina digital diseñado para inventar el futuro del arte y la cultura.",
+    "p2": "Creemos en la tecnología como una extensión de la sensibilidad humana, no como su reemplazo.",
+    "p3": "Articulamos diálogos entre la <span class='text-primary'>academia</span>, la <span class='text-accent'>industria</span> y el <span class='text-primary'>territorio</span>.",
+    "p4": "Buscamos generar un impacto real en la comunidad, fomentando la co-creación y el intercambio de saberes técnicos.",
+    "p5": "El código es nuestro pincel.",
+    "p6": "Exploramos las gramáticas culturales que emergen de la programación y la visualización de datos.",
+    "p7": "Nuestros pilares fundamentales son:",
+    "li1": "Laboratorios de experimentación constante.",
+    "li2": "Archivo vivo de procesos técnicos y artísticos.",
+    "li3": "Vitrina digital para la nueva creación.",
+    "p8": "Operamos como una red expandida de creadores, donde cada nodo aporta una visión única al sistema.",
+    "p9": "Nuestra estética se define como Brutalismo Técnico Orgánico: rigor en el sistema, fluidez en la experiencia.",
+    "p10": "La inteligencia artificial colectiva es nuestra herramienta para democratizar la creación.",
+    "p11": "Inventamos el futuro desde el Sur Global, con narrativas propias y voz auténtica.",
+    "p12": "BIENVENIDOS AL NÚCLEO.",
+    "cta": "Unirse al Colectivo"
+  },
+  "workshops_details": {
+    "ia": {
+      "section_3_obj_general_title": "OBJETIVO GENERAL",
+      "section_3_obj_general_text": "Integrar la Inteligencia Artificial como un colaborador creativo en los procesos de investigación y producción artística.",
+      "section_3_obj_specific_list": [
+        "Comprender los fundamentos éticos y técnicos de la IA generativa.",
+        "Desarrollar flujos de trabajo personalizados con herramientas de vanguardia.",
+        "Prototipar proyectos que integren imagen, sonido y código.",
+        "Fomentar el pensamiento crítico sobre el impacto de la IA en la cultura."
+      ],
+      "section_7_title": "METODOLOGÍA CORE",
+      "section_7_session_1_title": "EXPLORACIÓN Y ÉTICA",
+      "section_7_session_1_contents_list": ["Historia de la IA en el arte", "Conceptos básicos de ML", "Ética y sesgos algorítmicos"],
+      "section_7_session_1_results_list": ["Mapa conceptual del proyecto"],
+      "section_7_session_2_title": "IMAGEN GENERATIVA",
+      "section_7_session_2_contents_list": ["Prompt engineering avanzado", "Modelos de difusión", "Control de composición"],
+      "section_7_session_2_results_list": ["Primer set de activos visuales"],
+      "section_7_session_3_title": "SONIDO Y TIEMPO",
+      "section_7_session_3_contents_list": ["Síntesis de voz IA", "Generación musical algorítmica", "Video reactivo"],
+      "section_7_session_3_results_list": ["Prototipo audiovisual"],
+      "section_7_session_4_title": "DESPLIEGUE FINAL",
+      "section_7_session_4_contents_list": ["Integración en web/espacio", "Documentación de proceso", "Presentación"],
+      "section_7_session_4_results_list": ["Proyecto listo para vitrina"],
+      "section_6_title": "DINÁMICA DE TRABAJO",
+      "section_11_list": ["Acceso a servidores GPU", "Licencias de software pro", "Material de estudio digital"],
+      "section_10_title": "CERTIFICACIÓN",
+      "section_10_list": ["Insignia digital verificada", "Publicación en el archivo vivo", "Feedback personalizado del core"],
+      "contact_cta": "SOLICITAR INFORMACIÓN"
+    }
+  },
+  "artists": {
+    "manuel": {
+      "name": "Manuel Palacio",
+      "primary_roles": "Fundador | Artista Plástico + Diseñador Gráfico + Creador Digital IA",
+      "bio_intro": "Integra la creatividad visual con las nuevas tecnologías, explorando la relación entre imagen y sonido.",
+      "bio": "Diseñador gráfico publicitario y artista plástico. Su práctica habita el cruce entre la naturaleza y el código, especializándose en instalaciones inmersivas y sistemas generativos.",
+      "academic": "Artes Plásticas (UdeA) | Diseño Gráfico (Bellas Artes)",
+      "portfolio_clients": "Sinergia de Tejidos, Semillero SIITNE, Aleph Experimental",
+      "secondary_roles": "UI/UX Design, Creative Coding, React/Next.js Development, Generative Art, Blender 3D",
+      "nucleo_roles": "Fundador, Dirección Creativa, Lead Developer",
+      "websites": {
+        "illustration": "Ilustración",
+        "graphic_design": "Diseño Gráfico",
+        "collectives": "Colectivos e Investigación",
+        "projects": "Micro Experimentalista",
+        "sinergia_web": "Sinergia de Tejidos (Web)",
+        "sinergia_ig": "Sinergia (Instagram)",
+        "aleph_experimental": "Aleph Experimental",
+        "siitne_web": "Semillero SIITNE"
       },
-      "creative_machine": {
-        "title": "Máquina Creativa",
-        "description": "Un arcade de ideación donde la IA te desafía a generar soluciones disruptivas a problemas complejos en tiempo récord.",
-        "cta": "Jugar ahora"
+      "youtube": {
+        "audiovisual_performance": "Performance Audiovisual",
+        "experimental_videoart": "Videoarte Experimental",
+        "siitne": "Canal SIITNE"
       }
     },
-    "strategic": {
-      "end_tour": "Finalizar Recorrido",
-      "main_title_1": "RETO ESTRATÉGICO",
-      "main_title_2": "NÚCLEO COLECTIVO",
-      "main_subtitle": "Descubre tu rol en el ecosistema del Núcleo a través de una experiencia guiada.",
-      "start_experience": "Iniciar Experiencia",
-      "personalize_title": "Personalicemos la experiencia",
-      "personalize_intro": "Para alinear esta misión con tu perfil, cuéntanos un poco sobre ti.",
-      "your_name": "Tu nombre o alias",
-      "name_placeholder": "Ej: Alex",
-      "your_profile": "Tu perfil principal",
-      "select_profile": "Selecciona un perfil...",
-      "profile_artist": "Artista / Creador(a)",
-      "profile_academic": "Académico(a) / Investigador(a)",
-      "profile_entrepreneur": "Emprendedor(a) / Gestor(a)",
-      "error_name_profile": "Por favor, ingresa tu nombre y selecciona un perfil para continuar.",
-      "start_mission": "Comenzar Misión",
-      "greeting": "Hola",
-      "mission_intro": "Tu misión, si decides aceptarla, es conectar tu práctica con el ecosistema de Núcleo Colectivo. Empecemos.",
-      "what_is_title": "¿Qué es Núcleo Colectivo?",
-      "what_is_desc": "Somos un sistema cultural que opera como laboratorio, archivo y vitrina para la creación contemporánea en la intersección del arte, la tecnología y el pensamiento crítico.",
-      "what_is_cards": [
-        {
-          "title": "Laboratorio Vivo",
-          "text": "Un espacio para la experimentación sin miedo, donde el proceso es la obra y el error es información valiosa."
-        },
-        {
-          "title": "Archivo Abierto",
-          "text": "Una memoria colectiva de procesos creativos, documentando la evolución de obras e ideas en nuestro ecosistema."
-        },
-        {
-          "title": "Vitrina en Tiempo Real",
-          "text": "Una plataforma que conecta directamente a los creadores con la comunidad, mostrando trabajos en progreso y diálogos abiertos."
-        }
-      ],
-      "summary_title": "Síntesis de la Misión",
-      "summary_desc": "Núcleo Colectivo no es una galería de obras terminadas. Es un <strong class='text-accent'>ecosistema dinámico</strong> para la creación y el pensamiento. Buscamos activar procesos, no solo exhibir resultados. Tu rol aquí es ser un <strong class='text-accent'>nodo activo</strong>: alguien que aporta, conecta, cuestiona y construye en red.",
-      "our_focus_title": "Nuestro Enfoque",
-      "our_focus_cards": [
-        {
-          "title": "Arte y Tecnología",
-          "text": "Exploramos cómo las herramientas digitales y la IA pueden expandir las prácticas artísticas, no como un fin, sino como un medio para nuevas preguntas."
-        },
-        {
-          "title": "Pensamiento Crítico",
-          "text": "Fomentamos una mirada analítica sobre el impacto de la tecnología en la cultura, la sociedad y la creación."
-        },
-        {
-          "title": "Colaboración Radical",
-          "text": "Creemos en el conocimiento compartido y en modelos de co-creación que desafían la idea del genio individual."
-        }
-      ],
-      "who_we_seek_title": "A Quiénes Buscamos",
-      "who_we_seek_cards": [
-        {
-          "title": "Creadores Híbridos",
-          "text": "Artistas, diseñadores y desarrolladores que se mueven con fluidez entre disciplinas y no temen experimentar con nuevos formatos."
-        },
-        {
-          "title": "Investigadores Curiosos",
-          "text": "Académicos y pensadores que desean conectar su investigación con prácticas creativas y explorar nuevas formas de divulgación."
-        },
-        {
-          "title": "Gestores Culturales",
-          "text": "Agentes que entienden la cultura como un sistema vivo y desean construir modelos de producción y distribución más abiertos y sostenibles."
-        }
-      ],
-      "accept_mission_title": "Tu Misión Específica",
-      "accept_mission_desc_default": "Acepta el reto para descubrir cómo tu perfil puede impactar y ser impactado por nuestro ecosistema.",
-      "accept_mission_button": "Acepto la Misión",
-      "benefits_title": "Beneficios para tu Perfil",
-      "join_mission_title": "Únete a la Conversación",
-      "join_mission_desc": "Esto es solo el comienzo. Si resuenas con nuestra visión, nos encantaría conversar. Contacta directamente con nuestro equipo de articulación.",
-      "join_mission_cta": "Contáctanos Ahora",
-      "profiles": {
-        "artist": {
-          "message": "Como Artista/Creador(a), no estás aquí para entregar un producto final, sino para abrir tu taller.",
-          "mission": "Tu misión es utilizar el Núcleo como un laboratorio extendido. Comparte tus procesos, experimenta con herramientas que no dominas, colabora con perfiles improbables y documenta tus hallazgos. Tu obra no termina, se conecta.",
-          "benefits": [
-            {
-              "title": "Visibilidad de Proceso",
-              "text": "Muestra tus experimentos, no solo tus éxitos. Conecta con una audiencia interesada en el 'cómo' y el 'porqué'."
-            },
-            {
-              "title": "Colaboración Interdisciplinar",
-              "text": "Accede a una red de desarrolladores, investigadores y gestores para llevar tus ideas a nuevos territorios."
-            },
-            {
-              "title": "Laboratorio Tecnológico",
-              "text": "Experimenta con IA, código creativo y nuevas narrativas con el apoyo y la curaduría del colectivo."
-            }
-          ]
-        },
-        "academic": {
-          "message": "Como Académico(a)/Investigador(a), el Núcleo es tu puente entre la teoría y la práctica.",
-          "mission": "Tu misión es utilizar el Núcleo como una plataforma de 'investigación-creación'. Publica tus ensayos de formas no tradicionales, colabora con artistas para visualizar tus datos y participa en la creación de nuevos marcos teóricos desde la praxis.",
-          "benefits": [
-            {
-              "title": "Divulgación Expandida",
-              "text": "Transforma tus papers en experiencias interactivas, podcasts o ensayos visuales. Llega a nuevas audiencias."
-            },
-            {
-              "title": "Laboratorio Práctico",
-              "text": "Valida tus hipótesis teóricas a través de proyectos creativos y colaboraciones con artistas y tecnólogos."
-            },
-            {
-              "title": "Archivo para Investigación",
-              "text": "Accede a un repositorio único de procesos creativos documentados, una fuente invaluable para el estudio del arte contemporáneo."
-            }
-          ]
-        },
-        "entrepreneur": {
-          "message": "Como Emprendedor(a)/Gestor(a), el Núcleo es un ecosistema para prototipar el futuro de la cultura.",
-          "mission": "Tu misión es diseñar y articular nuevos modelos dentro del ecosistema. Crea laboratorios, gestiona proyectos transdisciplinarios, desarrolla estrategias de sostenibilidad y conecta al Núcleo con otras organizaciones. Eres un arquitecto(a) del sistema.",
-          "benefits": [
-            {
-              "title": "Incubadora de Modelos",
-              "text": "Prueba nuevos modelos de gestión cultural, financiación y distribución en un entorno controlado y colaborativo."
-            },
-            {
-              "title": "Red Estratégica",
-              "text": "Conecta con talento creativo y técnico de alto nivel para desarrollar proyectos culturales de gran impacto."
-            },
-            {
-              "title": "Impacto Medible",
-              "text": "Lidera iniciativas que no solo tienen valor cultural, sino que también generan nuevas economías y dinámicas sociales."
-            }
-          ]
-        }
+    "carlos": {
+      "name": "Carlos Andrés Londoño Ruiz",
+      "primary_roles": "Realizador Audiovisual | Creador Digital | Director",
+      "bio_intro": "Realizador audiovisual con más de 15 años de experiencia, explorando narrativas transmedia.",
+      "bio": "Especialista en la integración de IA para la creación de mundos visuales imposibles. Su trabajo se centra en la memoria, el territorio y la experimentación digital.",
+      "academic": "Realización Audiovisual (Politécnico JIC) | Especialista en Cine (UdeA)",
+      "portfolio_clients": "Museo de Antioquia, Comfama, Alcaldía de Medellín, Ministerio de Cultura",
+      "secondary_roles": "Realización Audiovisual, Montaje, Colorización, Prompt Engineering, Dirección de Arte",
+      "nucleo_roles": "Director Audiovisual, Investigador Transmedia",
+      "websites": {
+        "drive_ia": "Portafolio IA (Drive)"
       }
     },
-    "creative": {
-      "main_title_1": "MÁQUINA CREATIVA",
-      "main_title_2": "ARCADE DE IDEACIÓN",
-      "main_subtitle": "Un sistema de entrenamiento para la resolución creativa de problemas, asistido por IA. Recibes un reto, propones una solución y la IA te evalúa. ¿Listo para jugar?",
-      "status": "MOTOR DE IA: ONLINE • CONEXIÓN NEURAL: ESTABLE",
-      "insert_coin": "INSERT COIN",
-      "game_title": "NÚCLEO CREATIVO / MODO ARCADE",
-      "stats": {
-        "challenges": "RETOS",
-        "evaluations": "EVALS",
-        "gens": "IA GENS"
-      },
-      "card_titles": {
-        "concepts": "CONCEPTO",
-        "actions": "ACCIÓN",
-        "challenges": "DESAFÍO",
-        "contexts": "CONTEXTO"
-      },
-      "your_challenge_is": "Tu reto es",
-      "challenge_sentence": "En {context}, donde existe el obstáculo de {challenge}, debes {action} para explorar el concepto de {concept}.",
-      "your_solution_title": "Tu Propuesta de Solución",
-      "solution_placeholder": "Describe tu idea aquí... Sé disruptivo. Piensa en sistemas, no en objetos. ¿Cómo se activa? ¿Quién participa? ¿Qué transforma?",
-      "evaluate_button": "Evaluar mi Solución",
-      "evaluating": "Evaluando...",
-      "ai_help_button": "Ayuda IA",
-      "generating": "Generando...",
-      "new_challenge_button": "Nuevo Reto",
-      "generating_solution_status": ">>> GENERANDO SOLUCIÓN DISRUPTIVA CON MODELOS PROPIETARIOS...",
-      "use_solution_button": "Usar esta solución",
-      "analyzing_status": ">>> ANALIZANDO PROPUESTA CON MATRIZ DE INNOVACIÓN...",
-      "innovation_score": "Puntaje de Innovación",
-      "try_again_button": "Intentar de Nuevo",
-      "save_to_archive_button": "Guardar en Archivo",
-      "select_variable_title": "Selector de Variables",
-      "choose_new": "Elige un nuevo",
-      "saved_archives_title": "Archivos Guardados",
-      "database_empty": "LA BASE DE DATOS ESTÁ VACÍA.",
-      "save_success": "¡Solución guardada en tu archivo personal!",
-      "save_error": "Error al guardar. Necesitas iniciar sesión para archivar tus soluciones.",
-      "error": {
-        "connection_title": "Error de Conexión Neuronal",
-        "connection_body": "El modelo de IA no está respondiendo. Por favor, verifica tu conexión o inténtalo de nuevo más tarde. El futuro a veces tiene lag."
-      },
-      "variables": {
-        "concepts": "La memoria|El territorio|La identidad|El cuerpo|El tiempo|El lenguaje|El poder|La utopía|El ritual|La ruina|La migración|El silencio",
-        "actions": "Visualizar datos invisibles|Crear un archivo especulativo|Diseñar un ritual urbano|Hackear un sistema existente|Generar una narrativa no lineal|Construir un espacio efímero|Traducir un lenguaje olvidado|Mapear una emoción colectiva",
-        "challenges": "La gentrificación acelerada|La desinformación masiva|La obsolescencia tecnológica|El aislamiento social|La crisis climática|La pérdida de la memoria histórica|La polarización política|La vigilancia digital",
-        "contexts": "Una plaza pública|Un mercado abandonado|Una red social|Un sueño|Un archivo histórico|Una frontera|Un edificio en ruinas|Un transporte público"
-      }
+    "maria-cecilia": {
+      "name": "María Cecilia Castaño",
+      "primary_roles": "Comunicadora · Bióloga | Gestión y Alianzas",
+      "bio_intro": "Articula diálogos entre ciencia, comunicación y arté para el bienestar colectivo.",
+      "bio": "Gestión estratégica de proyectos culturales y sociales. Bióloga enfocada en la conservación del territorio y comunicadora experta en metodologías de cocreación.",
+      "academic": "Biología (UdeA) | Comunicación Social (UPB)",
+      "portfolio_clients": "Jardín Botánico de Medellín, Corantioquia, Red de Museos",
+      "secondary_roles": "Gestión de Proyectos, Comunicación Estratégica, Metodologías de Co-creación, Conservación de Biodiversidad",
+      "nucleo_roles": "Gestión y Alianzas, Mediación Científico-Artística"
+    }
+  },
+  "members": {
+    "title": "Nodos del Colectivo",
+    "subtitle": "Comunidad Expandida",
+    "intro": "Un núcleo interdisciplinar donde convergen artistas, biólogos, comunicadores y desarrolladores.",
+    "view_profile": "Ingresar al Perfil",
+    "sections": {
+      "experience": "TRAYECTORIA Y ENFOQUE",
+      "academic": "FORMACIÓN ACADÉMICA",
+      "clients": "COLABORACIONES",
+      "volunteer": "PROYECTOS SOCIALES",
+      "skills": "HABILIDADES TÉCNICAS",
+      "roles": "ROL EN EL NÚCLEO"
+    },
+    "cta": {
+      "title": "¿Eres un nodo potencial?",
+      "description": "Si tu práctica habita el cruce entre arte y tecnología, el núcleo se expande contigo.",
+      "button": "POSTULARME AL COLECTIVO"
+    }
+  },
+  "work": {
+    "title": "Vitrina Digital",
+    "subtitle": "Archivo vivo de procesos y resultados",
+    "filters": {
+      "all": "Todos",
+      "special": "Especiales",
+      "interactive": "Interactivos",
+      "ai": "IA Creativa",
+      "video": "Videoarte"
+    },
+    "placeholder": {
+      "title": "Tu Obra Aquí",
+      "description": "Buscamos proyectos que exploren nuevas gramáticas culturales.",
+      "cta": "ENVIAR PROPUESTA"
+    }
+  },
+  "radio": {
+    "hero_subtitle": "SINTONÍA EXPERIMENTAL GLOBAL",
+    "headline": "Archivo de señales sonoras, paisajes acústicos y exploraciones radiales de vanguardia.",
+    "status_line": "SEÑAL ACTIVA / NODO RADIAL ONLINE",
+    "now_playing": "EN SINTONÍA",
+    "player_microcopy": "CONTROL DE SEÑAL / FRECUENCIA 128KBPS",
+    "hide": "OCULTAR PRODUCCIÓN",
+    "schedule_title": "PROGRAMACIÓN SEMANAL",
+    "schedule_footer": "HORARIOS SUJETOS A INTERVENCIÓN IA",
+    "schedule_days": [
+      { "day": "Lunes", "desc": "Paisaje Sonoro Territorial" },
+      { "day": "Martes", "desc": "Electrónica Experimental" },
+      { "day": "Miércoles", "desc": "Archivo Radiofónico" },
+      { "day": "Jueves", "desc": "Nuevas Narrativas IA" },
+      { "day": "Viernes", "desc": "Sesión VJ / Live Coding" }
+    ],
+    "suggest_station_title_new": "¿Falta algún nodo radial?",
+    "suggest_station_description_new": "Si conoces una emisora experimental que deba estar en el núcleo, envíanos el enlace.",
+    "suggest_station_cta_new": "SUGERIR EMISORA",
+    "info_banner": {
+      "title": "SISTEMA DE RADIO",
+      "subtitle": "Acceso a la memoria sonora del colectivo",
+      "system_info": "INFO_SISTEMA",
+      "cta": "VER MÁS",
+      "modal_header_title": "NÚCLEO <span class='text-amber-500'>RADIO</span>",
+      "modal_header_subtitle": "PROTOCOLO DE ESCUCHA",
+      "col1_title": "ARCHIVO",
+      "col1_subtitle": "MEMORIA SONORA",
+      "col1_p1": "Repositorio vivo de intervenciones sonoras.",
+      "col1_p2": "Cada señal es capturada por nuestros nodos.",
+      "col1_section_title": "TAGS DE SEÑAL",
+      "col1_tags": ["Experimental", "Ambient", "IA", "Field Recording"],
+      "col2_title": "GRILLA",
+      "col2_subtitle": "EMISIONES CORE",
+      "col2_schedule": [
+        { "d": "L-V", "t": "Escucha Activa", "sub": "Curaduría Global" },
+        { "d": "S-D", "t": "Inmersión", "sub": "Paisajes Profundos" }
+      ],
+      "col2_footer": "ZONA HORARIA COL",
+      "col3_title": "FUNCIONES",
+      "col3_subtitle": "OPERACIONES",
+      "col3_community_title": "COMUNIDAD",
+      "col3_community_p": "Participa en la creación de paisajes.",
+      "col3_functions_title": "CARACTERÍSTICAS",
+      "col3_functions_list": ["Visualización Real-time", "Auto-DJ con IA", "Caché de audio"],
+      "col3_quote_p1": "EL SONIDO ES",
+      "col3_quote_p2": "MATERIA DIGITAL",
+      "modal_footer_id": "STATION_CORE_V2",
+      "modal_footer_status": "STABLE",
+      "modal_footer_location": "MEDELLÍN"
+    }
+  },
+  "podcast": {
+    "original_production": "PRODUCCIÓN ORIGINAL",
+    "title": "En la Sala con Cosiaca",
+    "description": "NARRATIVAS TRANSMEDIA",
+    "longDescription": "Una exploración profunda sobre la identidad, el humor y la historia de Antioquia a través del personaje de Cosiaca.",
+    "now_playing_episode": "EPISODIO ACTUAL",
+    "episodes_available": "EPISODIOS DISPONIBLES",
+    "about_title": "SOBRE ESTA PRODUCCIÓN",
+    "info": "Proyecto ganador de la Convocatoria de Fomento y Estímulos para el Arte y la Cultura.",
+    "categories": {
+      "intro": "Introducción",
+      "character": "El Personaje",
+      "author": "Autores e Identidad",
+      "soundscape": "Paisaje Sonoro",
+      "platform": "Plataformas"
+    },
+    "banner": {
+      "subtitle": "NARRATIVAS TRANSMEDIA",
+      "description": "Explora el universo de <b>Cosiaca</b>, un viaje entre la historia, la picardía y la tecnología.",
+      "listen_now": "Escuchar Ahora",
+      "show_content": "Ver Episodios"
+    },
+    "episodes": {
+      "saludo": { "title": "Saludo de Bienvenida", "description": "Introducción al universo transmedia de Cosiaca." },
+      "culebreo": { "title": "El Culebreo", "description": "Historias de plazas y mercados." },
+      "trocha": { "title": "En la Trocha", "description": "Relatos de arriería y montaña." },
+      "fernando-garcia": { "title": "Fernando González", "description": "El filósofo de otra parte y su visión de la identidad." },
+      "francisco-herrera": { "title": "Francisco Herrera y Campuzano", "description": "Fundación y memoria regional." },
+      "cancion-valle": { "title": "Canción del Valle", "description": "Paisaje acústico del Valle de Aburrá." },
+      "verraquera-arriera": { "title": "Verraquera Arriera", "description": "La fuerza del trabajo y la montaña." },
+      "medellin-hoy": { "title": "Medellín Hoy", "description": "Perspectivas urbanas y transformaciones." },
+      "medellin-cafetales": { "title": "Entre Cafetales", "description": "Sonidos de la tradición cafetera." },
+      "violencia-esperanza": { "title": "De la Violencia a la Esperanza", "description": "Relatos de resiliencia y futuro." }
     }
   },
   "channel": {
-    "hero_title": "NÚCLEO/CHANNEL",
-    "hero_subtitle": "Archivo Audiovisual Curado",
-    "headline": "Un espacio para la difusión y exploración de videoarte, animación experimental, proyectos interactivos y documentación crítica en la intersección del arte, la tecnología y la sociedad.",
-    "status_line": "En Curaduría · Archivo Vivo · Contenido Expandido"
+    "hero_subtitle": "VITRINA AUDIOVISUAL",
+    "headline": "Archivo curado de contenidos audiovisuales especializados en arte y tecnología.",
+    "status_line": "SISTEMA ONLINE / CANAL ACTIVO",
+    "info_banner": {
+      "title": "NÚCLEO CHANNEL",
+      "subtitle": "Explora el archivo audiovisual",
+      "cta": "DETALLES"
+    }
   },
   "channel_info_banner": {
-    "system_info": "/// MANIFIESTO DEL CANAL",
-    "title": "¿QUÉ ES NÚCLEO/CHANNEL?",
-    "subtitle": "Archivo Audiovisual Curado v1.0",
-    "cta": "Explorar Manifiesto",
-    "modal_header_title": "NÚCLEO<span class=\"text-accent\">/</span>CHANNEL",
-    "modal_header_subtitle": "MANIFIESTO_AUDIOVISUAL_V.1.0",
-    "col1_title": "El Archivo",
-    "col1_subtitle": "/// Curaduría y Preservación",
-    "col1_p1": "Una videoteca digital que funciona como un <strong class=\"text-white\">archivo vivo de la cultura audiovisual contemporánea</strong>.",
-    "col1_p2": "Más que un simple repositorio, es una <em class=\"text-zinc-200 not-italic\">plataforma curada</em> que contextualiza y conecta obras, creadores y debates en torno al arte y la tecnología.",
-    "col1_section_title": "Líneas Curatoriales",
-    "col1_tags": ["Arte y Tecnología", "Nuevas Narrativas", "Pensamiento Crítico", "Cultura Digital"],
-    "col2_title": "Las Secciones",
-    "col2_subtitle": "/// Categorías de Contenido",
+    "title": "NÚCLEO CHANNEL",
+    "subtitle": "Sistema de visualización de contenidos",
+    "system_info": "INFO_CANAL",
+    "cta": "INGRESAR",
+    "modal_header_title": "CANAL <span class='text-accent'>DIGITAL</span>",
+    "modal_header_subtitle": "ARCHIVO VIVO",
+    "col1_title": "CURADURÍA",
+    "col1_subtitle": "FILTRO CRÍTICO",
+    "col1_p1": "Selección rigurosa de piezas audiovisuales.",
+    "col1_p2": "Enfoque en la intersección arte-tecnología.",
+    "col1_section_title": "NÚCLEOS TEMÁTICOS",
+    "col1_tags": ["Videoarte", "IA", "Código", "Pensamiento"],
+    "col2_title": "ESTRUCTURA",
+    "col2_subtitle": "SECCIONES CORE",
     "col2_sections": [
-      { "t": "Arte y Creatividad", "sub": "Videoarte, performance y arte experimental" },
-      { "t": "Tecnología y Código", "sub": "Programación creativa, arte generativo e IA" },
-      { "t": "Cultura y Pensamiento", "sub": "Análisis crítico de la cultura digital" },
-      { "t": "Procesos y Colaboración", "sub": "Co-creación y metodologías artísticas" }
+      { "t": "Arte IA", "sub": "Creación Algorítmica" },
+      { "t": "Código", "sub": "Sistemas Abiertos" }
     ],
-    "col2_footer": "Contenido actualizado continuamente",
-    "col3_title": "El Propósito",
-    "col3_subtitle": "/// Misión y Visión",
-    "col3_community_title": "Formación y Divulgación",
-    "col3_community_p": "Ser una herramienta pedagógica para artistas, estudiantes y curiosos, ofreciendo un panorama del estado del arte audiovisual.",
-    "col3_functions_title": "Conexión",
-    "col3_functions_list": [
-      "Conectar creadores con audiencias interesadas.",
-      "Visibilizar prácticas artísticas innovadoras.",
-      "Generar un espacio de diálogo y reflexión crítica."
-    ],
-    "col3_quote_p1": "El canal no es solo para ver.",
-    "col3_quote_p2": "Es para pensar, crear y conectar.",
-    "modal_footer_id": "ID: NUC-CHAN-01",
-    "modal_footer_status": "ESTADO: ACTIVO",
-    "modal_footer_location": "MEDELLÍN, COLOMBIA"
+    "col2_footer": "V.1.5",
+    "col3_title": "MISIÓN",
+    "col3_subtitle": "OBJETIVO",
+    "col3_community_title": "ESPACIO",
+    "col3_community_p": "Un canal para la reflexión y la creación.",
+    "col3_functions_title": "CARACTERÍSTICAS",
+    "col3_functions_list": ["HD Streaming", "Contexto Curatorial", "Acceso Libre"],
+    "col3_quote_p1": "LA IMAGEN ES",
+    "col3_quote_p2": "UNA HERRAMIENTA",
+    "modal_footer_id": "CHANNEL_CORE_01",
+    "modal_footer_status": "ONLINE",
+    "modal_footer_location": "GLOBAL"
+  },
+  "footer": {
+    "title": "Núcleo Colectivo",
+    "description": "Plataforma de creación contemporánea, archivo vivo y vitrina digital.",
+    "explore": "Explorar",
+    "showcase": "Vitrina",
+    "community": "Comunidad",
+    "radio_archive": "Archivo Radio",
+    "legal": "Legal",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "member_access": "Acceso Miembros",
+    "login": "Ingresar",
+    "copyright": "© 2026 Núcleo Colectivo. Todos los derechos reservados.",
+    "location": "MEDELLÍN_COLOMBIA"
+  },
+  "challenge": {
+    "cover": {
+      "title": "ACTIVACIÓN CREATIVA",
+      "subtitle": "Sistemas de provocación para la innovación disruptiva",
+      "strategic_challenge": {
+        "title": "RETO ESTRATÉGICO",
+        "description": "Misiones de creación diseñadas para equipos y organizaciones."
+      },
+      "creative_machine": {
+        "title": "MÁQUINA CREATIVA",
+        "description": "Generador de misiones aleatorias impulsado por IA."
+      }
+    },
+    "creative": {
+      "variables": {
+        "concepts": "Biomimesis|Entropía|Sincronicidad|Gobernanza Digital|Memoria Ancestral|Algoritmos Genéticos",
+        "actions": "Diseñar una instalación|Escribir un manifiesto|Prototipar un objeto|Crear un sistema sonoro",
+        "challenges": "Sin electricidad|Usando solo luz|En un entorno hostil|Con datos en tiempo real",
+        "contexts": "Un bosque nublado|Una metrópolis distópica|El metaverso|Una comunidad rural"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Conecta con el Núcleo",
+    "intro": "Estamos abiertos a nuevas colaboraciones, proyectos institucionales e intercambio de saberes.",
+    "email_label": "CORREO ELECTRÓNICO",
+    "email_value": "nucleo.colectivo.art@gmail.com",
+    "location_label": "UBICACIÓN",
+    "location_value": "Medellín, Colombia",
+    "follow_us": "SÍGUENOS",
+    "form_name": "NOMBRE",
+    "form_name_placeholder": "Tu nombre",
+    "form_email": "CORREO",
+    "form_email_placeholder": "tu@email.com",
+    "form_message": "MENSAJE",
+    "form_message_placeholder": "¿Cómo podemos colaborar?",
+    "form_submit": "ENVIAR MENSAJE",
+    "cta_title": "¿Deseas unirte?",
+    "cta_description": "El núcleo se expande a través de sus nodos. Envía tu propuesta.",
+    "cta_button": "POSTULARME AHORA"
   }
 }

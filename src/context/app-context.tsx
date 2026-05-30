@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { createContext, useState, useContext, ReactNode, Dispatch, SetStateAction, useRef } from 'react';
@@ -6,8 +7,6 @@ import { STATIONS_DATA } from '@/lib/data';
 type Station = typeof STATIONS_DATA[0]['stations'][0];
 
 interface AppContextType {
-  activeTab: string;
-  setActiveTab: Dispatch<SetStateAction<string>>;
   isMenuOpen: boolean;
   setIsMenuOpen: Dispatch<SetStateAction<boolean>>;
   scrolled: boolean;
@@ -35,7 +34,6 @@ interface AppContextType {
 const AppContext = createContext<AppContextType | undefined>(undefined);
 
 export function AppProvider({ children }: { children: ReactNode }) {
-  const [activeTab, setActiveTab] = useState('home');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [currentStation, setCurrentStation] = useState<Station | null>(STATIONS_DATA[0].stations[0]);
@@ -47,21 +45,20 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [isMuted, setIsMuted] = useState(false);
   const [headerVisible, setHeaderVisible] = useState(true);
   
-  const toneRef = useRef(null);
   const audioInitialized = useRef(false);
 
   const initAudio = async () => {
-    if (typeof window !== 'undefined' && window.Tone && !audioInitialized.current) {
-        await window.Tone.start();
+    if (typeof window !== 'undefined' && (window as any).Tone && !audioInitialized.current) {
+        await (window as any).Tone.start();
         audioInitialized.current = true;
         console.log("Audio Engine Initialized.");
     }
   };
 
   const playSound = (type: string) => {
-      if (typeof window === 'undefined' || !window.Tone || !audioInitialized.current) return;
+      if (typeof window === 'undefined' || !(window as any).Tone || !audioInitialized.current) return;
       
-      const Tone = window.Tone;
+      const Tone = (window as any).Tone;
       const now = Tone.now();
       
       Tone.Destination.volume.value = -12;
@@ -97,8 +94,6 @@ export function AppProvider({ children }: { children: ReactNode }) {
   };
 
   const value = {
-    activeTab,
-    setActiveTab,
     isMenuOpen,
     setIsMenuOpen,
     scrolled,
