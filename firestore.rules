@@ -30,5 +30,22 @@ service cloud.firestore {
     match /community/{userId} {
       allow read, write: if request.auth != null && request.auth.uid == userId;
     }
+
+    // Podcasts: lectura pública
+    match /podcasts/{podcastId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.token.role == "admin";
+    }
+
+    // Contenidos / Blog: lectura pública
+    match /contentItems/{itemId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.token.role == "admin";
+    }
+
+    // Artefactos y Retos guardados: acceso por usuario
+    match /artifacts/{appId}/users/{userId}/challenges/{challengeId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
   }
 }
