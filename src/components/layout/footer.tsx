@@ -1,18 +1,15 @@
+
 "use client";
 
+import Link from 'next/link';
 import { useApp } from '@/context/app-context';
 import { useTranslation } from '@/context/language-context';
 import { Instagram, Mail, Users, Video, MessageCircle } from 'lucide-react';
 
 export function Footer() {
-  const { setActiveTab, setIsLoginOpen } = useApp();
+  const { setIsLoginOpen } = useApp();
   const { t } = useTranslation();
   
-  const handleNavClick = (id: string) => {
-    setActiveTab(id);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   return (
     <footer className="bg-foreground text-background px-6 md:px-12 py-12 md:py-20 mt-20 relative z-10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-10">
@@ -38,16 +35,16 @@ export function Footer() {
           <div>
             <h4 className="font-bold mb-4 uppercase text-neutral-500 tracking-widest text-xs">{t('footer.explore')}</h4>
             <ul className="space-y-3">
-              <li><button onClick={() => handleNavClick('obra')} className="hover:text-white text-neutral-400 transition-colors">{t('footer.showcase')}</button></li>
-              <li><button onClick={() => handleNavClick('miembros')} className="hover:text-white text-neutral-400 transition-colors">{t('footer.community')}</button></li>
-              <li><button onClick={() => handleNavClick('radio')} className="hover:text-white text-neutral-400 transition-colors">{t('footer.radio_archive')}</button></li>
+              <li><Link href="/showcase" className="hover:text-white text-neutral-400 transition-colors">{t('footer.showcase')}</Link></li>
+              <li><Link href="/community" className="hover:text-white text-neutral-400 transition-colors">{t('footer.community')}</Link></li>
+              <li><Link href="/radio" className="hover:text-white text-neutral-400 transition-colors">{t('footer.radio_archive')}</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="font-bold mb-4 uppercase text-neutral-500 tracking-widest text-xs">{t('footer.legal')}</h4>
             <ul className="space-y-3">
-              <li><button onClick={() => handleNavClick('privacy')} className="hover:text-white text-neutral-400 transition-colors">{t('footer.privacy')}</button></li>
-              <li><button onClick={() => handleNavClick('terms')} className="hover:text-white text-neutral-400 transition-colors">{t('footer.terms')}</button></li>
+              <li><Link href="/privacy" className="hover:text-white text-neutral-400 transition-colors">{t('footer.privacy')}</Link></li>
+              <li><Link href="/terms" className="hover:text-white text-neutral-400 transition-colors">{t('footer.terms')}</Link></li>
             </ul>
           </div>
           <div className="col-span-2 md:col-span-1">

@@ -58,7 +58,7 @@ export function SolutionsView() {
     {
       id: "NC_03",
       name: "María Cecilia Castaño",
-      role: "Gestión / Investigación",
+      role: "Comunicadora / Bióloga / Gestión",
       bio: "Bióloga articulando diálogos entre ciencia y arte.",
       img: "https://raw.githubusercontent.com/NucleoColectivo/NUCLEO/main/MARIA%20CECILIA/maria5.png"
     }

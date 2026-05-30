@@ -2,14 +2,14 @@
 "use client";
 
 import React, { useState, useMemo } from 'react';
-import Image from 'next/image';
+import NextImage from 'next/image';
 import { useApp } from '@/context/app-context';
 import { useTranslation } from '@/context/language-context';
 import { SectionTitle } from '@/components/common/section-title';
 import { ProjectDetailModal } from '@/components/modals/project-detail-modal';
 import { VideoPlayerModal } from '@/components/modals/video-player-modal';
 import { PROJECTS, SPECIAL_PROJECTS } from '@/lib/data';
-import { Plus } from 'lucide-react';
+import { Plus, ArrowRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { motion } from 'framer-motion';
 
@@ -59,30 +59,64 @@ const ProjectCard = ({ project, onClick }: { project: Project; onClick: () => vo
   const summary = project.type === 'special'
     ? t(`special_projects.${project.id}.description`)
     : t(`projects_data.${project.id}.summary`);
-  const author = project.authors.map(a => t(`artists.${a.id}.name`)).join(', ');
+  const curatorialLine = project.curatorial_line || project.authors.map(a => t(`artists.${a.id}.name`)).join(', ');
   
   return (
-    <div onClick={onClick} className="group block cursor-pointer bg-muted/30 rounded-none overflow-hidden border border-border transition-all duration-300 hover:border-primary/50 hover:shadow-xl h-full flex flex-col">
-      <div className="relative overflow-hidden aspect-[4/3] bg-neutral-900">
-        <Image 
-          src={project.media.hero_image} 
-          alt={`${title}: ${summary}`} 
-          fill={true} 
-          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-        <div className="absolute top-4 right-4 bg-background/80 text-foreground text-[10px] px-2.5 py-1 rounded-none font-bold backdrop-blur-sm shadow-md">{project.year}</div>
-        <div className="absolute bottom-0 left-0 p-4">
-          <p className="text-white font-bold font-headline text-2xl line-clamp-2 uppercase italic leading-none">{title}</p>
+    <div onClick={onClick} className="group block cursor-pointer bg-white rounded-none overflow-hidden border border-border transition-all duration-300 hover:shadow-2xl h-full flex flex-col">
+      {/* Top Part: Black Background & Visual impact */}
+      <div className="relative overflow-hidden aspect-square bg-[#0a0a0a] p-6 md:p-8 flex flex-col justify-center">
+        {/* Year Badge */}
+        <div className="absolute top-4 right-4 bg-zinc-300 text-black text-[10px] px-3 py-1 font-black shadow-md z-20">
+          {project.year}
+        </div>
+        
+        {/* Decoration & Branding */}
+        <div className="flex items-center gap-2 mb-6 opacity-80">
+           <div className="w-6 h-6 relative">
+             <NextImage src="https://raw.githubusercontent.com/NucleoColectivo/NUCLEO/main/imagen/ICONO%20LOGO%20AMARILLO.png" alt="Logo" fill className="object-contain" />
+           </div>
+           <span className="text-[8px] font-black text-white uppercase tracking-widest">NÚCLEO COLECTIVO</span>
+        </div>
+
+        {/* Title Block with Pink Line */}
+        <div className="relative pl-6 border-l-2 border-primary mb-8">
+          <h4 className="text-white font-black font-headline text-2xl sm:text-3xl lg:text-4xl uppercase italic leading-[0.9] group-hover:text-accent transition-colors break-words">
+            {title}
+          </h4>
+        </div>
+
+        {/* Action Button */}
+        <div className="mt-4">
+          <div className="inline-flex items-center gap-2 bg-zinc-400 text-black px-4 py-1.5 text-[8px] font-black uppercase italic rounded-full shadow-lg group-hover:bg-accent transition-colors">
+            INGRESAR AL SISTEMA <ArrowRight size={10} strokeWidth={3} />
+          </div>
+        </div>
+
+        {/* Background Image (Subtle) */}
+        <div className="absolute inset-0 opacity-20 group-hover:opacity-40 transition-opacity pointer-events-none">
+           <NextImage 
+            src={project.media.hero_image} 
+            alt={title} 
+            fill 
+            className="object-cover transition-transform duration-700 group-hover:scale-110" 
+          />
         </div>
       </div>
-      <div className="p-5 flex flex-col flex-grow">
-        <p className="text-primary font-code text-[10px] font-black uppercase tracking-widest mb-3">{project.curatorial_line || author}</p>
-        <p className="text-sm text-muted-foreground line-clamp-3 mb-5 flex-grow font-light">{summary}</p>
+
+      {/* Bottom Part: White Background & Metadata */}
+      <div className="p-6 flex flex-col flex-grow bg-white">
+        <p className="text-primary font-black text-[10px] uppercase tracking-[0.2em] mb-4">
+          {curatorialLine}
+        </p>
+        <p className="text-sm text-neutral-500 line-clamp-3 mb-6 flex-grow font-light leading-relaxed">
+          {summary}
+        </p>
         {project.tags && project.tags.length > 0 && (
-          <div className="flex flex-wrap gap-2 mt-auto pt-4 border-t border-border">
+          <div className="flex flex-wrap gap-2 pt-4 border-t border-neutral-100">
               {project.tags.map(tag => (
-                  <span key={tag} className="text-[10px] bg-muted text-muted-foreground font-black uppercase px-2 py-0.5 rounded-none border border-border">{tag}</span>
+                  <span key={tag} className="text-[9px] bg-neutral-100 text-neutral-500 font-bold uppercase px-3 py-1 rounded-none border border-neutral-200">
+                    {tag}
+                  </span>
               ))}
           </div>
         )}
@@ -182,7 +216,7 @@ export function WorkView() {
           </SpatialSection>
         ))}
         <SpatialSection className="h-full">
-          <a href="https://forms.gle/smy3CpQaSMLeMYXj6" target="_blank" rel="noopener noreferrer" className="border-2 border-dashed border-accent/50 rounded-none flex flex-col items-center justify-center aspect-[3/4] bg-neutral-900 cursor-pointer hover:border-accent hover:bg-neutral-800 transition-all duration-300 group">
+          <a href="https://forms.gle/smy3CpQaSMLeMYXj6" target="_blank" rel="noopener noreferrer" className="border-2 border-dashed border-accent/50 rounded-none flex flex-col items-center justify-center aspect-square bg-neutral-900 cursor-pointer hover:border-accent hover:bg-neutral-800 transition-all duration-300 group">
             <div className="text-center p-8">
               <h3 className="text-2xl md:text-3xl font-bold font-headline text-neutral-400 group-hover:text-white uppercase italic tracking-tighter">{t('work.placeholder.title')}</h3>
               <p className="text-xs md:text-sm text-neutral-500 group-hover:text-neutral-300 mt-4 leading-relaxed max-w-[240px] mx-auto">{t('work.placeholder.description')}</p>

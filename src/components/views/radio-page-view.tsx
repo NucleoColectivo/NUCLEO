@@ -188,6 +188,7 @@ export function RadioPageView() {
   const [podcastCurrentTime, setPodcastCurrentTime] = useState(0);
   const [podcastDuration, setPodcastDuration] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
+  const [dayIndex, setDayIndex] = useState<number | null>(null);
   const [openCategories, setOpenCategories] = useState<Record<string, boolean>>(() => {
     const initialState: Record<string, boolean> = {};
     STATIONS_DATA.forEach(category => {
@@ -201,13 +202,13 @@ export function RadioPageView() {
   };
 
   const podcastAudioRef = useRef<HTMLAudioElement | null>(null);
-
-  const schedule = t('radio.schedule_days') as { day: string; desc: string }[];
-  const today = new Date().getDay();
-  const dayIndex = (today === 0 || today === 6) ? 5 : today - 1;
-
+  const schedule = (t('radio.schedule_days') || []) as { day: string; desc: string }[];
 
   useEffect(() => {
+    const today = new Date().getDay();
+    const index = (today === 0 || today === 6) ? 5 : today - 1;
+    setDayIndex(index);
+    
     podcastAudioRef.current = new Audio();
     const audio = podcastAudioRef.current;
     
@@ -626,7 +627,7 @@ export function RadioPageView() {
                 <Calendar className="size-4 md:size-5" /> {t('radio.schedule_title')}
               </h3>
               <div className="space-y-3 md:space-y-4">
-                {Array.isArray(schedule) && schedule.map((slot, i) => (
+                {dayIndex !== null && Array.isArray(schedule) && schedule.map((slot, i) => (
                   <div key={i} className={cn(
                     "p-2 md:p-3 rounded-md transition-all duration-300",
                     i === dayIndex ? "bg-accent/10 border-l-2 border-accent" : "opacity-60"

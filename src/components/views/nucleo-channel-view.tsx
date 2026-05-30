@@ -68,9 +68,9 @@ const ChannelInfoBanner = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
 
-  const sections = t('channel_info_banner.col2_sections');
-  const functions = t('channel_info_banner.col3_functions_list');
-  const tags = t('channel_info_banner.col1_tags');
+  const sections = t('channel_info_banner.col2_sections') || [];
+  const functions = t('channel_info_banner.col3_functions_list') || [];
+  const tags = t('channel_info_banner.col1_tags') || [];
 
   return (
     <div className="w-full flex items-center justify-center p-8 font-sans bg-transparent">
@@ -145,7 +145,7 @@ const ChannelInfoBanner = () => {
                  </div>
                  <div className="space-y-3">
                     <h5 className="text-xs font-bold text-zinc-500 uppercase tracking-widest">{t('channel_info_banner.col1_section_title')}</h5>
-                    <div className="flex flex-wrap gap-2">{tags.map((tag: string) => (<span key={tag} className="px-3 py-1 bg-zinc-900/50 border border-zinc-800 rounded-full text-xs text-zinc-300">{tag}</span>))}</div>
+                    <div className="flex flex-wrap gap-2">{Array.isArray(tags) && tags.map((tag: string) => (<span key={tag} className="px-3 py-1 bg-zinc-900/50 border border-zinc-800 rounded-full text-xs text-zinc-300">{tag}</span>))}</div>
                  </div>
               </div>
               <div className="p-8 space-y-8 group hover:bg-zinc-900/20 transition-colors bg-zinc-900/10">
@@ -157,7 +157,7 @@ const ChannelInfoBanner = () => {
                    <h4 className="text-2xl font-black text-white mb-2 uppercase tracking-tight">{t('channel_info_banner.col2_title')}</h4>
                    <p className="text-accent font-mono text-[10px] tracking-[0.2em] mb-4 uppercase">{t('channel_info_banner.col2_subtitle')}</p>
                    <div className="space-y-2.5">
-                    {sections.map((item: any, i: number) => (
+                    {Array.isArray(sections) && sections.map((item: any, i: number) => (
                       <div key={i} className="flex items-center gap-3 p-2 rounded-lg bg-zinc-900/40 border border-zinc-800/50 hover:bg-zinc-800/60 transition-colors">
                            <div className="flex flex-col">
                              <span className="text-xs font-bold text-zinc-200 uppercase">{item.t}</span>
@@ -186,7 +186,7 @@ const ChannelInfoBanner = () => {
                       <div className="space-y-2">
                          <h5 className="text-sm font-bold text-white flex items-center gap-2"><Zap size={14} className="text-zinc-500" /> {t('channel_info_banner.col3_functions_title')}</h5>
                          <ul className="grid grid-cols-1 gap-2">
-                          {functions.map((item: string, i: number) => (<li key={i} className="text-xs text-zinc-400 flex gap-2"><span className="text-accent">›</span> {item}</li>))}
+                          {Array.isArray(functions) && functions.map((item: string, i: number) => (<li key={i} className="text-xs text-zinc-400 flex gap-2"><span className="text-accent">›</span> {item}</li>))}
                          </ul>
                       </div>
                    </div>
@@ -354,7 +354,9 @@ export function NucleoChannelView() {
 
           <SpatialSection className="text-center mb-12 md:mb-16">
               <div className="flex justify-center items-center gap-4 mb-4">
-                <Image src="https://raw.githubusercontent.com/NucleoColectivo/NUCLEO/main/imagen/ICONO%20LOGO%20AMARILLO.png" alt="Núcleo Colectivo Logo" width={80} height={80} className="w-16 h-16 md:w-20 md:h-20" />
+                <div className="relative w-16 h-16 md:w-20 md:h-20 flex-shrink-0">
+                  <Image src="https://raw.githubusercontent.com/NucleoColectivo/NUCLEO/main/imagen/ICONO%20LOGO%20AMARILLO.png" alt="Núcleo Colectivo Logo" fill className="object-contain" />
+                </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-black font-headline tracking-tighter text-white">
                   <span className="text-neutral-500">NÚCLEO/</span>CHANNEL
                 </h1>

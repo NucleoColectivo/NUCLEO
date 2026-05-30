@@ -1,20 +1,15 @@
 
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
-import { useApp } from '@/context/app-context';
 import { useTranslation } from '@/context/language-context';
 import { SectionTitle } from '@/components/common/section-title';
-import { SocialButton, MultiInstagramButton, MultiUrlButton } from '@/components/common/social-button';
 import { ARTISTS } from '@/lib/data';
-import { Globe, Video, Facebook, MessageCircle, Youtube, Linkedin, ChevronDown, ChevronUp } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
-import {
-  Collapsible,
-  CollapsibleContent,
-  CollapsibleTrigger,
-} from "@/components/ui/collapsible"
+import { ArtistDetailModal } from '@/components/modals/artist-detail-modal';
+import { useApp } from '@/context/app-context';
 
 function SpatialSection({ children, className }: { children: React.ReactNode, className?: string }) {
   return (
@@ -30,122 +25,105 @@ function SpatialSection({ children, className }: { children: React.ReactNode, cl
   );
 }
 
-export function MembersView() {
-    const { setActiveTab } = useApp();
+const MemberCard = ({ member, onClick }: { member: typeof ARTISTS[0], onClick: () => void }) => {
     const { t } = useTranslation();
+
+    const name = t(`artists.${member.id}.name`);
+    const primaryRoles = t(`artists.${member.id}.primary_roles`);
+    const bioIntro = t(`artists.${member.id}.bio_intro`);
+
+    return (
+        <SpatialSection className="h-full">
+            <div className="group flex flex-col bg-white rounded-none border-2 border-black transition-all duration-300 hover:shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] h-full overflow-hidden">
+                <div className="relative aspect-[4/5] bg-neutral-100 overflow-hidden border-b-2 border-black">
+                    <Image 
+                        src={member.avatar} 
+                        alt={name}
+                        fill
+                        className="object-cover transition-transform duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0" 
+                    />
+                    <div className="absolute top-4 left-4 bg-black text-white px-2 py-1 text-[8px] font-black uppercase tracking-widest z-10 font-code">
+                        NODE_ID: {member.id.toUpperCase()}
+                    </div>
+                </div>
+                
+                <div className="p-6 md:p-8 flex flex-col flex-grow bg-white relative">
+                    <h3 className="text-2xl md:text-3xl font-black font-headline text-foreground mb-1 uppercase italic tracking-tighter leading-none group-hover:text-primary transition-colors">{name}</h3>
+                    <p className="font-code text-primary font-bold text-[10px] uppercase tracking-widest leading-tight mb-4 min-h-[40px]">
+                        {primaryRoles}
+                    </p>
+                    
+                    <p className="text-sm text-neutral-600 leading-relaxed mb-8 font-medium italic">
+                        {bioIntro}
+                    </p>
+                    
+                    <div className="mt-auto pt-6 border-t-2 border-black flex items-center justify-center">
+                        <button 
+                            onClick={onClick}
+                            className="w-full flex items-center justify-center gap-2 bg-black text-white py-4 font-black uppercase text-[10px] tracking-widest italic hover:bg-accent hover:text-black transition-all shadow-[4px_4px_0_0_rgba(248,195,0,1)] hover:shadow-none border-2 border-black"
+                        >
+                            {t('members.view_profile')} <ArrowRight size={14} strokeWidth={3} />
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </SpatialSection>
+    );
+};
+
+export function MembersView() {
+    const { t } = useTranslation();
+    const { playSound } = useApp();
+    const [selectedMember, setSelectedMember] = useState<typeof ARTISTS[0] | null>(null);
     
     return (
-        <div className="px-6 md:px-12 pt-48 pb-20 max-w-[1600px] mx-auto animate-fade-in">
+        <div className="relative px-6 md:px-12 pt-48 pb-20 max-w-[1600px] mx-auto animate-fade-in font-body min-h-screen overflow-hidden">
+            {/* Background Grid with 40% opacity (60% reduction) */}
+            <div 
+                className="absolute inset-0 -z-10 opacity-40 pointer-events-none" 
+                style={{ 
+                    backgroundImage: "url('https://www.transparenttextures.com/patterns/graphy.png')",
+                    backgroundRepeat: 'repeat'
+                }}
+            />
+
             <SpatialSection>
                 <SectionTitle subtitle={t('members.subtitle')}>{t('members.title')}</SectionTitle>
-                <p className="text-lg text-muted-foreground max-w-3xl -mt-12 mb-16">{t('members.intro')}</p>
+                <p className="text-xl md:text-2xl text-neutral-500 max-w-3xl -mt-12 mb-16 font-light italic leading-relaxed">{t('members.intro')}</p>
             </SpatialSection>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
-                {ARTISTS.map(member => {
-                    const [isExpanded, setIsExpanded] = React.useState(false);
-                    const name = t(`artists.${member.id}.name`);
-                    const primaryRolesString = t(`artists.${member.id}.primary_roles`);
-                    const secondaryRolesString = t(`artists.${member.id}.secondary_roles`);
-                    const secondaryRoles = secondaryRolesString ? secondaryRolesString.split(',') : [];
-                    const nucleoRolesString = t(`artists.${member.id}.nucleo_roles`);
-                    const nucleoRoles = nucleoRolesString ? nucleoRolesString.split(',') : [];
-                    const bio = t(`artists.${member.id}.bio`);
-
-                    return (
-                        <SpatialSection key={member.id} className="h-full">
-                            <div className="group flex flex-col bg-muted/20 rounded-2xl border border-border transition-all duration-300 hover:border-foreground/20 hover:shadow-lg h-full">
-                                <div className="relative aspect-[4/5] bg-muted overflow-hidden rounded-t-2xl">
-                                    <Image 
-                                        src={member.avatar} 
-                                        alt={`${t('alt.portrait_of')} ${name}`}
-                                        width={600}
-                                        height={800}
-                                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0" 
-                                    />
-                                </div>
-                                
-                                <div className="p-6 flex flex-col flex-grow">
-                                    <h3 className="text-2xl font-bold font-headline text-foreground mb-1">{name}</h3>
-                                    <div className="mb-4">
-                                      <p className="font-code text-primary/80 text-sm tracking-wider">
-                                        {primaryRolesString}
-                                      </p>
-                                    </div>
-                                    
-                                    <p className="text-sm text-foreground/80 leading-relaxed mb-6 flex-grow" dangerouslySetInnerHTML={{ __html: bio.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }}></p>
-                                    
-                                    <Collapsible open={isExpanded} onOpenChange={setIsExpanded}>
-                                        <CollapsibleContent className="space-y-6 mb-6 animate-fade-in">
-                                          <div>
-                                              <h4 className="font-bold text-sm text-foreground/80 mb-3">{t('members.key_skills')}</h4>
-                                              <div className="flex flex-wrap gap-2">
-                                                    {secondaryRoles.map(role => (
-                                                        <span key={role} className="text-xs bg-muted text-muted-foreground font-medium px-3 py-1 rounded-full">{role.trim()}</span>
-                                                    ))}
-                                                </div>
-                                          </div>
-                                          {nucleoRoles.length > 0 && (
-                                              <div>
-                                                  <h4 className="font-bold text-sm text-foreground/80 mb-3">{t('members.nucleo_roles')}</h4>
-                                                  <div className="flex flex-wrap gap-2">
-                                                      {nucleoRoles.map(role => (
-                                                          <span key={role} className="text-xs bg-primary/10 text-primary font-bold px-3 py-1 rounded-full">{role.trim()}</span>
-                                                      ))}
-                                                  </div>
-                                              </div>
-                                          )}
-                                        </CollapsibleContent>
-                                        
-                                        <div className="mt-auto pt-6 border-t border-border flex flex-wrap gap-4 items-center justify-between">
-                                            <div className="flex gap-2 items-center">
-                                                {member.social.instagram && <MultiInstagramButton urls={Array.isArray(member.social.instagram) ? member.social.instagram : [member.social.instagram]} />}
-                                                {member.social.websites && <MultiUrlButton icon={Globe} urls={member.social.websites.map(w => ({...w, label: t(w.label) }))} ariaLabel="Websites" />}
-                                                {member.social.youtube && <MultiUrlButton icon={Youtube} urls={member.social.youtube.map(y => ({...y, label: t(y.label) }))} ariaLabel="YouTube" />}
-                                                {member.social.facebook && <SocialButton icon={Facebook} url={member.social.facebook} label="Facebook" />}
-                                                {member.social.tiktok && <SocialButton icon={Video} url={member.social.tiktok} label="TikTok" />}
-                                                {member.social.linkedin && <SocialButton icon={Linkedin} url={member.social.linkedin} label="LinkedIn" />}
-                                                {member.social.whatsapp && (
-                                                    <a
-                                                    href={member.social.whatsapp}
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                    className="p-2 rounded-full bg-[#25D366] text-white hover:bg-[#128C7E] transition-colors"
-                                                    aria-label="WhatsApp"
-                                                    >
-                                                    <MessageCircle size={18} fill="white"/>
-                                                    </a>
-                                                )}
-                                            </div>
-                                            <CollapsibleTrigger asChild>
-                                                <button className="flex items-center gap-1 text-sm font-bold text-primary">
-                                                    {isExpanded ? t('members.hide') : t('members.view_more')}
-                                                    {isExpanded ? <ChevronUp size={16}/> : <ChevronDown size={16}/>}
-                                                </button>
-                                            </CollapsibleTrigger>
-                                        </div>
-                                    </Collapsible>
-                                </div>
-                            </div>
-                        </SpatialSection>
-                    );
-                })}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 items-start">
+                {ARTISTS.map(member => (
+                    <MemberCard 
+                        key={member.id} 
+                        member={member} 
+                        onClick={() => {
+                            playSound('click');
+                            setSelectedMember(member);
+                        }}
+                    />
+                ))}
             </div>
 
-            <SpatialSection className="mt-20 text-center border-t pt-16">
-                <h3 className="text-3xl font-bold font-headline mb-4">{t('members.cta.title')}</h3>
-                <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
+            <SpatialSection className="mt-32 text-center border-t-8 border-black pt-20">
+                <h3 className="text-4xl md:text-7xl font-black font-headline mb-6 text-foreground uppercase italic tracking-tighter leading-none">{t('members.cta.title')}</h3>
+                <p className="text-neutral-500 mb-10 max-w-xl mx-auto text-lg md:text-xl font-light">
                    {t('members.cta.description')}
                 </p>
                 <a
                     href="https://forms.gle/smy3CpQaSMLeMYXj6"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block bg-accent text-accent-foreground px-10 py-5 text-lg font-bold rounded-lg hover:bg-yellow-400 transition-all group shadow-lg hover:shadow-yellow-500/50 transform hover:-translate-y-1"
+                    className="btn-primary text-xl px-12 py-6 uppercase tracking-[0.2em] shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] hover:shadow-none transition-all"
                 >
                     {t('members.cta.button')}
                 </a>
             </SpatialSection>
+
+            <ArtistDetailModal 
+                member={selectedMember} 
+                onClose={() => setSelectedMember(null)} 
+            />
         </div>
     );
 }

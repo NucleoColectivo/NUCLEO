@@ -2,6 +2,7 @@
 "use client";
 
 import { useState, useRef } from 'react';
+import { useRouter } from 'next/navigation';
 import { useApp } from '@/context/app-context';
 import { useTranslation } from '@/context/language-context';
 import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
@@ -48,13 +49,14 @@ function SpatialSection({ children, className }: { children: React.ReactNode, cl
 }
 
 export function HomeView() {
-  const { setActiveTab, playSound } = useApp();
+  const { playSound } = useApp();
   const { t } = useTranslation();
+  const router = useRouter();
   const [selectedVideo, setSelectedVideo] = useState<LocalVideo | null>(null);
   
-  const handleNavClick = (tabId: string) => {
+  const handleNavClick = (path: string) => {
     playSound('click');
-    setActiveTab(tabId);
+    router.push(path);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
   
@@ -71,7 +73,7 @@ export function HomeView() {
       } else if (project.media.externalUrl) {
         window.open(project.media.externalUrl, '_blank');
       } else {
-        handleNavClick('obra');
+        handleNavClick('/showcase');
       }
   };
 
@@ -122,10 +124,10 @@ export function HomeView() {
               transition={{ duration: 0.5, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
               className="flex flex-col sm:flex-row gap-4 justify-start mt-8"
             >
-              <button onClick={() => handleNavClick('obra')} className="btn-primary text-sm md:text-lg">
+              <button onClick={() => handleNavClick('/showcase')} className="btn-primary text-sm md:text-lg">
                 {t('home_v2.hero.cta_primary')}
               </button>
-              <button onClick={() => handleNavClick('miembros')} className="font-bold text-foreground/80 hover:text-foreground transition-colors flex items-center justify-center gap-2 group text-xs md:text-base">
+              <button onClick={() => handleNavClick('/community')} className="font-bold text-foreground/80 hover:text-foreground transition-colors flex items-center justify-center gap-2 group text-xs md:text-base">
                 {t('home_v2.hero.cta_secondary')} <ArrowRight className="size-4 md:size-5 group-hover:translate-x-1 transition-transform" />
               </button>
             </motion.div>
@@ -214,7 +216,7 @@ export function HomeView() {
               ))}
             </div>
              <div className="text-center mt-8 md:mt-16">
-                 <button onClick={() => handleNavClick('obra')} className="font-black text-muted-foreground hover:text-accent transition-all duration-300 flex items-center justify-center gap-2 mx-auto uppercase tracking-[0.3em] text-[10px] md:text-xs group">
+                 <button onClick={() => handleNavClick('/showcase')} className="font-black text-muted-foreground hover:text-accent transition-all duration-300 flex items-center justify-center gap-2 mx-auto uppercase tracking-[0.3em] text-[10px] md:text-xs group">
                     {t('home_v2.featured_cta')} <ArrowRight className="size-4 md:size-5 group-hover:translate-x-1 transition-transform" />
                 </button>
              </div>
@@ -229,7 +231,7 @@ export function HomeView() {
               <motion.button 
                 whileHover={{ scale: 1.05, shadow: "0px 0px 20px rgba(248, 195, 0, 0.5)" }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() => handleNavClick('contacto')} 
+                onClick={() => handleNavClick('/contact')} 
                 className="btn-primary text-base md:text-xl px-12 py-5 uppercase tracking-widest"
               >
                  {t('home_v2.community_cta.cta')}
